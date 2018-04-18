@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ABP Regression" time="56" tests="0" failures="1" errors="1">
+   <testsuite name="ABP Regression" tests="0" failures="1" errors="1" time="56" timestamp="2018-04-02 11:48:41" hostname="FSMAutomation - FSMAutomation1.qb5dfdbpfkuuppye2syu0ciute.cwx.internal.cloudapp.net" id="Test Suites/ABP Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180402_114834"/>
+         <property name="logFiles" value="C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180402_114834\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180402_114834\\1522669775260.png"/>
+         <property name="hostName" value="FSMAutomation - FSMAutomation1.qb5dfdbpfkuuppye2syu0ciute.cwx.internal.cloudapp.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.0.1.4"/>
+         <property name="sessionId" value="8b071fd5f1eae90f799a4ec8ce1ee2a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager" classname="Test Cases/Launch Job Manager" status="ERROR">
+         <error type="ERROR" message="Test Cases/Launch Job Manager FAILED because (of) Variable 'Username' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-02 11:48:42 - [TEST_CASE][ERROR] - Test Cases/Launch Job Manager: Test Cases/Launch Job Manager FAILED because (of) Variable 'Username' is not defined for test case.
+
+2018-04-02 11:48:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 11:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 11:48:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-02 11:48:57 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-02 11:48:57 - [TEST_STEP][PASSED] - setText: Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-02 11:48:59 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-02 11:48:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-02 11:49:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-02 11:49:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-02 11:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-02 11:49:01 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC']]></system-out>
+         <system-err><![CDATA[2018-04-02 11:48:42 - [TEST_CASE][ERROR] - Test Cases/Launch Job Manager: Test Cases/Launch Job Manager FAILED because (of) Variable 'Username' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Inspection" classname="Test Cases/Select Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' located by 'By.xpath: //div[(text() = '5 Days' or . = '5 Days')]' not found)"/>
+         <system-out><![CDATA[2018-04-02 11:49:02 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' located by 'By.xpath: //div[(text() = '5 Days' or . = '5 Days')]' not found)
+
+2018-04-02 11:49:02 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-04-02 11:49:02 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-04-02 11:49:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-02 11:49:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-02 11:49:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' located by 'By.xpath: //div[(text() = '5 Days' or . = '5 Days')]' not found)
+
+2018-04-02 11:49:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' located by 'By.xpath: //div[(text() = '5 Days' or . = '5 Days')]' not found)
+[[ATTACHMENT|C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180402_114834\\1522669775260.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-02 11:49:02 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' located by 'By.xpath: //div[(text() = '5 Days' or . = '5 Days')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-02 11:48:41 - [TEST_SUITE][ERROR] - ABP Regression: Test Cases/Launch Job Manager FAILED because (of) Variable 'Username' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-04-02 11:48:41 - [TEST_SUITE][ERROR] - ABP Regression: Test Cases/Launch Job Manager FAILED because (of) Variable 'Username' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

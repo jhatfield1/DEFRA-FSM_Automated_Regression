@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ABP Regression" time="38" tests="0" failures="1" errors="1">
+   <testsuite name="ABP Regression" tests="0" failures="1" errors="1" time="38" timestamp="2018-04-03 19:14:48" hostname="FSMAutomation - FSMAutomation1.qb5dfdbpfkuuppye2syu0ciute.cwx.internal.cloudapp.net" id="Test Suites/ABP Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180403_191445"/>
+         <property name="logFiles" value="C:\\Users\\FSMAutomation\\Katalon Studio\\FSM\\Reports\\ABP Regression\\20180403_191445\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FSMAutomation - FSMAutomation1.qb5dfdbpfkuuppye2syu0ciute.cwx.internal.cloudapp.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.0.1.4"/>
+         <property name="sessionId" value="7c0ed24a0346a19d9070b5c60ae5b2e4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager" classname="Test Cases/Launch Job Manager" status="ERROR">
+         <error type="ERROR" message="Test Cases/Launch Job Manager FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.InternalData) values: [TestObject - 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-04-03 19:14:48 - [TEST_CASE][ERROR] - Test Cases/Launch Job Manager: Test Cases/Launch Job Manager FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.InternalData) values: [TestObject - 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+
+2018-04-03 19:14:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 19:14:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 19:14:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-03 19:14:56 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-03 19:14:56 - [TEST_STEP][PASSED] - setText: Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-03 19:14:59 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-03 19:14:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-03 19:14:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-03 19:14:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-03 19:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-03 19:14:59 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC']]></system-out>
+         <system-err><![CDATA[2018-04-03 19:14:48 - [TEST_CASE][ERROR] - Test Cases/Launch Job Manager: Test Cases/Launch Job Manager FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.InternalData) values: [TestObject - 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Inspection" classname="Test Cases/Select Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FSMAutomation1', ip: '10.0.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FSMAUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7c0ed24a0346a19d9070b5c60ae5b2e4
+*** Element info: {Using=xpath, value=//div[(text() = '5 Days' or . = '5 Days')]})"/>
+         <system-out><![CDATA[2018-04-03 19:15:00 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FSMAutomation1', ip: '10.0.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FSMAUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7c0ed24a0346a19d9070b5c60ae5b2e4
+*** Element info: {Using=xpath, value=//div[(text() = '5 Days' or . = '5 Days')]})
+
+2018-04-03 19:15:01 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-04-03 19:15:01 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-04-03 19:15:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-03 19:15:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-03 19:15:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FSMAutomation1', ip: '10.0.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FSMAUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7c0ed24a0346a19d9070b5c60ae5b2e4
+*** Element info: {Using=xpath, value=//div[(text() = '5 Days' or . = '5 Days')]})
+
+2018-04-03 19:15:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-03 19:15:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FSMAutomation1', ip: '10.0.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FSMAUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7c0ed24a0346a19d9070b5c60ae5b2e4
+*** Element info: {Using=xpath, value=//div[(text() = '5 Days' or . = '5 Days')]})]]></system-out>
+         <system-err><![CDATA[2018-04-03 19:15:00 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/div_5 Days' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FSMAutomation1', ip: '10.0.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\FSMAUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7c0ed24a0346a19d9070b5c60ae5b2e4
+*** Element info: {Using=xpath, value=//div[(text() = '5 Days' or . = '5 Days')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-03 19:14:48 - [TEST_SUITE][ERROR] - ABP Regression: Test Cases/Launch Job Manager FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.InternalData) values: [TestObject - 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-04-03 19:14:48 - [TEST_SUITE][ERROR] - ABP Regression: Test Cases/Launch Job Manager FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.InternalData) values: [TestObject - 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>
