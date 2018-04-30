@@ -20,15 +20,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.delay(10)
+WebUI.delay(30)
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(250)
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_5 Days'))
+not_run: WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_5 Days'))
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Refresh'))
 
-WebUI.waitForPageLoad(20)
+WebUI.waitForPageLoad(250)
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/InspectionID'))
 

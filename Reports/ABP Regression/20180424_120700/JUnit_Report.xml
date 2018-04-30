@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ABP Regression" time="109" tests="1" failures="1" errors="0">
+   <testsuite name="ABP Regression" tests="1" failures="1" errors="0" time="109" timestamp="2018-04-24 12:07:03" hostname="jonha - DESKTOP-KMCIR60" id="Test Suites/ABP Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jonha\\git\\DEFRA-FSM_Automated_Regression3\\Reports\\ABP Regression\\20180424_120700"/>
+         <property name="logFiles" value="C:\\Users\\jonha\\git\\DEFRA-FSM_Automated_Regression3\\Reports\\ABP Regression\\20180424_120700\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jonha\\git\\DEFRA-FSM_Automated_Regression3\\Reports\\ABP Regression\\20180424_120700\\1524568131056.png"/>
+         <property name="hostName" value="jonha - DESKTOP-KMCIR60"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="e1525566f49cbe26d575645dbbbd3ffa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager" classname="Test Cases/Launch Job Manager" status="PASSED">
+         <system-out><![CDATA[2018-04-24 12:07:04 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager: Test Cases/Launch Job Manager
+
+2018-04-24 12:07:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-24 12:07:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-24 12:07:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-24 12:07:13 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html' successfully
+
+2018-04-24 12:07:13 - [TEST_STEP][PASSED] - setText: Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-24 12:07:15 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-24 12:07:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-24 12:07:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-04-24 12:07:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-24 12:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-04-24 12:07:15 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-04-24 12:07:16 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-04-24 12:07:16 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-04-24 12:07:16 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-04-24 12:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-04-24 12:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-04-24 12:07:16 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-04-24 12:07:46 - [MESSAGE][PASSED] - Delayed 30 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Inspection" classname="Test Cases/Select Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class=&quot;landscape&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBDHB&quot;]/div[@class=&quot;GKH2EKQBCHB&quot;]/div[@class=&quot;GKH2EKQBFHB&quot;]/div[@class=&quot;GKH2EKQBEHB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBLGB&quot;]/div[@class=&quot;GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB&quot;]/div[1]/div[@class=&quot;GKH2EKQBOBB&quot;]/div[@class=&quot;GKH2EKQBNEC&quot;]/div[1]/div[@class=&quot;GKH2EKQBCFC&quot;][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)"/>
+         <system-out><![CDATA[2018-04-24 12:07:46 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)
+
+2018-04-24 12:07:47 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-04-24 12:08:17 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-04-24 12:08:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-24 12:08:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-24 12:08:17 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-24 12:08:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-24 12:08:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clicked on
+
+2018-04-24 12:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clicked on
+
+2018-04-24 12:08:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-24 12:08:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-24 12:08:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)
+
+2018-04-24 12:08:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)
+[[ATTACHMENT|C:\\Users\\jonha\\git\\DEFRA-FSM_Automated_Regression3\\Reports\\ABP Regression\\20180424_120700\\1524568131056.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-24 12:07:46 - [TEST_CASE][FAILED] - Test Cases/Select Inspection: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-24 12:07:03 - [TEST_SUITE][FAILED] - ABP Regression: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-24 12:07:03 - [TEST_SUITE][FAILED] - ABP Regression: Test Cases/Select Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Page_JClient/InspectionID' located by 'By.xpath: /html[1]/body[@class="landscape"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBOBB GKH2EKQBACB"]/div[@class="GKH2EKQBDHB"]/div[@class="GKH2EKQBCHB"]/div[@class="GKH2EKQBFHB"]/div[@class="GKH2EKQBEHB"]/div[@class="GKH2EKQBOBB GKH2EKQBLGB"]/div[@class="GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBOGB"]/div[1]/div[@class="GKH2EKQBOBB"]/div[@class="GKH2EKQBNEC"]/div[1]/div[@class="GKH2EKQBCFC"][count(. | //div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')]) = count(//div[@class = 'GKH2EKQBCFC' and (text() = '30227' or . = '30227')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
