@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New Inspection" time="64" tests="1" failures="1" errors="0">
+   <testsuite name="Create New Inspection" tests="1" failures="1" errors="0" time="64" timestamp="2018-05-13 14:43:32" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/Create New Inspection">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_144329"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_144329\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_144329\\1526222676293.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="0383d6d215a66eefd808583386919f87"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-13 14:43:33 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-13 14:43:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-13 14:43:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-13 14:43:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-13 14:43:40 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-13 14:43:40 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-13 14:43:41 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-13 14:43:41 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-13 14:43:41 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-13 14:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-13 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-13 14:43:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-13 14:43:46 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id(&quot;vaadiniframe&quot;)[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)"/>
+         <system-out><![CDATA[2018-05-13 14:43:46 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)
+
+2018-05-13 14:43:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-13 14:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-13 14:43:47 - [TEST_STEP][PASSED] - setText: Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-13 14:43:48 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-13 14:43:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-13 14:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-13 14:43:49 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-13 14:43:51 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-13 14:43:51 - [TEST_STEP][PASSED] - setText: Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-13 14:43:52 - [MESSAGE][PASSED] - Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-13 14:43:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-13 14:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-13 14:43:52 - [TEST_STEP][PASSED] - setText: Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-13 14:43:53 - [MESSAGE][PASSED] - Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-13 14:43:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-13 14:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-13 14:43:54 - [TEST_STEP][PASSED] - setText: Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-13 14:43:54 - [MESSAGE][PASSED] - Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-13 14:43:54 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-13 14:43:54 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-13 14:43:54 - [TEST_STEP][PASSED] - setText: Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-13 14:43:55 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-13 14:43:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-13 14:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-13 14:43:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-13 14:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-13 14:43:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-13 14:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-13 14:43:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-13 14:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-13 14:43:58 - [TEST_STEP][PASSED] - setText: Text 'cv37 6sn' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-13 14:44:00 - [MESSAGE][PASSED] - Text 'cv37 6sn' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-13 14:44:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-13 14:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-13 14:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_90 Clopton Road Stratford' is clicked on
+
+2018-05-13 14:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_90 Clopton Road Stratford' is clicked on
+
+2018-05-13 14:44:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-05-13 14:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-05-13 14:44:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/label_Explicit Scheduling Wind' is clicked on
+
+2018-05-13 14:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/label_Explicit Scheduling Wind' is clicked on
+
+2018-05-13 14:44:05 - [TEST_STEP][FAILED] - setText: Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)
+
+2018-05-13 14:44:36 - [MESSAGE][FAILED] - Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_144329\\1526222676293.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-13 14:43:46 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-13 14:43:32 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-13 14:43:32 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text '14-May-2018 09:40' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/EarliestDate1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionDate/Page_JM Control Centre (2)/iframe_vaadiniframe' located by 'By.xpath: id("vaadiniframe")[count(. | //iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd']) = count(//iframe[@id = 'vaadiniframe' and @cd_frame_id_ = '3be969a6e50b7b260cd5838e602825cd'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

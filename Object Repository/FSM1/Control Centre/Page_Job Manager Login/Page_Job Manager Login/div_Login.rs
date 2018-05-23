@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Login</name>
+   <tag></tag>
+   <elementGuidId>8032859b-6b77-463e-b9e9-2fddd3165298</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;jmtestlogin-1683285044&quot;)/div[@class=&quot;v-ui v-scrollable&quot;]/div[@class=&quot;v-panel v-widget login-page-view v-panel-login-page-view v-has-width&quot;]/div[@class=&quot;v-panel-content v-panel-content-login-page-view v-scrollable&quot;]/div[@class=&quot;v-verticallayout v-layout v-vertical v-widget jm-login-page v-verticallayout-jm-login-page v-has-width&quot;]/div[@class=&quot;v-slot v-slot-loginLayout v-slot-jm-login-page v-slot-has-locale-selector v-align-center v-align-middle&quot;]/div[@class=&quot;v-csslayout v-layout v-widget loginLayout v-csslayout-loginLayout jm-login-page v-csslayout-jm-login-page has-locale-selector v-csslayout-has-locale-selector&quot;]/div[@class=&quot;v-horizontallayout v-layout v-horizontal v-widget login-fields-layout v-horizontallayout-login-fields-layout&quot;]/div[@class=&quot;v-slot v-slot-login-login-button v-slot-jm-login-page&quot;]/div[@class=&quot;v-button v-widget login-login-button v-button-login-login-button jm-login-page v-button-jm-login-page&quot;][count(. | //div[@role = 'button' and @class = 'v-button v-widget login-login-button v-button-login-login-button jm-login-page v-button-jm-login-page' and (text() = 'Login' or . = 'Login')]) = count(//div[@role = 'button' and @class = 'v-button v-widget login-login-button v-button-login-login-button jm-login-page v-button-jm-login-page' and (text() = 'Login' or . = 'Login')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-button v-widget login-login-button v-button-login-login-button jm-login-page v-button-jm-login-page</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jmtestlogin-1683285044&quot;)/div[@class=&quot;v-ui v-scrollable&quot;]/div[@class=&quot;v-panel v-widget login-page-view v-panel-login-page-view v-has-width&quot;]/div[@class=&quot;v-panel-content v-panel-content-login-page-view v-scrollable&quot;]/div[@class=&quot;v-verticallayout v-layout v-vertical v-widget jm-login-page v-verticallayout-jm-login-page v-has-width&quot;]/div[@class=&quot;v-slot v-slot-loginLayout v-slot-jm-login-page v-slot-has-locale-selector v-align-center v-align-middle&quot;]/div[@class=&quot;v-csslayout v-layout v-widget loginLayout v-csslayout-loginLayout jm-login-page v-csslayout-jm-login-page has-locale-selector v-csslayout-has-locale-selector&quot;]/div[@class=&quot;v-horizontallayout v-layout v-horizontal v-widget login-fields-layout v-horizontallayout-login-fields-layout&quot;]/div[@class=&quot;v-slot v-slot-login-login-button v-slot-jm-login-page&quot;]/div[@class=&quot;v-button v-widget login-login-button v-button-login-login-button jm-login-page v-button-jm-login-page&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

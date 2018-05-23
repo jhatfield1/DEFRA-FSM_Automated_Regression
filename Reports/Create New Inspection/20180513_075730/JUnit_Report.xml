@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New Inspection" time="60" tests="1" failures="1" errors="0">
+   <testsuite name="Create New Inspection" tests="1" failures="1" errors="0" time="60" timestamp="2018-05-13 07:57:34" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/Create New Inspection">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_075730"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_075730\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_075730\\1526198311734.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="5c699c1ecac31939e410b142780df5b0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-13 07:57:34 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-13 07:57:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-13 07:57:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-13 07:57:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-13 07:57:41 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-13 07:57:41 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-13 07:57:42 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-13 07:57:42 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-13 07:57:43 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-13 07:57:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-13 07:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-13 07:57:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-13 07:57:48 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id(&quot;formBuilderHeadersearch&quot;)/div[@class=&quot;v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea&quot;]/div[@class=&quot;v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader&quot;]/div[@class=&quot;v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/input[@class=&quot;v-textfield v-widget&quot;][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)"/>
+         <system-out><![CDATA[2018-05-13 07:57:48 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)
+
+2018-05-13 07:57:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-13 07:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-13 07:57:49 - [TEST_STEP][PASSED] - setText: Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-13 07:57:50 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-13 07:57:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-13 07:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-13 07:57:51 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-13 07:57:53 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-13 07:57:53 - [TEST_STEP][PASSED] - setText: Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-13 07:57:53 - [MESSAGE][PASSED] - Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-13 07:57:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-13 07:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-13 07:57:53 - [TEST_STEP][PASSED] - setText: Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-13 07:57:55 - [MESSAGE][PASSED] - Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-13 07:57:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-13 07:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-13 07:57:55 - [TEST_STEP][PASSED] - setText: Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-13 07:57:56 - [MESSAGE][PASSED] - Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-13 07:57:56 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-13 07:57:56 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-13 07:57:56 - [TEST_STEP][PASSED] - setText: Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-13 07:57:56 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-13 07:57:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-13 07:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-13 07:57:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-13 07:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-13 07:57:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-13 07:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-13 07:57:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-13 07:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-13 07:57:59 - [TEST_STEP][FAILED] - setText: Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)
+
+2018-05-13 07:58:33 - [MESSAGE][FAILED] - Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180513_075730\\1526198311734.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-13 07:57:48 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-13 07:57:34 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-13 07:57:34 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'cv37 6sn' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' located by 'By.xpath: id("formBuilderHeadersearch")/div[@class="v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea"]/div[@class="v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader"]/div[@class="v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp"]/div[@class="v-csslayout v-layout v-widget"]/input[@class="v-textfield v-widget"][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

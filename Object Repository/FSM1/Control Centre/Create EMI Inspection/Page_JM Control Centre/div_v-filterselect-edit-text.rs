@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_v-filterselect-edit-text</name>
+   <tag></tag>
+   <elementGuidId>b5bea828-1108-4873-863d-c624f97d2c6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'v-filterselect-input' and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe' and @ref_element_is_shadow_root = 'true']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-filterselect-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jmcontent&quot;)/div[@class=&quot;v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout&quot;]/div[@class=&quot;v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-csslayout v-layout v-widget v-has-width v-has-height&quot;]/div[@class=&quot;v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required&quot;]/div[@class=&quot;v-filterselect-button&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe</value>
+   </webElementProperties>
+</WebElementEntity>

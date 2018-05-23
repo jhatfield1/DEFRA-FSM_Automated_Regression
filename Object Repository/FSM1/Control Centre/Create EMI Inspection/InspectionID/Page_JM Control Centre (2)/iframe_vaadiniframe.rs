@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe_vaadiniframe</name>
+   <tag></tag>
+   <elementGuidId>77bd2cb5-820b-46b1-b2f2-27ea4948fb68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@id = 'vaadiniframe' and @src = 'https://kirona-def-2.kirona.com/jmtest/embedded?authToken=(?&lt;=authToken=).*?(?==)&amp;authFailUrl=#!EntryPointView/entity=JOB/entityValue=33614/operation=VIEW/maxwidth=1034/maxheight=717/entityTypesSupported=JMASSET%2CJMJOB/returnTo=/refreshable=false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>scrolling</name>
+      <type>Main</type>
+      <value>no</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vaadiniframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>frameborder</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://kirona-def-2.kirona.com/jmtest/embedded?authToken=(?&lt;=authToken=).*?(?==)&amp;authFailUrl=#!EntryPointView/entity=JOB/entityValue=33614/operation=VIEW/maxwidth=1034/maxheight=717/entityTypesSupported=JMASSET%2CJMJOB/returnTo=/refreshable=false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vaadiniframe&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

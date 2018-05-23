@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Jobs</name>
+   <tag></tag>
+   <elementGuidId>f8bce827-8cdf-4a0e-8682-ee91898f7646</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-button v-widget v-popupbutton popupSelector v-button-popupSelector</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jobs</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainLocation&quot;)/div[@class=&quot;v-csslayout v-layout v-widget main v-csslayout-main&quot;]/div[@class=&quot;v-customcomponent v-widget fw-page v-customcomponent-fw-page v-has-width&quot;]/div[@class=&quot;v-csslayout v-layout v-widget fw-pagelayout v-csslayout-fw-pagelayout searchComponent v-csslayout-searchComponent searchLayout v-csslayout-searchLayout&quot;]/div[@class=&quot;v-csslayout v-layout v-widget buttonHolder v-csslayout-buttonHolder&quot;]/div[@class=&quot;v-csslayout v-layout v-widget groupButtons v-csslayout-groupButtons&quot;]/div[@class=&quot;v-csslayout v-layout v-widget buttonLayout v-csslayout-buttonLayout&quot;]/div[@class=&quot;v-customcomponent v-widget popupSimple v-customcomponent-popupSimple withSeparator v-customcomponent-withSeparator filteredComponentSelector v-customcomponent-filteredComponentSelector deletableComponent v-customcomponent-deletableComponent&quot;]/div[@class=&quot;v-csslayout v-layout v-widget button v-csslayout-button&quot;]/div[@class=&quot;v-button v-widget v-popupbutton popupSelector v-button-popupSelector&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

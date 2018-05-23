@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New Inspection" time="58" tests="1" failures="1" errors="0">
+   <testsuite name="Create New Inspection" tests="1" failures="1" errors="0" time="58" timestamp="2018-05-16 12:53:23" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/Create New Inspection">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180516_125315"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180516_125315\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180516_125315\\1526475258923.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="28023824e172243cd34939cf51d4e44f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-16 12:53:24 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-16 12:53:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 12:53:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 12:53:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-16 12:53:37 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-16 12:53:37 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-16 12:53:39 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-16 12:53:39 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-16 12:53:40 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-16 12:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-16 12:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-16 12:53:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-16 12:53:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)"/>
+         <system-out><![CDATA[2018-05-16 12:53:45 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)
+
+2018-05-16 12:53:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-16 12:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-16 12:53:46 - [TEST_STEP][PASSED] - setText: Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-16 12:53:48 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-16 12:53:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-16 12:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-16 12:53:49 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre/SLA' is cleared
+
+2018-05-16 12:53:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre/SLA' is cleared
+
+2018-05-16 12:53:51 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre/SLA'
+
+2018-05-16 12:53:52 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre/SLA'
+
+2018-05-16 12:53:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre (1)/span_24 Hours' is clicked on
+
+2018-05-16 12:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create Inspection/SLA/Page_JM Control Centre (1)/span_24 Hours' is clicked on
+
+2018-05-16 12:53:52 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-16 12:53:53 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-05-16 12:53:53 - [TEST_STEP][PASSED] - setText: Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-16 12:53:54 - [MESSAGE][PASSED] - Text 'we' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-26'
+
+2018-05-16 12:53:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-16 12:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-05-16 12:53:55 - [TEST_STEP][PASSED] - setText: Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-16 12:53:56 - [MESSAGE][PASSED] - Text 'EMI Routine' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre (1)/Inspection Type'
+
+2018-05-16 12:53:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-16 12:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EMI Routine' is clicked on
+
+2018-05-16 12:53:57 - [TEST_STEP][PASSED] - setText: Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-16 12:53:57 - [MESSAGE][PASSED] - Text 'Mr Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-36'
+
+2018-05-16 12:53:57 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-16 12:53:58 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-05-16 12:53:58 - [TEST_STEP][PASSED] - setText: Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-16 12:53:58 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/input_gwt-uid-44'
+
+2018-05-16 12:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-16 12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-05-16 12:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-16 12:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_EGG PACKER' is clicked on
+
+2018-05-16 12:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-16 12:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-16 12:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-16 12:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-16 12:54:03 - [TEST_STEP][PASSED] - setText: Text 'cv37 6sn' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-16 12:54:08 - [MESSAGE][PASSED] - Text 'cv37 6sn' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-16 12:54:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-16 12:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-16 12:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_90 Clopton Road Stratford' is clicked on
+
+2018-05-16 12:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_90 Clopton Road Stratford' is clicked on
+
+2018-05-16 12:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-05-16 12:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-05-16 12:54:17 - [TEST_STEP][FAILED] - setText: Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)
+
+2018-05-16 12:54:20 - [MESSAGE][FAILED] - Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Create New Inspection\\20180516_125315\\1526475258923.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-16 12:53:45 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 12:53:23 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)]]></system-out>
+      <system-err><![CDATA[2018-05-16 12:53:23 - [TEST_SUITE][FAILED] - Create New Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to set text 'jon' of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_v-filterselect-edit-text' (Root cause: Element: 'TestObject - 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'' is not a shadow root element)]]></system-err>
+   </testsuite>
+</testsuites>
