@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EMI Regression" time="17" tests="1" failures="0" errors="1">
+   <testsuite name="EMI Regression" tests="1" failures="0" errors="1" time="17" timestamp="2018-05-24 10:26:57" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/EMI Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180524_102654"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180524_102654\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="c954cbfdfadbcb0d9c46e23b63144e7a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-24 10:26:58 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-24 10:26:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 10:27:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 10:27:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-24 10:27:05 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-24 10:27:05 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-24 10:27:07 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-24 10:27:07 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-24 10:27:07 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-24 10:27:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-24 10:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-24 10:27:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-24 10:27:13 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="ERROR">
+         <error type="ERROR" message="Test Cases/Create EMI Inspection FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/JHATFIELD/git/DEFRA-FSM_Automated_Regression_NEW/Scripts/Create%20EMI%20Inspection/Script1526999786059.groovy: 43: Invalid use of declaration inside method call.
+ @ line 43, column 79.
+   MI Inspection Data&quot;).getValue(String Add
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-05-24 10:27:13 - [TEST_CASE][ERROR] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/JHATFIELD/git/DEFRA-FSM_Automated_Regression_NEW/Scripts/Create%20EMI%20Inspection/Script1526999786059.groovy: 43: Invalid use of declaration inside method call.
+ @ line 43, column 79.
+   MI Inspection Data").getValue(String Add
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-05-24 10:27:13 - [TEST_CASE][ERROR] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/JHATFIELD/git/DEFRA-FSM_Automated_Regression_NEW/Scripts/Create%20EMI%20Inspection/Script1526999786059.groovy: 43: Invalid use of declaration inside method call.
+ @ line 43, column 79.
+   MI Inspection Data").getValue(String Add
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-24 10:26:57 - [TEST_SUITE][ERROR] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/JHATFIELD/git/DEFRA-FSM_Automated_Regression_NEW/Scripts/Create%20EMI%20Inspection/Script1526999786059.groovy: 43: Invalid use of declaration inside method call.
+ @ line 43, column 79.
+   MI Inspection Data").getValue(String Add
+                                 ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-05-24 10:26:57 - [TEST_SUITE][ERROR] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/JHATFIELD/git/DEFRA-FSM_Automated_Regression_NEW/Scripts/Create%20EMI%20Inspection/Script1526999786059.groovy: 43: Invalid use of declaration inside method call.
+ @ line 43, column 79.
+   MI Inspection Data").getValue(String Add
+                                 ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

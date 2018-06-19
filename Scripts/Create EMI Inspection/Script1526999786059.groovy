@@ -24,16 +24,6 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 KeywordLogger log = new KeywordLogger()
 
-not_run: WebUI.openBrowser('')
-
-not_run: WebUI.navigateToUrl('https://kirona-def-2.kirona.com/jmtest/login#!loginView')
-
-not_run: WebUI.setText(findTestObject('FSM1/JH Test/Page_Job Manager Login/input_gwt-uid-3'), 'jon.hatfield')
-
-not_run: WebUI.setText(findTestObject('FSM1/JH Test/Page_Job Manager Login/input_gwt-uid-5'), 'Fr@nc1sJ0n')
-
-not_run: WebUI.sendKeys(findTestObject('FSM1/JH Test/Page_Job Manager Login/input_gwt-uid-5'), Keys.chord(Keys.ENTER))
-
 WebUI.click(findTestObject('FSM1/JH Test/Page_JM Control Centre/div_Create'))
 
 WebUI.setText(findTestObject('FSM1/JH Test/Page_JM Control Centre/input_gwt-uid-8'), 'emi')
@@ -45,31 +35,45 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Co
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'), 
-    'cv37 6sn')
+    Postcode)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/div_90 Clopton Road Stratford'))
+FullAddress = WebUI.modifyObjectProperty(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address'), 
+    'text', 'equals', findTestData('Data Files/EMI Inspection Data').getValue(2, 1), true)
+
+WebUI.click(FullAddress)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item'))
 
 WebUI.click(findTestObject('FSM1/JH Test 1/Page_JM Control Centre (1)/div_Scheduling WindowFollow SL'))
 
-WebUI.setText(findTestObject('FSM1/JH Test 1/Page_JM Control Centre (2)/input_gwt-uid-147'), 'jon')
+WebUI.setText(findTestObject('FSM1/JH Test 1/Page_JM Control Centre (2)/input_gwt-uid-147'), Inspector)
 
-WebUI.click(findTestObject('FSM1/JH Test 1/Page_JM Control Centre (4)/span_Jon Hatfield', [('variable') : '']))
+InspectorName = WebUI.modifyObjectProperty(findTestObject('FSM1/JH Test 1/Page_JM Control Centre (4)/InspectorName'), 'text', 
+    'equals', findTestData('Data Files/EMI Inspection Data').getValue(3, 1), true)
+
+WebUI.click(InspectorName)
 
 WebUI.click(findTestObject('FSM1/JH Test 2/Page_JM Control Centre/div_Duration'))
 
 WebUI.setText(findTestObject('FSM1/JH Test 2/Page_JM Control Centre/input_gwt-uid-97'), '15')
 
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection/SLA/Page_JM Control Centre (1)/input_gwt-uid-103'), 
+    '24 Hours')
+
+WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/SLA/Page_JM Control Centre (1)/span_24 Hours'))
+
 WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-107'), 'west')
 
 WebUI.click(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/span_West'))
 
-WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-115'), 'emi routine')
+WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-115'), InspectionType)
 
-WebUI.click(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/span_EMI Routine'))
+InspectionType = WebUI.modifyObjectProperty(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/InspectionType'), 'text', 
+    'equals', findTestData('Data Files/EMI Inspection Data').getValue(4, 1), true)
+
+WebUI.click(InspectionType)
 
 WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-117'), 'Mr Automation')
 
@@ -77,18 +81,23 @@ WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-ui
 
 WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-125'), '222')
 
-WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-133'), 'egg packer')
+WebUI.setText(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/input_gwt-uid-133'), VisitType)
 
-WebUI.click(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/span_EGG PACKER'))
+VisitType = WebUI.modifyObjectProperty(findTestObject('FSM1/JH Test 3/Page_JM Control Centre/VisitType'), 'text', 'equals', 
+    findTestData('Data Files/EMI Inspection Data').getValue(5, 1), true)
+
+WebUI.click(VisitType)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create'))
 
-WebUI.waitForElementPresent(findTestObject('FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC'), 60, 
+WebUI.waitForElementPresent(findTestObject('FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC'), 120, 
     FailureHandling.STOP_ON_FAILURE)
 
-InspectionID = WebUI.getText(findTestObject('FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/div_Viewing Job 33605'))
+InspectionID = WebUI.getText(findTestObject('FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID'))
 
 InspectionID = InspectionID.replaceAll('Viewing Job ', '')
 
 log.logWarning(InspectionID)
+
+GlobalVariable.temp = InspectionID
 

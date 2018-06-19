@@ -36,5 +36,5 @@ WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-Pas
 
 WebUI.click(findTestObject('FSM1/Launch Application/Page_JClient/div_Sign In'))
 
-WebUI.delay(30)
+WebUI.delay(15)
 

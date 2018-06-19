@@ -22,27 +22,51 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(30)
 
-WebUI.waitForPageLoad(250)
-
-not_run: WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_5 Days'))
+WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Refresh'))
 
-WebUI.waitForPageLoad(250)
+WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/InspectionID'))
+not_run: WebUI.delay(20)
 
-not_run: WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_Job TypeABPR01A - Composti'))
+InspectionRef = WebUI.modifyObjectProperty(findTestObject('FSM1/Select Inspection/Landing/Page_JClient/div_35098'), 'text', 
+    'equals', GlobalVariable.temp, true, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+if (WebUI.verifyElementPresent(InspectionRef, 30, FailureHandling.OPTIONAL)) {
+	WebUI.delay(3)
+	WebUI.click(InspectionRef)
+}
+else {
+	WebUI.click(findTestObject('Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days'))
+	WebUI.delay(3)
+	WebUI.click(InspectionRef)
+}
+
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE'))
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_TRAVELLING'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_TRAVELLING'))
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_ARRIVED'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_TRAVELLING'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_ARRIVED'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_ARRIVED'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_STARTED'))
+
+WebUI.delay(2)
 

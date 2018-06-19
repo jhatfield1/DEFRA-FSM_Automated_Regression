@@ -4,7 +4,7 @@
    <name>EMI Regression</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-22T12:45:15</lastRun>
+   <lastRun>2018-06-06T12:41:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,17 +16,116 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Launch Job Manager Control Centre</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>340b62d6-e253-4c51-801a-7b59efae2252</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UandP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>340b62d6-e253-4c51-801a-7b59efae2252</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>7e7a05b7-a8fe-4263-a211-ed7d0214de26</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>340b62d6-e253-4c51-801a-7b59efae2252</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b38ba976-6133-4f9c-9a6f-8f2b4255ea5d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d61086f2-ee15-4c51-9621-f9161e9023d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create EMI Inspection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2620a391-679f-4f93-b3a9-91e8304e6706</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EMI Inspection Data</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>0f17fc89-19dc-4552-8e48-9a278f498ad3</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2620a391-679f-4f93-b3a9-91e8304e6706</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Postcode</value>
+         <variableId>dce5e492-508f-4aa2-97fe-da7c876eaddf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2620a391-679f-4f93-b3a9-91e8304e6706</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>d544b52a-5e02-4d05-9104-d3915584ac4a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2620a391-679f-4f93-b3a9-91e8304e6706</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Inspector</value>
+         <variableId>603ab529-3688-423e-802c-4dcd3043d769</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2620a391-679f-4f93-b3a9-91e8304e6706</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>InspectionType</value>
+         <variableId>d9fd8efd-9a8b-4e59-8a0d-11b3d140bc6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2620a391-679f-4f93-b3a9-91e8304e6706</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VisitType</value>
+         <variableId>2cf35fa7-5517-43d1-846d-fdbfc10b6bf6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e8d2a16d-7172-4568-89fd-73283fce0b2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Launch Job Manager</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f2a4bf41-961f-480d-aead-526e8e2f6ffa</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UandP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f2a4bf41-961f-480d-aead-526e8e2f6ffa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>3d4f513b-8b02-4fb9-b880-2c2e951d8f69</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f2a4bf41-961f-480d-aead-526e8e2f6ffa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>13e7929c-4cc0-4343-bb83-7779b5b87a8c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1b421e5-269e-48e8-83fd-17ba767843e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Inspection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10844e42-0f31-4419-9cc3-83334cf4f1b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complete EMI Inspection</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kirona-def-2.kirona.com/jmtest/login#!loginView')
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'), 'jon.hatfield')
+WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'), Username)
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'), 'Fr@nc1sJ0n')
+WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'), Password)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login'))
 

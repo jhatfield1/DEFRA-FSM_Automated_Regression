@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EMI Regression" time="65" tests="1" failures="1" errors="0">
+   <testsuite name="EMI Regression" tests="1" failures="1" errors="0" time="65" timestamp="2018-05-23 13:59:08" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/EMI Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180523_135904"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180523_135904\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180523_135904\\1527084011104.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="88b1a778064bbb8164939e6bfc83c5da"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-23 13:59:09 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-23 13:59:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-23 13:59:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-23 13:59:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-23 13:59:16 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-23 13:59:16 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-23 13:59:17 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-23 13:59:17 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-23 13:59:18 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-23 13:59:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-23 13:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-23 13:59:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-23 13:59:23 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id(&quot;loc:16160&quot;)/div[@class=&quot;v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area&quot;]/div[@class=&quot;v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent&quot;]/div[@class=&quot;v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w&quot;][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)"/>
+         <system-out><![CDATA[2018-05-23 13:59:23 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)
+
+2018-05-23 13:59:24 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-05-23 13:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-23 13:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-23 13:59:24 - [TEST_STEP][PASSED] - setText: Text 'emi' is set on object 'Object Repository/FSM1/JH Test/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-23 13:59:26 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/JH Test/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-23 13:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-23 13:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-23 13:59:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-23 13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-23 13:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-23 13:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-23 13:59:32 - [TEST_STEP][PASSED] - setText: Text 'CV37 6SN' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-23 13:59:35 - [MESSAGE][PASSED] - Text 'CV37 6SN' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-23 13:59:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-23 13:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-23 13:59:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)
+
+2018-05-23 14:00:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180523_135904\\1527084011104.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-23 13:59:23 - [TEST_CASE][FAILED] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 13:59:08 - [TEST_SUITE][FAILED] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-23 13:59:08 - [TEST_SUITE][FAILED] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' located by 'By.xpath: id("loc:16160")/div[@class="v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area"]/div[@class="v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent"]/div[@class="v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w"][count(. | //div[(text() = '[${Address}]' or . = '[${Address}]')]) = count(//div[(text() = '[${Address}]' or . = '[${Address}]')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

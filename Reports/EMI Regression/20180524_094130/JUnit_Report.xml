@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EMI Regression" time="31" tests="1" failures="0" errors="1">
+   <testsuite name="EMI Regression" tests="1" failures="0" errors="1" time="31" timestamp="2018-05-24 09:41:33" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/EMI Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180524_094130"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\EMI Regression\\20180524_094130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="4e3afc6ac2865b89b1c1c1356313ba70"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Launch Job Manager Control Centre" classname="Test Cases/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-05-24 09:41:34 - [TEST_CASE][PASSED] - Test Cases/Launch Job Manager Control Centre: Test Cases/Launch Job Manager Control Centre
+
+2018-05-24 09:41:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 09:41:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 09:41:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-24 09:41:42 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-2.kirona.com/jmtest/login#!loginView' successfully
+
+2018-05-24 09:41:42 - [TEST_STEP][PASSED] - setText: Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-24 09:41:43 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-05-24 09:41:43 - [TEST_STEP][PASSED] - setText: Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-24 09:41:44 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-05-24 09:41:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-24 09:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login' is clicked on
+
+2018-05-24 09:41:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-24 09:41:49 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create EMI Inspection" classname="Test Cases/Create EMI Inspection" status="ERROR">
+         <error type="ERROR" message="Test Cases/Create EMI Inspection FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1526999786059.findTextObject() is applicable for argument types: (java.lang.String) values: [FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address]"/>
+         <system-out><![CDATA[2018-05-24 09:41:49 - [TEST_CASE][ERROR] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1526999786059.findTextObject() is applicable for argument types: (java.lang.String) values: [FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address]
+
+2018-05-24 09:41:50 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-05-24 09:41:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-24 09:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/div_Create' is clicked on
+
+2018-05-24 09:41:50 - [TEST_STEP][PASSED] - setText: Text 'emi' is set on object 'Object Repository/FSM1/JH Test/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-24 09:41:52 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/JH Test/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-05-24 09:41:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-24 09:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/JH Test/Page_JM Control Centre/span_EMI Inspection' is clicked on
+
+2018-05-24 09:41:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-24 09:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-05-24 09:41:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-24 09:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-05-24 09:41:58 - [TEST_STEP][PASSED] - setText: Text 'CV37 6SN' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-24 09:42:01 - [MESSAGE][PASSED] - Text 'CV37 6SN' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'
+
+2018-05-24 09:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-24 09:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-05-24 09:42:04 - [TEST_STEP][PASSED] - Statement - FullAddress = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(findTextObject("FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address"), "text", "equals", com.kms.katalon.core.testdata.TestDataFactory.findTestData(EMI Inspection Data).getValue(3, 1), true): null]]></system-out>
+         <system-err><![CDATA[2018-05-24 09:41:49 - [TEST_CASE][ERROR] - Test Cases/Create EMI Inspection: Test Cases/Create EMI Inspection FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1526999786059.findTextObject() is applicable for argument types: (java.lang.String) values: [FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address]]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-24 09:41:33 - [TEST_SUITE][ERROR] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1526999786059.findTextObject() is applicable for argument types: (java.lang.String) values: [FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address]]]></system-out>
+      <system-err><![CDATA[2018-05-24 09:41:33 - [TEST_SUITE][ERROR] - EMI Regression: Test Cases/Create EMI Inspection FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1526999786059.findTextObject() is applicable for argument types: (java.lang.String) values: [FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address]]]></system-err>
+   </testsuite>
+</testsuites>
