@@ -9,11 +9,11 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>/html[1]/body[@class=&quot;landscape&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBDHB&quot;]/div[@class=&quot;GKH2EKQBCHB&quot;]/div[@class=&quot;GKH2EKQBFHB&quot;]/div[@class=&quot;GKH2EKQBEHB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBLGB&quot;]/div[@class=&quot;GKH2EKQBJGB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBCSB&quot;]/div[3]/div[@class=&quot;GKH2EKQBIRB&quot;]/div[@class=&quot;GKH2EKQBKRB&quot;][count(. | //div[@class = 'GKH2EKQBKRB']) = count(//div[@class = 'GKH2EKQBKRB'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
