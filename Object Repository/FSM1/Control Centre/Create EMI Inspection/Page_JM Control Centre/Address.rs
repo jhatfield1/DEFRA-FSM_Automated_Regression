@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;loc:16160&quot;)/div[@class=&quot;v-csslayout v-layout v-widget full-data-area v-csslayout-full-data-area&quot;]/div[@class=&quot;v-csslayout v-layout v-widget kir-dataActionContent v-csslayout-kir-dataActionContent&quot;]/div[@class=&quot;v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w&quot;][count(. | //div[@class = 'v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w' and (text() = '' or . = '') and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe']) = count(//div[@class = 'v-label v-widget dataItemSubtitle v-label-dataItemSubtitle v-label-undef-w' and (text() = '' or . = '') and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe'])]</value>
+         <value>//div[(text() = '' or . = '') and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/iframe_vaadiniframe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,7 +34,7 @@
       <value></value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

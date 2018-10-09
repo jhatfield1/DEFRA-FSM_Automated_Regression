@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(30)
+WebUI.delay(120)
 
 WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Refresh'))
 
 WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
 
-not_run: WebUI.delay(20)
+not_run: WebUI.delay(180)
 
 InspectionRef = WebUI.modifyObjectProperty(findTestObject('FSM1/Select Inspection/Landing/Page_JClient/div_35098'), 'text', 
     'equals', GlobalVariable.temp, true, FailureHandling.STOP_ON_FAILURE)
@@ -36,15 +36,16 @@ InspectionRef = WebUI.modifyObjectProperty(findTestObject('FSM1/Select Inspectio
 WebUI.delay(10)
 
 if (WebUI.verifyElementPresent(InspectionRef, 30, FailureHandling.OPTIONAL)) {
-	WebUI.delay(3)
-	WebUI.click(InspectionRef)
-}
-else {
-	WebUI.click(findTestObject('Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days'))
-	WebUI.delay(3)
-	WebUI.click(InspectionRef)
-}
+    WebUI.delay(3)
 
+    WebUI.click(InspectionRef)
+} else {
+    WebUI.click(findTestObject('Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days'))
+
+    WebUI.delay(3)
+
+    WebUI.click(InspectionRef)
+}
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'gwt-Label GKH2EKQBCGC' and (text() = 'Mr Automation' or . = 'Mr Automation')]</value>
+         <value>//div[@class = 'gwt-Label GKH2EKQBCGC' and (text() = 'Test Automation' or . = 'Test Automation')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mr Automation</value>
+      <value>Test Automation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
