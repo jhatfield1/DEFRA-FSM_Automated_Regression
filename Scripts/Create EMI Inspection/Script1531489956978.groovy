@@ -22,19 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-KeywordLogger log = new KeywordLogger()
-
-not_run: WebUI.openBrowser('')
-
-not_run: WebUI.navigateToUrl('https://kirona-def-2.kirona.com/jmtest/login#!loginView')
-
-not_run: WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'), 'Jon.Hatfield')
-
-not_run: WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'), 'Fr@nc1sJ0n')
-
-not_run: WebUI.click(findTestObject('FSM1/Control Centre/Page_Job Manager Login/Page_Job Manager Login/div_Login'))
-
-not_run: WebUI.delay(5)
+KeywordLogger logg = new KeywordLogger()
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'))
 
@@ -72,13 +60,13 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Co
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre/input_v-textfield v-widget v-t'), 
-    findTestData('EMI Inspection Data').getValue(1, 1))
+WebUI.setText(findTestObject('FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'), findTestData('Pre Production Environment/EMI Inspection Data').getValue(
+        1, 1))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
 
 FullAddress = WebUI.modifyObjectProperty(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address'), 
-    'text', 'equals', findTestData('Data Files/EMI Inspection Data').getValue(2, 1), true)
+    'text', 'equals', findTestData('Pre Production Environment/EMI Inspection Data').getValue(2, 1), true)
 
 WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 
@@ -87,9 +75,9 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Add
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection/FixedResource/Page_JM Control Centre (3)/input_gwt-uid-145'), 
-    'jon')
+    'test')
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Jon Hatfield'))
+WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create'))
 
@@ -100,7 +88,7 @@ InspectionID = WebUI.getText(findTestObject('FSM1/Control Centre/Create EMI Insp
 
 InspectionID = InspectionID.replaceAll('Viewing Job ', '')
 
-log.logWarning(InspectionID)
+logg.logWarning(InspectionID)
 
 GlobalVariable.temp = InspectionID
 

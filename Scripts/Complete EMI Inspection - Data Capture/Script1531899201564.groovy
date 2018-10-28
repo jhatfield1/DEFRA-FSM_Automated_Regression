@@ -25,7 +25,7 @@ WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClie
 
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClient/div_Packer'))
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClient/Create Button '))
+WebUI.click(findTestObject('FSM1/PreProd/Page_JClient/CreateButton'))
 
 WebUI.selectOptionByValue(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClient/InspectionCode1'), 'CAT', 
     true)
