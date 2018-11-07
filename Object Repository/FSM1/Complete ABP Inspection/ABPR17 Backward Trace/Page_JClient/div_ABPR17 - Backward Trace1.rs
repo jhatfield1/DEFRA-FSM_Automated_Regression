@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='ABPR15 - Sample Submission'])[1]/following::div[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'ABPR17 - Backward Trace' or . = 'ABPR17 - Backward Trace')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

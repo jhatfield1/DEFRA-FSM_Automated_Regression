@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(2) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBPGB > div > div:nth-child(16) > div:nth-child(6) > div:nth-child(2)</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'ABPR18 - Forward Trace' or . = 'ABPR18 - Forward Trace')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Species_v-filterselect-but</name>
+   <tag></tag>
+   <elementGuidId>26748389-0b20-4213-8dc6-706ab8678971</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='jmcontent']/div/div[4]/div/div[2]/div[13]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;jmcontent&quot;)/div[@class=&quot;v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout&quot;]/div[@class=&quot;v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-csslayout v-layout v-widget v-has-width v-has-height&quot;]/div[@class=&quot;v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required&quot;]/div[@class=&quot;v-filterselect-button&quot;][count(. | //div[@ref_element = 'Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe']) = count(//div[@ref_element = 'Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jmcontent > div > div:nth-child(4) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div.v-filterselect.v-widget.v-filterselect-error.selectField.v-filterselect-selectField.nicer-field.v-filterselect-nicer-field.v-required.v-filterselect-required > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-filterselect-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jmcontent&quot;)/div[@class=&quot;v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout&quot;]/div[@class=&quot;v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-csslayout v-layout v-widget v-has-width v-has-height&quot;]/div[@class=&quot;v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required&quot;]/div[@class=&quot;v-filterselect-button&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='jmcontent']/div/div[4]/div/div[2]/div[13]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Production Type'])[1]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keeper Details'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keeper ID'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[13]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

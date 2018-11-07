@@ -10,15 +10,15 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments:'])[1]/following::div[17]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ABPR15 - Microbiology Submission Form&quot;)[count(. | //div[@id = 'ABPR15 - Microbiology Submission Form' and @ref_element = 'Object Repository/FSM1/Complete ABP Inspection/Check Results/Page_JM Control Centre/iframe_close_vaadiniframe']) = count(//div[@id = 'ABPR15 - Microbiology Submission Form' and @ref_element = 'Object Repository/FSM1/Complete ABP Inspection/Check Results/Page_JM Control Centre/iframe_close_vaadiniframe'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ABPR15\20 -\20 Microbiology\20 Submission\20 Form</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'ABPR15 - Microbiology Submission Form' and @ref_element = 'Object Repository/FSM1/Complete ABP Inspection/Check Results/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <value>gwt-uid-11</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

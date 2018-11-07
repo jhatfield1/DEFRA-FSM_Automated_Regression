@@ -4,7 +4,17 @@
    <name>iframe_close_vaadiniframe</name>
    <tag></tag>
    <elementGuidId>e12116bc-3f81-4a1a-8249-021be58bac2e</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/following::iframe[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;vaadiniframe&quot;)[count(. | //iframe[@id = 'vaadiniframe']) = count(//iframe[@id = 'vaadiniframe'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,14 +45,14 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>https://kirona-def-6.kirona.com/jmprep/embedded?authToken=VUZJU1d5aWt5bjQ9IyNKT04uSEFURklFTEQjIzEjIzE1NDA0MDQ5MjYwMTU=&amp;authFailUrl=#!EntryPointView/entity=JOB/entityValue=87075/operation=VIEW/maxwidth=1037/maxheight=722/entityTypesSupported=JMASSET%2CJMJOB/returnTo=/refreshable=true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

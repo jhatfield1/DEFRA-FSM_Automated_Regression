@@ -4,7 +4,21 @@
    <name>div_Create</name>
    <tag></tag>
    <elementGuidId>59fffbff-1d14-4a12-b704-06a2aa2aad9d</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Create' or . = 'Create')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menuLocation > div > div > div > div.v-csslayout.v-layout.v-widget.menuLayout.v-csslayout-menuLayout > div.v-csslayout.v-layout.v-widget.footerComponents.v-csslayout-footerComponents > div.v-csslayout.v-layout.v-widget.createJob.v-csslayout-createJob.footerComponent.v-csslayout-footerComponent > div.v-label.v-widget.itemLabel.v-label-itemLabel.v-label-undef-w</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
