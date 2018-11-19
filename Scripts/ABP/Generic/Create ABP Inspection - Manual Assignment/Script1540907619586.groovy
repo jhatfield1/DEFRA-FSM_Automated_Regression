@@ -76,12 +76,12 @@ WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Postcode Search'))
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/PostcodeSearch'), 
-    findTestData('Pre Production/ABP Inspection Data 01a').getValue(2, 1))
+    findTestData('Pre Production/ABP/ABP Inspection Data 01a').getValue(2, 1))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
 
 FullAddress = WebUI.modifyObjectProperty(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address'), 
-    'text', 'equals', findTestData('Pre Production/ABP Inspection Data 01a').getValue(3, 1), true)
+    'text', 'equals', findTestData('Pre Production/ABP/ABP Inspection Data 01a').getValue(3, 1), true)
 
 WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 

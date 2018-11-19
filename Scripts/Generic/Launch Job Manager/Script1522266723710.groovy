@@ -32,10 +32,10 @@ WebUI.sendKeys(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-Te
 
 WebUI.click(findTestObject('FSM1/Launch Application/Page_JClient/div_Configure App'))
 
-WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'), findTestData('Pre Production/UandP').getValue(
+WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'), findTestData('Pre Production/Environmental/UandP').getValue(
         3, 1))
 
-WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'), findTestData('Pre Production/UandP').getValue(
+WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'), findTestData('Pre Production/Environmental/UandP').getValue(
         4, 1))
 
 WebUI.click(findTestObject('FSM1/Launch Application/Page_JClient/div_Sign In'))

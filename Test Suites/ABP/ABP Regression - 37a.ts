@@ -4,7 +4,7 @@
    <name>ABP Regression - 37a</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-07T16:56:40</lastRun>
+   <lastRun>2018-11-14T10:36:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -114,7 +114,7 @@
       <guid>b5553a49-e824-46d8-9ff0-dadf96a49c2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/ABPR37a/Complete ABP Inspection - Section A - 37</testCaseId>
+      <testCaseId>Test Cases/ABP/ABPR37a/Complete ABP Inspection - Section A - 37, 190</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0e9ce8ac-0b39-4e9d-9147-958cf1c16e7b</guid>

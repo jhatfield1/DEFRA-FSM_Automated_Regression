@@ -76,13 +76,13 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Co
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
 
-WebUI.setText(findTestObject('FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'), findTestData('Pre Production/PMM Inspection Data').getValue(
+WebUI.setText(findTestObject('FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'), findTestData('Pre Production/PMM/PMM Inspection Data').getValue(
         1, 1))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
 
 FullAddress = WebUI.modifyObjectProperty(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address'), 
-    'text', 'equals', findTestData('Pre Production/PMM Inspection Data').getValue(2, 1), true)
+    'text', 'equals', findTestData('Pre Production/PMM/PMM Inspection Data').getValue(2, 1), true)
 
 WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 
@@ -117,5 +117,5 @@ log.logWarning(InspectionID)
 
 GlobalVariable.temp = InspectionID
 
-WebUI.delay(120)
+WebUI.delay(160)
 
