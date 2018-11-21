@@ -17,3 +17,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Save (1)'))
 
+WebUI.delay(3)
+

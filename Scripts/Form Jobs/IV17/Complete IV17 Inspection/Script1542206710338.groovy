@@ -40,15 +40,23 @@ WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_WITH OP
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_TRAVELLING'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_TRAVELLING'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_ARRIVED'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_ARRIVED'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_STARTED'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Edit attributes'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Live Ferrets_radio_group'))
 
@@ -58,11 +66,15 @@ WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Regio
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Initial details'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Consignment ID (ITAHC CV'), 'test automation')
 
 WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Work Schedule_gwt-TextBo'), '123')
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Save'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_DIP Checks'))
 
@@ -83,6 +95,8 @@ WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Not C
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_PC Have physical checks'))
 
 WebUI.click(findTestObject('FSM1/IV17/Page_JClient/div_Save DIP'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Checked at Location(s)'))
 
@@ -119,6 +133,7 @@ WebUI.delay(15)
 FormJobReference = WebUI.getText(findTestObject('FSM1/IV17/Page_JClient/Form Job Reference'))
 
 FormJobReference = FormJobReference.replaceAll('Form Job 1 \\(', '')
+
 FormJobReference = FormJobReference.replaceAll('\\)', '')
 
 log.logWarning(FormJobReference)

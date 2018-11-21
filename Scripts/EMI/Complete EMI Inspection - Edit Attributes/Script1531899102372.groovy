@@ -34,10 +34,6 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Mr Automation'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_111'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_222'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Business TypeAUCTION MARKE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Job TypeEMI InspectionJob'), FailureHandling.CONTINUE_ON_FAILURE)

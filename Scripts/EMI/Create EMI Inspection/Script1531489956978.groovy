@@ -22,6 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 KeywordLogger logg = new KeywordLogger()
 
@@ -49,9 +50,9 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_J
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34'), 'Test Automation')
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), '111')
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), '222')
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), RandomStringUtils.randomNumeric(5))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2'))
 

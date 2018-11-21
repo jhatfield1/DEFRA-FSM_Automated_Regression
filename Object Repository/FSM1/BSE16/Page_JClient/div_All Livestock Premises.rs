@@ -6,15 +6,15 @@
    <elementGuidId>0e57ff9d-e408-42b6-abc6-2e97be611375</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Report'])[1]/following::div[4]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = 'All Livestock Premises' or . = 'All Livestock Premises')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Report'])[1]/following::div[4]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

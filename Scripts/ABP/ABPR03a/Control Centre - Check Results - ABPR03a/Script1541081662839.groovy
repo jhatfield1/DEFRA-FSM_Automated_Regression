@@ -27,9 +27,6 @@ KeywordLogger log = new KeywordLogger()
 WebUI.setText(findTestObject('Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'), 
     GlobalVariable.temp)
 
-not_run: WebUI.setText(findTestObject('Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'), 
-    '88327')
-
 WebUI.click(findTestObject('Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED'), 

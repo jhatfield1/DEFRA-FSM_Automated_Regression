@@ -6,15 +6,15 @@
    <elementGuidId>abdaf468-5504-40f1-bf4b-3dd603d46562</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Former Foodstuffs'])[1]/following::div[4]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = 'Storage of ABP, PAP and organic fertiliser/soil improver containing PAP' or . = 'Storage of ABP, PAP and organic fertiliser/soil improver containing PAP')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Former Foodstuffs'])[1]/following::div[4]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

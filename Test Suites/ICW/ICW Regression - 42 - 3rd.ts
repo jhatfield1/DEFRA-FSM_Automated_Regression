@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>R23 : FP-783</description>
    <name>ICW Regression - 42 - 3rd</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-14T10:36:18</lastRun>
+   <lastRun>2018-11-21T12:09:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

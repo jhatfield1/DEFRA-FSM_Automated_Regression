@@ -49,3 +49,5 @@ WebUI.setText(findTestObject('Object Repository/FSM1/BSE16/NFA Samples/Page_JCli
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/NFA Samples/Page_JClient/Page_JClient/div_Save'))
 
+WebUI.delay(3)
+

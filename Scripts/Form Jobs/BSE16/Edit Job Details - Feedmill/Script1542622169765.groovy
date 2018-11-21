@@ -31,3 +31,5 @@ WebUI.setText(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/Page_JCl
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/Page_JClient/select_FeedmillImporterInterme'), 
     findTestData('Pre Production/Form Jobs/BSE16/BSE16 - Feedmill').getValue(1, 1), false)
 
+WebUI.delay(3)
+

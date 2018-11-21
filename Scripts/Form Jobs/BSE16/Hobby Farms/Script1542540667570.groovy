@@ -24,3 +24,5 @@ WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_If y
 
 WebUI.click(findTestObject('FSM1/BSE16/Page_JClient/div_Save - Generic'))
 
+WebUI.delay(3)
+
