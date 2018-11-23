@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Former Foodstuffs'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Are former foodstuffs us'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Which former foodstuffs'))

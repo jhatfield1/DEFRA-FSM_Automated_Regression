@@ -6,11 +6,19 @@
    <elementGuidId>b29f3a3c-d2c8-4e01-bd8c-f2f719e252d9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'checkbox' and @id = 'gwt-uid-114']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(3) > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(1) > label</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Which former foodstuffs are used?'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,7 @@
    <name>BSE16 Regression - Feedmill</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-21T19:53:54</lastRun>
+   <lastRun>2018-11-23T09:17:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -75,12 +75,6 @@
          <type>DATA_COLUMN</type>
          <value>EstablishmentType</value>
          <variableId>161f2ab7-57d0-4bf3-a35a-8098a523fa69</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bec3c8a2-2569-4174-9940-e1cf57b607d5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -4,7 +4,7 @@
    <name>BSE16 Regression - Livestock Farm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-21T19:53:55</lastRun>
+   <lastRun>2018-11-23T09:17:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -61,17 +61,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Form Jobs/BSE16/Edit Job Details - Livestock Farm</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c9b74274-9ebd-4a33-af25-02786cea4881</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/Form Jobs/BSE16/BSE16 - Livestock Farm</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c9b74274-9ebd-4a33-af25-02786cea4881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EstablishmentType</value>
          <variableId>1d7e445a-8800-437d-9bae-e1209cc2499e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f4627506-84e8-4746-90c1-80727e1622ec</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
