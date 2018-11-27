@@ -28,109 +28,124 @@ KeywordLogger log = new KeywordLogger()
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Main Menu_GKH2EKQBMBC'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Main Menu_GKH2EKQBMBC'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Form Jobs'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Form Jobs'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_IV17 Import checks'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_IV17 Import checks'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_WITH OPERATIVE'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_WITH OPERATIVE'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_TRAVELLING'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_TRAVELLING'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_ARRIVED'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_ARRIVED'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_STARTED'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Edit attributes'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_STARTED'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Edit attributes'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Live Ferrets_radio_group'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Live Ferrets_radio_group'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_SpeciesCommodity_gwt-Tex'), 'Test automation')
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_SpeciesCommodity_gwt-Tex'), 'Test automation')
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Region_radio_group_2'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Region_radio_group_2'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Initial details'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Consignment ID (ITAHC CV'), 'test automation')
-
-WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Work Schedule_gwt-TextBo'), '123')
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Save'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Initial details'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_DIP Checks'))
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Consignment ID (ITAHC CV'), 'test automation')
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_IA Is the consignee awar'))
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Work Schedule_gwt-TextBo'), '123')
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Not Checked_radio_group_'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_CV Does the ITAHC provid'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_CD Are the destination d'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Not Checked_radio_group__1'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_ID Does the identificati'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Not Checked_radio_group__2'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_PC Have physical checks'))
-
-WebUI.click(findTestObject('FSM1/IV17/Page_JClient/div_Save DIP'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Checked at Location(s)'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_DIP Checks'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Select all applicable lo'))
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Number of animals checke'), '10')
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_IA Is the consignee awar'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/IV17/Page_JClient/input_Number of samples taken_'), '2')
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group_'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Checked at Location(s)Date'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_CV Does the ITAHC provid'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_CD Are the destination d'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__1'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_ID Does the identificati'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__2'))
+
+'Release 22 - FP-764'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_MR If applicable do moveme'), 
+    2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_PC Have physical checks'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Save DIP'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Select all applicable lo'))
+
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Number of animals checke'), '10')
+
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Number of samples taken_'), '2')
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)Date'))
 
 mydate = new Date()
 
 formattedDate = mydate.format('MM/dd/yyy')
 
-WebUI.sendKeys(findTestObject('FSM1/IV17/Page_JClient/IV17 Date of Visit'), formattedDate)
+WebUI.sendKeys(findTestObject('Object Repository/FSM1/Release22/Page_JClient/IV17 Date of Visit'), formattedDate)
 
-WebUI.click(findTestObject('FSM1/IV17/Page_JClient/div_Save Location'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('FSM1/IV17/Page_JClient/div_Save Complete'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_STARTED'))
-
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_COMPLETED'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Save Location'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Ok'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Non-compliance further inf'))
+
+'Release 22 - FP-765'
+WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/textarea_Non-compliance furthe'), 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+
+WebUI.click(findTestObject('FSM1/Release22/Page_JClient/div_Save_NonCompliance'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Save Complete'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_STARTED'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_COMPLETED'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Ok'))
 
 WebUI.delay(15)
 
-FormJobReference = WebUI.getText(findTestObject('FSM1/IV17/Page_JClient/Form Job Reference'))
+FormJobReference = WebUI.getText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/Form Job Reference'))
 
 FormJobReference = FormJobReference.replaceAll('Form Job 1 \\(', '')
 

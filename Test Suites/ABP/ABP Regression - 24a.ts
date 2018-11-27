@@ -4,7 +4,7 @@
    <name>ABP Regression - 24a</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T16:16:53</lastRun>
+   <lastRun>2018-11-26T16:17:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -132,13 +132,13 @@
       <guid>b746616f-eccc-4061-9df0-baa2a7097a20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR17 Forward Trace</testCaseId>
+      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR17 Backward Trace - Not Completed</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bd87961b-07ec-4eb7-8186-d07f032d8830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Backward Trace</testCaseId>
+      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Forward Trace - Not Completed</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88546da1-f641-4e4b-8ba8-27f660f82207</guid>

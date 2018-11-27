@@ -14,7 +14,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Former Foodstuffs'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

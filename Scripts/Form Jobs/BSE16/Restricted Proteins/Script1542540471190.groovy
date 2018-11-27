@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/Page_JClient/div_Restricted ProteinsAuthori'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/Page_JClient/input_Are restricted proteins (1)'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/Page_JClient/input_Which restricted protein'))

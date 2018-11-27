@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>R22 - FP-738</description>
    <name>ABP Regression - 02a</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T16:16:49</lastRun>
+   <lastRun>2018-11-27T15:53:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

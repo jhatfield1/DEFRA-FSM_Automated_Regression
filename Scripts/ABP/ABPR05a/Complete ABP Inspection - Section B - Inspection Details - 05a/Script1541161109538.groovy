@@ -65,6 +65,9 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR0
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR05a/Section B Inspection Details/Page_JClient/input_g. If destined for anima'))
 
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/IfDestinedForAnimailFeedNA'), 2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR05a/Section B Inspection Details/Page_JClient/input_h. Grazing ban requireme'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR05a/Section B Inspection Details/Page_JClient/input_Na_radio_group_42'))

@@ -6,12 +6,12 @@
    <elementGuidId>c98882b5-00ff-4918-8c53-534f9dc5aaef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Menu'])[1]/preceding::div[24]</value>
+         <key>CSS</key>
+         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACC > div:nth-child(1) > div.GKH2EKQBMBC</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACC > div:nth-child(1)</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Menu'])[1]/preceding::div[24]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

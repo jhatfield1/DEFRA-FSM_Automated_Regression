@@ -227,6 +227,27 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR0
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR07a/Page_JClient/input_Is this also a TSE sampl'))
 
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question35aNA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question35bNA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question39gNA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question47NA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question48NA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question49NA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question50NA'), 2)
+
 mydate = new Date()
 
 formattedDate = mydate.format('MM/dd/yyy')

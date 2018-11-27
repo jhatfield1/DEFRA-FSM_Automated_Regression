@@ -4,7 +4,7 @@
    <name>ICW Regression - 42 - EU</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T16:17:02</lastRun>
+   <lastRun>2018-11-27T11:55:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -132,13 +132,13 @@
       <guid>50646fa3-62be-42bd-a5ea-d87eb88b8ae3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR17 Forward Trace</testCaseId>
+      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR17 Backward Trace - Not Completed</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>07f664c1-9e96-42f3-9e5b-e880cd3ccfa1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Backward Trace</testCaseId>
+      <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Forward Trace - Not Completed</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>03b41ebc-73c6-46c6-b21b-dca537e01efa</guid>

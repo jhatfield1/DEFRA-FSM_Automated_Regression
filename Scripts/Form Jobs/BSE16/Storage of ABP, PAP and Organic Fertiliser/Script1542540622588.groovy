@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Storage of ABP PAP and org'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_PAP (not including restr'))
 
 WebUI.setText(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/textarea_None_gwt-TextArea GKH'), 'Test automation')

@@ -137,6 +137,8 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR0
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/input_Yes_radio_group_52'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/input_(b) Forward trace (compl'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/input_Yes_radio_group_54'))
@@ -145,11 +147,11 @@ mydate = new Date()
 
 formattedDate = mydate.format('MM/dd/yyy')
 
-WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/CalibrationDate'), formattedDate )
+WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/CalibrationDate'), formattedDate)
 
-WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/DocumentFromDate'), formattedDate )
+WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/DocumentFromDate'), formattedDate)
 
-WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/DocumentToDate'), formattedDate )
+WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/DocumentToDate'), formattedDate)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR01a Section B/Page_JClient/div_Save'))
 

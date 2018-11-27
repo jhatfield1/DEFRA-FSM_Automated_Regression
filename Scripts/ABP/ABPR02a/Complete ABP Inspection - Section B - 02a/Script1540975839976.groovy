@@ -100,6 +100,12 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR0
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR02a/Page_JClient/textarea_Not Checked_gwt-TextA'), 
     'test automation')
 
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question20NA'), 2)
+
+'Release 22 - FP-738'
+WebUI.verifyElementPresent(findTestObject('FSM1/Release22/Page_JClient/Question21NA'), 2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR02a/Page_JClient/input_Yes_radio_group_61'))
 
 mydate = new Date()

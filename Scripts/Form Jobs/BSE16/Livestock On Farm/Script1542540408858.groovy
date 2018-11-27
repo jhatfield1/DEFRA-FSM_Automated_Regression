@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Livestock on Farm'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Ruminants on farm_radio_'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Stock types kept on prem'))

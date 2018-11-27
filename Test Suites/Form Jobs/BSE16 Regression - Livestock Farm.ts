@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>R22 - FP-684, FP-685</description>
    <name>BSE16 Regression - Livestock Farm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-23T09:17:08</lastRun>
+   <lastRun>2018-11-27T14:19:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
