@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>EMI Regression</name>
+   <name>EMI Regression - Packer</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-27T10:42:01</lastRun>
+   <lastRun>2018-11-28T20:14:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -144,7 +144,7 @@
       <guid>54899808-bb8a-43fd-a24b-a45c3fd3f8aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EMI/Complete EMI Inspection - Data Capture</testCaseId>
+      <testCaseId>Test Cases/EMI/Complete EMI Inspection - Data Capture - Packer</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a7158c57-9d92-4c10-8279-eeee63ce18b0</guid>
@@ -190,5 +190,11 @@
          <value></value>
          <variableId>66ae04cd-7762-4772-843e-b80124d217d2</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72b5d288-807d-4998-880b-6ee47a5038ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

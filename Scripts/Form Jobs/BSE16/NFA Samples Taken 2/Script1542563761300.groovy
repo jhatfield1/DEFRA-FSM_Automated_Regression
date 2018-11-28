@@ -13,9 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/NFA Samples/Page_JClient/Page_JClient/div_Samples Taken NFA'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/NFA Samples/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ'))
+
+WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/NFA Samples/Page_JClient/Page_JClient/select_Compound or concentrate'), 
     'COMPOUND_OR_CONCENTRATE', true)

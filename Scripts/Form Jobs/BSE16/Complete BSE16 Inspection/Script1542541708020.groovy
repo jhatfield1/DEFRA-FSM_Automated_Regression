@@ -24,8 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-KeywordLogger log = new KeywordLogger()
-
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_STARTED'))
 
@@ -35,7 +34,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/IV17/Page_JClient/div_Ok'))
 
-WebUI.delay(15)
+WebUI.delay(40)
 
 FormJobReference = WebUI.getText(findTestObject('FSM1/IV17/Page_JClient/Form Job Reference'))
 

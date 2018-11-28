@@ -24,7 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-KeywordLogger logg = new KeywordLogger()
+KeywordLogger logg = new KeywordLogger('')
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'))
 

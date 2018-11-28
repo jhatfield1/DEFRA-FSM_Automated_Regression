@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_On farm feeding of milk mi'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Is there on farm feeding'))
 

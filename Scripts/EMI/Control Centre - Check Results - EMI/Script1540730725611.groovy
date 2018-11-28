@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-KeywordLogger log = new KeywordLogger()
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.setText(findTestObject('Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'), 
     GlobalVariable.temp)
@@ -34,6 +34,4 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/FSM1/EMI Check Res
 
 WebUI.verifyElementPresent(findTestObject('FSM1/EMI Check Results/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Attachments_EMI Technical'), 
     5)
-
-WebUI.closeBrowser()
 

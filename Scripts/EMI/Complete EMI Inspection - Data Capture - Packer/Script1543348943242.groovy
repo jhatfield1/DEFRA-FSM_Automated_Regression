@@ -23,7 +23,11 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClient/div_Data Capture'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture/Page_JClient/div_Packer'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/PreProd/Page_JClient/CreateButton'))
 

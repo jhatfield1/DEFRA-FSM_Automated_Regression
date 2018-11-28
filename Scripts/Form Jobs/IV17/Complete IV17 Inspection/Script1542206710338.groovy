@@ -24,7 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-KeywordLogger log = new KeywordLogger()
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.delay(15)
 

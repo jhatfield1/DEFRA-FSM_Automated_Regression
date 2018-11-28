@@ -24,7 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-KeywordLogger logg = new KeywordLogger()
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'))
 
@@ -50,9 +50,11 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_J
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34'), 'Test Automation')
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), RandomStringUtils.randomNumeric(
+        5))
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), RandomStringUtils.randomNumeric(
+        5))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2'))
 
@@ -90,7 +92,7 @@ InspectionID = WebUI.getText(findTestObject('FSM1/Control Centre/Create EMI Insp
 
 InspectionID = InspectionID.replaceAll('Viewing Job ', '')
 
-logg.logWarning(InspectionID)
+log.logWarning(InspectionID)
 
 GlobalVariable.temp = InspectionID
 

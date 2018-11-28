@@ -26,7 +26,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-KeywordLogger log = new KeywordLogger()
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Page_JClient (2)/div_Edit attributes'))
 
