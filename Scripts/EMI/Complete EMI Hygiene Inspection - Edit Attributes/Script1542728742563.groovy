@@ -40,5 +40,9 @@ WebUI.click(findTestObject('Object Repository/FSM1/EMI Hygiene1/Page_JClient/inp
 
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Page_JClient/div_Save_Sig'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Page_JClient/div_Save_edit'))
+
+WebUI.delay(2)
 

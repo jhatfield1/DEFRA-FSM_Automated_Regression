@@ -4,7 +4,7 @@
    <name>EMI Hygiene Regression</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-26T16:16:51</lastRun>
+   <lastRun>2018-11-29T16:50:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -36,6 +36,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>b38ba976-6133-4f9c-9a6f-8f2b4255ea5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dc3ac28-c9f2-41f2-90d4-368b3d76d301</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -127,6 +133,12 @@
          <value></value>
          <variableId>c378ba3c-5e46-49f4-ad39-a46ad361e174</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0509a92-379e-4540-8708-b866ec98cc71</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d1b421e5-269e-48e8-83fd-17ba767843e5</guid>
@@ -189,6 +201,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>9acaa269-a0a3-406d-bc7c-7ca8e7573278</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>647a4c54-3be1-4207-ae05-6f58ee7d6155</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

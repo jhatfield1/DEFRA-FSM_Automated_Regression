@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kirona-def-6.kirona.com/jmprep/login#!loginView')
+WebUI.navigateToUrl(GlobalVariable.CCURL)
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'), Username)
 

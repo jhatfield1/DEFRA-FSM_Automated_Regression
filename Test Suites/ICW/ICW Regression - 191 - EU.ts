@@ -4,7 +4,7 @@
    <name>ICW Regression - 191 - EU</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-26T16:17:10</lastRun>
+   <lastRun>2018-11-29T12:19:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -36,6 +36,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>b38ba976-6133-4f9c-9a6f-8f2b4255ea5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dc3ac28-c9f2-41f2-90d4-368b3d76d301</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -102,6 +108,12 @@
          <type>DATA_COLUMN</type>
          <value>JMPassword</value>
          <variableId>c378ba3c-5e46-49f4-ad39-a46ad361e174</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0509a92-379e-4540-8708-b866ec98cc71</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -171,6 +183,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>9acaa269-a0a3-406d-bc7c-7ca8e7573278</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>647a4c54-3be1-4207-ae05-6f58ee7d6155</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

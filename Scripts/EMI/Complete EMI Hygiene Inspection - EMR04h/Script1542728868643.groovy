@@ -19,6 +19,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Areas inspected_gwt-T'), 
     'test automation')
 

@@ -24,7 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html')
+WebUI.navigateToUrl(GlobalVariable.JMURL)
 
 WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'), 'KIR1')
 

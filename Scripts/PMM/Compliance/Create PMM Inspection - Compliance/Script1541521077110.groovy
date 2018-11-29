@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-KeywordLogger log = new KeywordLogger()
+KeywordLogger log = new KeywordLogger('')
 
 WebUI.delay(2)
 

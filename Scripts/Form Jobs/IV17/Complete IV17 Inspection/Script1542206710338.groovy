@@ -106,6 +106,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Select all applicable lo'))
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Release22/Page_JClient/input_Number of animals checke'), '10')

@@ -4,7 +4,7 @@
    <name>IV17 Regression</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T20:59:00</lastRun>
+   <lastRun>2018-11-29T12:19:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -49,6 +49,12 @@
          <value>JMPassword</value>
          <variableId>c378ba3c-5e46-49f4-ad39-a46ad361e174</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0509a92-379e-4540-8708-b866ec98cc71</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>30b0f6ff-0e8e-418e-8ec8-d7797b53914d</guid>
@@ -81,6 +87,12 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>9acaa269-a0a3-406d-bc7c-7ca8e7573278</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>647a4c54-3be1-4207-ae05-6f58ee7d6155</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
