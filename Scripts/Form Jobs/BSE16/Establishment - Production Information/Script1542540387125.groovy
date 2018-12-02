@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_EstablishmentProduction In'))
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/select_ 15000 tonnes15000-1500'), '15000150000_TONNES', 
     true)
 

@@ -44,6 +44,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABP
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR17 Backward Trace Complete/Page_JClient/input_Postcode_gwt-TextBox GKH'), 
     'WR5 2EX')
 
+'Release 21 - FP-611'
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR17 Backward Trace Complete/Page_JClient/select_NorthScotlandSouthernWa'), 
     'West', true)
 

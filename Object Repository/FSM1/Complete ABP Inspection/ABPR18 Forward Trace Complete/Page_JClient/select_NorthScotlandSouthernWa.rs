@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Region'])[2]/following::select[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = ' NorthScotlandSouthernWalesWest' or . = ' NorthScotlandSouthernWalesWest')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

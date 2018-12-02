@@ -141,6 +141,12 @@
       <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - Section C - Full Risk Assessment</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d7f4fc45-e7ec-4317-a1f6-dc234eb00fdc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cf7a2f50-a74e-40e9-bf94-16f1671dc295</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

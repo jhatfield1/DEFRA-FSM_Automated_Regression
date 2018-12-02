@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>R21 - FP-611</description>
    <name>ABP Regression - 01a</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-29T12:19:34</lastRun>
+   <lastRun>2018-12-02T18:41:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -136,6 +136,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Forward Trace - Not Completed</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ae9f61f-4e15-4638-a213-a1e1d2ecf402</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5cf13fd7-89c5-49a4-b54d-689b96b1167d</guid>

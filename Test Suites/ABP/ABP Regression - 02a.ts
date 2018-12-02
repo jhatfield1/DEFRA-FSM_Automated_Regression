@@ -147,6 +147,12 @@
       <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR15 Sample Submission</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>84a76a3b-c2be-4831-8361-079c490d3478</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8f522ead-be43-4bdc-a39b-f66a09e7b78b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

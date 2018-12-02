@@ -171,6 +171,12 @@
       <testCaseId>Test Cases/ABP/ABPR12a/Complete Inspection Details - 12a</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>bc623eed-d3c9-417f-8df9-34d26f147fdd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cf7a2f50-a74e-40e9-bf94-16f1671dc295</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

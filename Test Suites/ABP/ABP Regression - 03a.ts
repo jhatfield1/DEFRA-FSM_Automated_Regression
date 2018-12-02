@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>R22 - FP-843</description>
+   <description>R22 - FP-843
+R21 - FP-630</description>
    <name>ABP Regression - 03a</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -175,6 +176,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ABP/ABPR12a/Complete Inspection Details - 12a</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd010017-4053-4fbd-a609-0223cf46cc8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c9bf700e-2bd7-4912-8ee3-4e8299ce2cb1</guid>

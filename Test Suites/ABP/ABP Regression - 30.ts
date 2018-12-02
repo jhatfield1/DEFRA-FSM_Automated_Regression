@@ -135,6 +135,12 @@
       <testCaseId>Test Cases/ABP/ABPR30/Complete ABP Inspection - Section B - 30</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ff632692-92c4-4fed-ac9e-73acce8081c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cf7a2f50-a74e-40e9-bf94-16f1671dc295</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

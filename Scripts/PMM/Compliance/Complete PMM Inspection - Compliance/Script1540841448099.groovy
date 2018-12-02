@@ -13,52 +13,67 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Compliance'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Compliance'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant_'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant_'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__1'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__1'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_1'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_1'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__2'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__2'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_2'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_2'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__3'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__3'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_3'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_3'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__4'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__4'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__5'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Previous crop compliant__5'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_4'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/input_Current crop compliant_r_4'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_CompliantNot Compliant'), 
+WebUI.selectOptionByValue(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_CompliantNot Compliant'), 
     'Compliant', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_Fully compliant Fully c'), 
+WebUI.selectOptionByValue(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_Fully compliant Fully c'), 
     'Fully compliant', true)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/textarea_Recommended Action -'), 
-    'Test automation')
+WebUI.setText(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/textarea_Recommended Action -'), 'Test automation')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_RoutineFollow UpNo furt'), 
+WebUI.selectOptionByValue(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/select_RoutineFollow UpNo furt'), 
     'No further visits', true)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/textarea_Reason for no further'), 
-    'Test automation')
+WebUI.setText(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/textarea_Reason for no further'), 'Test automation')
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/img_Inspector Signature_gwt-Im'))
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/img_Inspector Signature_gwt-Im'))
 
 WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Unable To Sign_Inspector'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/img_Person Seen Signature_gwt-'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/img_Person Seen Signature_gwt-'))
 
 WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Unable To Sign_Person'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Save'))
+'Release 21 - FP-184'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/input_No_radio_group_1'), 2)
+
+'Release 21 - FP-184'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/input_No_radio_group_4'), 2)
+
+'Release 21 - FP-184'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/input_No_radio_group_6'), 2)
+
+'Release 21 - FP-184'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/input_No_radio_group_8'), 2)
+
+'Release 21 - FP-184'
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/input_No_radio_group_11'), 2)
+
+WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Compliance/Page_JClient/div_Save'))
 

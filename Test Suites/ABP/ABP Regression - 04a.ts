@@ -159,6 +159,12 @@
       <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR18 Forward Trace - Completed</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a9836f5d-6312-4021-95af-083cded460d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Guidance Notes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>000ac311-46ca-40b9-bc44-85c120cc3fea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
