@@ -30,9 +30,13 @@ WebUI.click(findTestObject('Object Repository/FSM1/EMI Hygiene1/Page_JClient/img
 
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Inspector'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Recipient Signature_gwt-Im'))
 
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Recipient'))
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Name_gwt-TextB'), 'Test automation')
 

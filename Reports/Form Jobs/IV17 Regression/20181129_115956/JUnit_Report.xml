@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IV17 Regression" time="135" tests="5" failures="0" errors="0">
+   <testsuite name="IV17 Regression" tests="5" failures="0" errors="0" time="135" timestamp="2018-11-29 12:00:01" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/Form Jobs/IV17 Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Form Jobs\\IV17 Regression\\20181129_115956"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\Form Jobs\\IV17 Regression\\20181129_115956\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="6eee7e1d0d4cc293ad90a2de2659d37c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Generic/Launch Job Manager" classname="Test Cases/Generic/Launch Job Manager" status="PASSED">
+         <system-out><![CDATA[2018-11-29 12:00:02 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager: Test Cases/Generic/Launch Job Manager
+
+2018-11-29 12:00:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-11-29 12:00:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-11-29 12:00:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-11-29 12:00:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 12:00:08 - [TEST_STEP][PASSED] - navigateToUrl(JMURL): Navigate to 'https://kirona-def-11.kirona.com/jmtrain/jclient/jclient.html' successfully
+
+2018-11-29 12:00:09 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-11.kirona.com/jmtrain/jclient/jclient.html' successfully
+
+2018-11-29 12:00:09 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), "KIR1"): Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-11-29 12:00:12 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-11-29 12:00:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-11-29 12:00:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-11-29 12:00:13 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Configure App")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-11-29 12:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-11-29 12:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC"), findTestData("Pre Production/Environmental/UandP").getValue(3, 1)): Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-11-29 12:00:14 - [MESSAGE][PASSED] - Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-11-29 12:00:14 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2"), findTestData("Pre Production/Environmental/UandP").getValue(4, 1)): Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-11-29 12:00:15 - [MESSAGE][PASSED] - Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-11-29 12:00:15 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Sign In")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-11-29 12:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-11-29 12:00:15 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-11-29 12:00:30 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form Jobs/IV17/Complete IV17 Inspection" classname="Test Cases/Form Jobs/IV17/Complete IV17 Inspection" status="PASSED">
+         <system-out><![CDATA[2018-11-29 12:00:30 - [TEST_CASE][PASSED] - Test Cases/Form Jobs/IV17/Complete IV17 Inspection: Test Cases/Form Jobs/IV17/Complete IV17 Inspection
+
+2018-11-29 12:00:31 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-29 12:00:31 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-11-29 12:00:46 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-11-29 12:00:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Main Menu_GKH2EKQBMBC")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Main Menu_GKH2EKQBMBC' is clicked on
+
+2018-11-29 12:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Main Menu_GKH2EKQBMBC' is clicked on
+
+2018-11-29 12:00:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-11-29 12:00:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-29 12:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Form Jobs")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Form Jobs' is clicked on
+
+2018-11-29 12:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Form Jobs' is clicked on
+
+2018-11-29 12:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_IV17 Import checks")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_IV17 Import checks' is clicked on
+
+2018-11-29 12:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_IV17 Import checks' is clicked on
+
+2018-11-29 12:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_WITH OPERATIVE")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-11-29 12:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-11-29 12:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-11-29 12:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-11-29 12:00:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-11-29 12:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-29 12:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-11-29 12:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-11-29 12:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED' is clicked on
+
+2018-11-29 12:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED' is clicked on
+
+2018-11-29 12:00:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-11-29 12:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-29 12:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED' is clicked on
+
+2018-11-29 12:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_ARRIVED' is clicked on
+
+2018-11-29 12:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_STARTED' is clicked on
+
+2018-11-29 12:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_STARTED' is clicked on
+
+2018-11-29 12:00:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-11-29 12:01:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-29 12:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Edit attributes")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Edit attributes' is clicked on
+
+2018-11-29 12:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Edit attributes' is clicked on
+
+2018-11-29 12:01:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Live Ferrets_radio_group")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Live Ferrets_radio_group' is clicked on
+
+2018-11-29 12:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Live Ferrets_radio_group' is clicked on
+
+2018-11-29 12:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_SpeciesCommodity_gwt-Tex"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_SpeciesCommodity_gwt-Tex'
+
+2018-11-29 12:01:03 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_SpeciesCommodity_gwt-Tex'
+
+2018-11-29 12:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Region_radio_group_2")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Region_radio_group_2' is clicked on
+
+2018-11-29 12:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Region_radio_group_2' is clicked on
+
+2018-11-29 12:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Initial details")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Initial details' is clicked on
+
+2018-11-29 12:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Initial details' is clicked on
+
+2018-11-29 12:01:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Consignment ID (ITAHC CV"), "test automation"): Text 'test automation' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Consignment ID (ITAHC CV'
+
+2018-11-29 12:01:06 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Consignment ID (ITAHC CV'
+
+2018-11-29 12:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Work Schedule_gwt-TextBo"), "123"): Text '123' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Work Schedule_gwt-TextBo'
+
+2018-11-29 12:01:06 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Work Schedule_gwt-TextBo'
+
+2018-11-29 12:01:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save' is clicked on
+
+2018-11-29 12:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save' is clicked on
+
+2018-11-29 12:01:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_DIP Checks")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_DIP Checks' is clicked on
+
+2018-11-29 12:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_DIP Checks' is clicked on
+
+2018-11-29 12:01:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_IA Is the consignee awar")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_IA Is the consignee awar' is clicked on
+
+2018-11-29 12:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_IA Is the consignee awar' is clicked on
+
+2018-11-29 12:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group_")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group_' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group_' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_CV Does the ITAHC provid")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_CV Does the ITAHC provid' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_CV Does the ITAHC provid' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_CD Are the destination d")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_CD Are the destination d' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_CD Are the destination d' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__1")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__1' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__1' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_ID Does the identificati")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_ID Does the identificati' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_ID Does the identificati' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__2")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__2' is clicked on
+
+2018-11-29 12:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Not Checked_radio_group__2' is clicked on
+
+2018-11-29 12:01:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_MR If applicable do moveme"), 2): Object 'Object Repository/FSM1/Release22/Page_JClient/div_MR If applicable do moveme' is present
+
+2018-11-29 12:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Release22/Page_JClient/div_MR If applicable do moveme' is present
+
+2018-11-29 12:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_PC Have physical checks")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_PC Have physical checks' is clicked on
+
+2018-11-29 12:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_PC Have physical checks' is clicked on
+
+2018-11-29 12:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Save DIP")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save DIP' is clicked on
+
+2018-11-29 12:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save DIP' is clicked on
+
+2018-11-29 12:01:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)' is clicked on
+
+2018-11-29 12:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)' is clicked on
+
+2018-11-29 12:01:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Select all applicable lo")): Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Select all applicable lo' is clicked on
+
+2018-11-29 12:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/input_Select all applicable lo' is clicked on
+
+2018-11-29 12:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Number of animals checke"), "10"): Text '10' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Number of animals checke'
+
+2018-11-29 12:01:17 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Number of animals checke'
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/input_Number of samples taken_"), "2"): Text '2' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Number of samples taken_'
+
+2018-11-29 12:01:17 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/FSM1/Release22/Page_JClient/input_Number of samples taken_'
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)Date")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)Date' is clicked on
+
+2018-11-29 12:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Checked at Location(s)Date' is clicked on
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - formattedDate = mydate.format("MM/dd/yyy"): null
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FSM1/Release22/Page_JClient/IV17 Date of Visit"), formattedDate): Keys '11/29/2018' sent to object: 'Object Repository/FSM1/Release22/Page_JClient/IV17 Date of Visit'
+
+2018-11-29 12:01:17 - [MESSAGE][PASSED] - Keys '11/29/2018' sent to object: 'Object Repository/FSM1/Release22/Page_JClient/IV17 Date of Visit'
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Save Location")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save Location' is clicked on
+
+2018-11-29 12:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save Location' is clicked on
+
+2018-11-29 12:01:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Non-compliance further inf")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Non-compliance further inf' is clicked on
+
+2018-11-29 12:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Non-compliance further inf' is clicked on
+
+2018-11-29 12:01:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/textarea_Non-compliance furthe"), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"): Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/FSM1/Release22/Page_JClient/textarea_Non-compliance furthe'
+
+2018-11-29 12:01:30 - [MESSAGE][PASSED] - Text 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' is set on object 'Object Repository/FSM1/Release22/Page_JClient/textarea_Non-compliance furthe'
+
+2018-11-29 12:01:30 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Release22/Page_JClient/div_Save_NonCompliance")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save_NonCompliance' is clicked on
+
+2018-11-29 12:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save_NonCompliance' is clicked on
+
+2018-11-29 12:01:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Save Complete")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save Complete' is clicked on
+
+2018-11-29 12:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Save Complete' is clicked on
+
+2018-11-29 12:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_STARTED' is clicked on
+
+2018-11-29 12:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_STARTED' is clicked on
+
+2018-11-29 12:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_COMPLETED")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_COMPLETED' is clicked on
+
+2018-11-29 12:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_COMPLETED' is clicked on
+
+2018-11-29 12:01:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:01:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Release22/Page_JClient/div_Ok")): Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Ok' is clicked on
+
+2018-11-29 12:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Release22/Page_JClient/div_Ok' is clicked on
+
+2018-11-29 12:01:35 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-11-29 12:01:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-11-29 12:01:50 - [TEST_STEP][PASSED] - FormJobReference = getText(findTestObject("Object Repository/FSM1/Release22/Page_JClient/Form Job Reference")): Text of object 'Object Repository/FSM1/Release22/Page_JClient/Form Job Reference' is: 'Form Job 1 (94127)'
+
+2018-11-29 12:01:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/FSM1/Release22/Page_JClient/Form Job Reference' is: 'Form Job 1 (94127)'
+
+2018-11-29 12:01:50 - [TEST_STEP][PASSED] - FormJobReference = FormJobReference.replaceAll("Form Job 1 \(", ""): null
+
+2018-11-29 12:01:50 - [TEST_STEP][PASSED] - FormJobReference = FormJobReference.replaceAll("\)", ""): null
+
+2018-11-29 12:01:50 - [TEST_STEP][PASSED] - log.logWarning(FormJobReference): 94127
+
+2018-11-29 12:01:50 - [MESSAGE][WARNING] - 94127
+
+2018-11-29 12:01:50 - [TEST_STEP][PASSED] - temp1 = FormJobReference: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" classname="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" status="PASSED">
+         <system-out><![CDATA[2018-11-29 12:01:50 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre - Check Result: Test Cases/Generic/Launch Job Manager Control Centre - Check Result
+
+2018-11-29 12:01:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-11-29 12:01:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-29 12:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-11-29 12:01:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 12:01:54 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-11-29 12:01:56 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-11-29 12:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-11-29 12:01:58 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-11-29 12:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-11-29 12:01:58 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-11-29 12:01:58 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-11-29 12:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-11-29 12:01:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-11-29 12:02:03 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form Jobs/IV17/Control Centre - Check Results - IV17" classname="Test Cases/Form Jobs/IV17/Control Centre - Check Results - IV17" status="PASSED">
+         <system-out><![CDATA[2018-11-29 12:02:03 - [TEST_CASE][PASSED] - Test Cases/Form Jobs/IV17/Control Centre - Check Results - IV17: Test Cases/Form Jobs/IV17/Control Centre - Check Results - IV17
+
+2018-11-29 12:02:04 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-29 12:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), temp1): Text '94127' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-11-29 12:02:04 - [MESSAGE][PASSED] - Text '94127' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-11-29 12:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-11-29 12:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-11-29 12:02:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED"), 60): Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-11-29 12:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-11-29 12:02:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-11-29 12:02:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-29 12:02:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_IV17"), 5): Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_IV17' is present
+
+2018-11-29 12:02:11 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_IV17' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist" classname="Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist" status="PASSED">
+         <system-out><![CDATA[2018-11-29 12:02:11 - [TEST_CASE][PASSED] - Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist
+
+2018-11-29 12:02:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-11-29 12:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 12:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-11-29 12:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-11-29 12:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-11-29 12:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-11-29 12:02:15 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found."), 5): Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' is not present after '5' second(s)
+
+2018-11-29 12:02:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' is not present after '5' second(s)
+
+2018-11-29 12:02:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-11-29 12:02:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 12:00:01 - [TEST_SUITE][PASSED] - IV17 Regression: Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

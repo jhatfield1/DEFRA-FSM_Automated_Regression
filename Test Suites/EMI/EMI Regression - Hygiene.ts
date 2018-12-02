@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>R23 : FP-593, FP-796</description>
-   <name>EMI Hygiene Regression</name>
+   <name>EMI Regression - Hygiene</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-29T16:50:36</lastRun>
+   <lastRun>2018-11-29T20:21:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
