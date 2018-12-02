@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Sample Details'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Did you take samples at'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Are these routine sample'))
