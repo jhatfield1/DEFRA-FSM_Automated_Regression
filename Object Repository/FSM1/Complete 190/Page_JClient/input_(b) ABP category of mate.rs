@@ -6,8 +6,12 @@
    <elementGuidId>1d9963ac-323a-4aa0-b64f-5f3cbf8788a9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @name = 'radio_group_67' and @id = 'gwt-uid-252']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(b) ABP category of materials'])[1]/following::input[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(b) ABP category of materials?'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -65,7 +69,7 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(b) ABP category of materials'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(b) ABP category of materials?'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

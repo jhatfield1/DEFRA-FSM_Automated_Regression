@@ -40,3 +40,6 @@ WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Re
 WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_ABPR02A'), 
     5)
 
+WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_ABPR12A - Site'), 
+    5)
+

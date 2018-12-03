@@ -13,21 +13,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('FSM1/Release 21/Notes/Page_JClient/div_Data Capture'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/div_Data Capture'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('FSM1/Release 21/Notes/Page_JClient/div_Notes'))
+WebUI.click(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/div_Notes'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Release 21/Notes/Page_JClient/td_0Fully compliant issues rap'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_0Fully compliant issues rap'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Release 21/Notes/Page_JClient/td_0No product entering livest'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_0No product entering livest'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Release 21/Notes/Page_JClient/td_0Not required or complete a'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_0Not required or complete a'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Release 21/Notes/Page_JClient/td_0Very low throughput1 tonne'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_0Very low throughput1 tonne'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Release 21/Notes/Page_JClient/td_3Cat 3 material  catering w'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_3Cat 3 material  catering w'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_What is the potential risk'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_0No product entering livest'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_5Potential risk of product'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Release 21/Page_JClient/td_15Potential risk of the pro'), 
+    0)
 
