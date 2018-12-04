@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ABP Regression - 02a - Reject - No Longer Operating,Chrome 70.0.3538.110,,2018-12-04 16:32:54,2018-12-04 16:38:18,5m - 24.193s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre,Chrome 70.0.3538.110,,2018-12-04 16:32:55,2018-12-04 16:33:10,15.664s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 16:32:56,2018-12-04 16:33:01,5.410s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-04 16:33:01,2018-12-04 16:33:03,1.672s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 70.0.3538.110,,2018-12-04 16:33:03,2018-12-04 16:33:05,1.850s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 70.0.3538.110,,2018-12-04 16:33:05,2018-12-04 16:33:05,0.383s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 70.0.3538.110,,2018-12-04 16:33:05,2018-12-04 16:33:05,0.214s,PASSED
+delay(5),Chrome 70.0.3538.110,,2018-12-04 16:33:05,2018-12-04 16:33:10,5.071s,PASSED
+,,,,,,
+Test Cases/ABP/Generic/Create ABP Inspection - Manual Assignment,Chrome 70.0.3538.110,,2018-12-04 16:33:10,2018-12-04 16:35:24,2m - 13.415s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-04 16:33:11,2018-12-04 16:33:11,0.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Create""))",Chrome 70.0.3538.110,,2018-12-04 16:33:11,2018-12-04 16:33:12,0.172s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_v-filterselect-button""))",Chrome 70.0.3538.110,,2018-12-04 16:33:12,2018-12-04 16:33:13,1.709s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_gwt-uid-8""), ABPInspection)",Chrome 70.0.3538.110,,2018-12-04 16:33:13,2018-12-04 16:33:14,1.029s,PASSED
+"ABPInspectionTypeJ = modifyObjectProperty(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_ABPR01A - Composting and""), ""text"", ""equals"", ABPInspectionType, true)",Chrome 70.0.3538.110,,2018-12-04 16:33:14,2018-12-04 16:33:14,0.079s,PASSED
+"click(ABPInspectionTypeJ, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-04 16:33:14,2018-12-04 16:33:15,0.436s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_v-filterselect-button_1""))",Chrome 70.0.3538.110,,2018-12-04 16:33:15,2018-12-04 16:33:17,2.447s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_24 Hours""))",Chrome 70.0.3538.110,,2018-12-04 16:33:17,2018-12-04 16:33:18,0.415s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Region_v-filterselect-butt""))",Chrome 70.0.3538.110,,2018-12-04 16:33:18,2018-12-04 16:33:18,0.402s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_West""))",Chrome 70.0.3538.110,,2018-12-04 16:33:18,2018-12-04 16:33:19,0.505s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Plant Type_v-filterselect-""))",Chrome 70.0.3538.110,,2018-12-04 16:33:19,2018-12-04 16:33:19,0.361s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_SECTION I Intermediate Acti""))",Chrome 70.0.3538.110,,2018-12-04 16:33:19,2018-12-04 16:33:20,0.636s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Inspection Type_v-filterse""))",Chrome 70.0.3538.110,,2018-12-04 16:33:20,2018-12-04 16:33:20,0.385s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_Routine""))",Chrome 70.0.3538.110,,2018-12-04 16:33:20,2018-12-04 16:33:20,0.381s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Inspector Grade Required_v""))",Chrome 70.0.3538.110,,2018-12-04 16:33:20,2018-12-04 16:33:21,0.327s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_Tech""))",Chrome 70.0.3538.110,,2018-12-04 16:33:21,2018-12-04 16:33:21,0.473s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Sequence within Inspection""))",Chrome 70.0.3538.110,,2018-12-04 16:33:21,2018-12-04 16:33:22,0.368s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_2 - Tech""))",Chrome 70.0.3538.110,,2018-12-04 16:33:22,2018-12-04 16:33:22,0.461s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Customer ID_gwt-uid-40""), RandomStringUtils.randomNumeric(5))",Chrome 70.0.3538.110,,2018-12-04 16:33:22,2018-12-04 16:33:22,0.482s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Unit ID_gwt-uid-42""), RandomStringUtils.randomNumeric(5))",Chrome 70.0.3538.110,,2018-12-04 16:33:22,2018-12-04 16:33:23,0.387s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Customer Name_gwt-uid-44""), ""Test Automation"")",Chrome 70.0.3538.110,,2018-12-04 16:33:23,2018-12-04 16:33:23,0.607s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_""))",Chrome 70.0.3538.110,,2018-12-04 16:33:23,2018-12-04 16:33:24,0.352s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Postcode Search""))",Chrome 70.0.3538.110,,2018-12-04 16:33:24,2018-12-04 16:33:26,1.787s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/PostcodeSearch""), findTestData(""Pre Production/ABP/ABP Inspection Data 01a"").getValue(2, 1))",Chrome 70.0.3538.110,,2018-12-04 16:33:26,2018-12-04 16:33:26,0.539s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton""))",Chrome 70.0.3538.110,,2018-12-04 16:33:26,2018-12-04 16:33:27,0.738s,PASSED
+"FullAddress = modifyObjectProperty(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address""), ""text"", ""equals"", findTestData(""Pre Production/ABP/ABP Inspection Data 01a"").getValue(3, 1), true)",Chrome 70.0.3538.110,,2018-12-04 16:33:27,2018-12-04 16:33:27,0.019s,PASSED
+"click(FullAddress, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-04 16:33:27,2018-12-04 16:33:28,1.405s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item""))",Chrome 70.0.3538.110,,2018-12-04 16:33:28,2018-12-04 16:33:29,0.554s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 16:33:29,2018-12-04 16:33:31,2.002s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create""))",Chrome 70.0.3538.110,,2018-12-04 16:33:31,2018-12-04 16:33:32,0.862s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_APPROVED""), 120, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-04 16:33:32,2018-12-04 16:33:43,11.722s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule""))",Chrome 70.0.3538.110,,2018-12-04 16:33:43,2018-12-04 16:33:44,0.414s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/label_Manual Ownership""))",Chrome 70.0.3538.110,,2018-12-04 16:33:44,2018-12-04 16:33:48,4.286s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311 (3)""), ""test"")",Chrome 70.0.3538.110,,2018-12-04 16:33:48,2018-12-04 16:33:50,1.495s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector""))",Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:50,0.520s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311""), ""Test Inspector"")",Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:50,0.003s,NOT_RUN
+mydate = new java.util.Date(),Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:50,0.012s,PASSED
+tomorrow = mydate.next(),Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:50,0.002s,PASSED
+"formattedDate = tomorrow.format(""dd-MMM-yyyy"")",Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:50,0.007s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)""), formattedDate)",Chrome 70.0.3538.110,,2018-12-04 16:33:50,2018-12-04 16:33:52,1.363s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)""), formattedDate)",Chrome 70.0.3538.110,,2018-12-04 16:33:52,2018-12-04 16:33:53,0.993s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate""))",Chrome 70.0.3538.110,,2018-12-04 16:33:53,2018-12-04 16:33:53,0.547s,PASSED
+"InspectionID = getText(findTestObject(""Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/InspectionID""))",Chrome 70.0.3538.110,,2018-12-04 16:33:53,2018-12-04 16:33:54,0.661s,PASSED
+"InspectionID = InspectionID.replaceAll(""Viewing Job "", """")",Chrome 70.0.3538.110,,2018-12-04 16:33:54,2018-12-04 16:33:54,0.005s,PASSED
+log.logWarning(InspectionID),Chrome 70.0.3538.110,,2018-12-04 16:33:54,2018-12-04 16:33:54,0.002s,PASSED
+temp = InspectionID,Chrome 70.0.3538.110,,2018-12-04 16:33:54,2018-12-04 16:33:54,0.001s,PASSED
+delay(90),Chrome 70.0.3538.110,,2018-12-04 16:33:54,2018-12-04 16:35:24,1m - 30.004s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager,Chrome 70.0.3538.110,,2018-12-04 16:35:24,2018-12-04 16:35:48,24.241s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 16:35:24,2018-12-04 16:35:28,3.578s,PASSED
+navigateToUrl(JMURL),Chrome 70.0.3538.110,,2018-12-04 16:35:28,2018-12-04 16:35:29,0.798s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB""), ""KIR1"")",Chrome 70.0.3538.110,,2018-12-04 16:35:29,2018-12-04 16:35:31,2.518s,PASSED
+"sendKeys(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB""), Keys.chord(ENTER))",Chrome 70.0.3538.110,,2018-12-04 16:35:31,2018-12-04 16:35:31,0.088s,PASSED
+"click(findTestObject(""FSM1/Launch Application/Page_JClient/div_Configure App""))",Chrome 70.0.3538.110,,2018-12-04 16:35:31,2018-12-04 16:35:31,0.168s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC""), findTestData(""Pre Production/Environmental/UandP"").getValue(3, 1))",Chrome 70.0.3538.110,,2018-12-04 16:35:31,2018-12-04 16:35:33,1.135s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2""), findTestData(""Pre Production/Environmental/UandP"").getValue(4, 1))",Chrome 70.0.3538.110,,2018-12-04 16:35:33,2018-12-04 16:35:33,0.257s,PASSED
+"click(findTestObject(""FSM1/Launch Application/Page_JClient/div_Sign In""))",Chrome 70.0.3538.110,,2018-12-04 16:35:33,2018-12-04 16:35:33,0.166s,PASSED
+delay(15),Chrome 70.0.3538.110,,2018-12-04 16:35:33,2018-12-04 16:35:48,15.001s,PASSED
+,,,,,,
+Test Cases/Generic/Select Inspection For Rejection - No Longer Operating,Chrome 70.0.3538.110,,2018-12-04 16:35:48,2018-12-04 16:37:52,2m - 3.650s,PASSED
+delay(30),Chrome 70.0.3538.110,,2018-12-04 16:35:49,2018-12-04 16:36:19,30.004s,PASSED
+"waitForElementClickable(findTestObject(""FSM1/Select Inspection/Landing/Refresh""), 250)",Chrome 70.0.3538.110,,2018-12-04 16:36:19,2018-12-04 16:36:19,0.186s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Landing/Refresh""))",Chrome 70.0.3538.110,,2018-12-04 16:36:19,2018-12-04 16:36:19,0.139s,PASSED
+"waitForElementClickable(findTestObject(""FSM1/Select Inspection/Landing/Refresh""), 250)",Chrome 70.0.3538.110,,2018-12-04 16:36:19,2018-12-04 16:36:20,1.106s,PASSED
+delay(180),Chrome 70.0.3538.110,,2018-12-04 16:36:20,2018-12-04 16:36:20,0.001s,NOT_RUN
+"InspectionRef = modifyObjectProperty(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/div_35098""), ""text"", ""equals"", temp, true, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-04 16:36:20,2018-12-04 16:36:20,0.005s,PASSED
+delay(20),Chrome 70.0.3538.110,,2018-12-04 16:36:20,2018-12-04 16:36:40,20.003s,PASSED
+"if (verifyElementPresent(InspectionRef, 30, OPTIONAL))",Chrome 70.0.3538.110,,2018-12-04 16:36:40,2018-12-04 16:37:12,31.880s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-04 16:37:12,2018-12-04 16:37:15,3.254s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE""))",Chrome 70.0.3538.110,,2018-12-04 16:37:15,2018-12-04 16:37:16,0.839s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 16:37:16,2018-12-04 16:37:18,2.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/div_REJECTED""))",Chrome 70.0.3538.110,,2018-12-04 16:37:18,2018-12-04 16:37:18,0.200s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 16:37:18,2018-12-04 16:37:20,2.003s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/select_Availability ChangedBio""), findTestData(""Pre Production/ABP/Rejection - No Longer Operating"").getValue(1, 1), true)",Chrome 70.0.3538.110,,2018-12-04 16:37:20,2018-12-04 16:37:21,0.539s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/select_Availability ChangedBio""), ""BIOSECURITY"", true)",Chrome 70.0.3538.110,,2018-12-04 16:37:21,2018-12-04 16:37:21,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/div_Save""))",Chrome 70.0.3538.110,,2018-12-04 16:37:21,2018-12-04 16:37:21,0.140s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Reject Inspection/Page_JClient/div_Ok""))",Chrome 70.0.3538.110,,2018-12-04 16:37:21,2018-12-04 16:37:22,0.769s,PASSED
+delay(30),Chrome 70.0.3538.110,,2018-12-04 16:37:22,2018-12-04 16:37:52,30.006s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre - Check Result,Chrome 70.0.3538.110,,2018-12-04 16:37:52,2018-12-04 16:38:04,12.611s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 16:37:52,2018-12-04 16:37:56,3.566s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-04 16:37:56,2018-12-04 16:37:57,1.416s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 70.0.3538.110,,2018-12-04 16:37:57,2018-12-04 16:37:59,1.604s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 70.0.3538.110,,2018-12-04 16:37:59,2018-12-04 16:37:59,0.314s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 70.0.3538.110,,2018-12-04 16:37:59,2018-12-04 16:37:59,0.163s,PASSED
+delay(5),Chrome 70.0.3538.110,,2018-12-04 16:37:59,2018-12-04 16:38:04,5.000s,PASSED
+,,,,,,
+Test Cases/ABP/Rejection/Control Centre - Check Results - Rejection,Chrome 70.0.3538.110,,2018-12-04 16:38:04,2018-12-04 16:38:13,8.887s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-04 16:38:05,2018-12-04 16:38:05,0.001s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi""), temp)",Chrome 70.0.3538.110,,2018-12-04 16:38:05,2018-12-04 16:38:05,0.368s,PASSED
+"click(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_""))",Chrome 70.0.3538.110,,2018-12-04 16:38:05,2018-12-04 16:38:06,0.669s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED""), 60)",Chrome 70.0.3538.110,,2018-12-04 16:38:06,2018-12-04 16:38:10,4.313s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-04 16:38:10,2018-12-04 16:38:13,3.002s,PASSED
+,,,,,,
+Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist,Chrome 70.0.3538.110,,2018-12-04 16:38:13,2018-12-04 16:38:18,5.014s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 16:38:14,2018-12-04 16:38:16,2.004s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_""))",Chrome 70.0.3538.110,,2018-12-04 16:38:16,2018-12-04 16:38:16,0.439s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs""))",Chrome 70.0.3538.110,,2018-12-04 16:38:16,2018-12-04 16:38:17,1.153s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.""), 5)",Chrome 70.0.3538.110,,2018-12-04 16:38:17,2018-12-04 16:38:17,0.115s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 16:38:17,2018-12-04 16:38:18,0.863s,PASSED

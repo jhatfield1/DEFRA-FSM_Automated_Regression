@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PMM Regression - Registration" time="505" tests="9" failures="0" errors="0">
+   <testsuite name="PMM Regression - Registration" tests="9" failures="0" errors="0" time="505" timestamp="2018-12-04 09:30:22" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/PMM/PMM Regression - Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\PMM\\PMM Regression - Registration\\20181204_092207"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\PMM\\PMM Regression - Registration\\20181204_092207\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\PMM\\PMM Regression - Registration\\20181204_092207\\1543916231180.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="61b102c31f570147874aac74380f94ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre" classname="Test Cases/Generic/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:30:22 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre: Test Cases/Generic/Launch Job Manager Control Centre
+
+2018-12-04 09:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-04 09:30:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-04 09:30:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-04 09:30:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-04 09:30:28 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-12-04 09:30:31 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-12-04 09:30:31 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-04 09:30:32 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-04 09:30:32 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-04 09:30:33 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-04 09:30:33 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-04 09:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-04 09:30:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-04 09:30:38 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PMM/Registration/Create PMM Inspection - Registration" classname="Test Cases/PMM/Registration/Create PMM Inspection - Registration" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:30:38 - [TEST_CASE][PASSED] - Test Cases/PMM/Registration/Create PMM Inspection - Registration: Test Cases/PMM/Registration/Create PMM Inspection - Registration
+
+2018-12-04 09:30:39 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-04 09:30:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:30:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:30:41 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/div_Create")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-04 09:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-04 09:30:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:30:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Type_gwt-uid-8"), "pmr03"): Text 'pmr03' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Type_gwt-uid-8'
+
+2018-12-04 09:30:44 - [MESSAGE][PASSED] - Text 'pmr03' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Type_gwt-uid-8'
+
+2018-12-04 09:30:44 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03 - Producer Registration")): Object: 'Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03 - Producer Registration' is clicked on
+
+2018-12-04 09:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03 - Producer Registration' is clicked on
+
+2018-12-04 09:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_SLA_v-filterselect-button")): Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_SLA_v-filterselect-button' is clicked on
+
+2018-12-04 09:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_SLA_v-filterselect-button' is clicked on
+
+2018-12-04 09:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_24 Hours")): Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-04 09:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-04 09:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_Region_v-filterselect-butt")): Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-04 09:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-04 09:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_West")): Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-04 09:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/e/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-04 09:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Production Type_v-filterse")): Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Production Type_v-filterse' is clicked on
+
+2018-12-04 09:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Production Type_v-filterse' is clicked on
+
+2018-12-04 09:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Extensive Indoor (Barn Re")): Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Extensive Indoor (Barn Re' is clicked on
+
+2018-12-04 09:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Extensive Indoor (Barn Re' is clicked on
+
+2018-12-04 09:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Species_v-filterselect-but")): Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Species_v-filterselect-but' is clicked on
+
+2018-12-04 09:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/div_Species_v-filterselect-but' is clicked on
+
+2018-12-04 09:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Chicken")): Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Chicken' is clicked on
+
+2018-12-04 09:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/span_Chicken' is clicked on
+
+2018-12-04 09:30:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper ID_gwt-uid-34"), RandomStringUtils.randomNumeric(5)): Text '37081' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper ID_gwt-uid-34'
+
+2018-12-04 09:30:50 - [MESSAGE][PASSED] - Text '37081' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper ID_gwt-uid-34'
+
+2018-12-04 09:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Name_gwt-uid-36"), RandomStringUtils.randomNumeric(5)): Text '92740' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Name_gwt-uid-36'
+
+2018-12-04 09:30:50 - [MESSAGE][PASSED] - Text '92740' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Name_gwt-uid-36'
+
+2018-12-04 09:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Contact Name_gwt- (2)"), RandomStringUtils.randomNumeric(5)): Text '72498' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Contact Name_gwt- (2)'
+
+2018-12-04 09:30:51 - [MESSAGE][PASSED] - Text '72498' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Keeper Contact Name_gwt- (2)'
+
+2018-12-04 09:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Location ID_gwt-uid-44 (1)"), RandomStringUtils.randomNumeric(5)): Text '90055' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Location ID_gwt-uid-44 (1)'
+
+2018-12-04 09:30:51 - [MESSAGE][PASSED] - Text '90055' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/input_Location ID_gwt-uid-44 (1)'
+
+2018-12-04 09:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer ID_gwt-uid-48 (2)"), RandomStringUtils.randomNumeric(5)): Text '58755' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer ID_gwt-uid-48 (2)'
+
+2018-12-04 09:30:51 - [MESSAGE][PASSED] - Text '58755' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer ID_gwt-uid-48 (2)'
+
+2018-12-04 09:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Name_gwt-uid-50"), RandomStringUtils.randomNumeric(5)): Text '25486' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Name_gwt-uid-50'
+
+2018-12-04 09:30:52 - [MESSAGE][PASSED] - Text '25486' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Name_gwt-uid-50'
+
+2018-12-04 09:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Contact Name_gw (2)"), RandomStringUtils.randomNumeric(5)): Text '00764' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Contact Name_gw (2)'
+
+2018-12-04 09:30:52 - [MESSAGE][PASSED] - Text '00764' is set on object 'Object Repository/FSM1/Complete ABP Inspection/Create PMM Registration/Page_JM Control Centre/input_Customer Contact Name_gw (2)'
+
+2018-12-04 09:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPH"), RandomStringUtils.randomNumeric(5)): Text '74393' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPH'
+
+2018-12-04 09:30:53 - [MESSAGE][PASSED] - Text '74393' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPH'
+
+2018-12-04 09:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPHH"), RandomStringUtils.randomNumeric(5)): Text '86873' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPHH'
+
+2018-12-04 09:30:53 - [MESSAGE][PASSED] - Text '86873' is set on object 'Object Repository/FSM1/Create PMM Inspection/d/Page_JM Control Centre/CPHH'
+
+2018-12-04 09:30:53 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-12-04 09:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-12-04 09:30:53 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-12-04 09:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-12-04 09:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/PreProd/Page_JM Control Centre/PostcodeSearch"), findTestData("Pre Production/PMM/PMM Inspection Data").getValue(1, 1)): Text 'WR5 2NQ' is set on object 'Object Repository/FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'
+
+2018-12-04 09:30:56 - [MESSAGE][PASSED] - Text 'WR5 2NQ' is set on object 'Object Repository/FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'
+
+2018-12-04 09:30:56 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-12-04 09:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton' is clicked on
+
+2018-12-04 09:30:56 - [TEST_STEP][PASSED] - FullAddress = modifyObjectProperty(findTestObject("FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address"), "text", "equals", findTestData("Pre Production/PMM/PMM Inspection Data").getValue(2, 1), true): Modify property of object successfully
+
+2018-12-04 09:30:56 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-04 09:30:56 - [TEST_STEP][PASSED] - click(FullAddress, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' is clicked on
+
+2018-12-04 09:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' is clicked on
+
+2018-12-04 09:30:57 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-04 09:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-04 09:30:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:31:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:31:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1"), "test"): Text 'test' is set on object 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-04 09:31:00 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-04 09:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Test Inspector")): Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-04 09:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-04 09:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/div_Auto Schedulable_v-filters")): Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/div_Auto Schedulable_v-filters' is clicked on
+
+2018-12-04 09:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/div_Auto Schedulable_v-filters' is clicked on
+
+2018-12-04 09:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1"), "Test Inspector"): Text 'Test Inspector' is set on object 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-04 09:31:02 - [MESSAGE][PASSED] - Text 'Test Inspector' is set on object 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-04 09:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Yes")): Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Yes' is clicked on
+
+2018-12-04 09:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/f/Page_JM Control Centre/span_Yes' is clicked on
+
+2018-12-04 09:31:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:31:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:31:04 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-04 09:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-04 09:31:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC"), 120, STOP_ON_FAILURE): Object 'Object Repository/FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC' is present
+
+2018-12-04 09:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC' is present
+
+2018-12-04 09:32:03 - [TEST_STEP][PASSED] - InspectionID = getText(findTestObject("FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID")): Text of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID' is: 'Viewing Job 94242'
+
+2018-12-04 09:32:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID' is: 'Viewing Job 94242'
+
+2018-12-04 09:32:03 - [TEST_STEP][PASSED] - InspectionID = InspectionID.replaceAll("Viewing Job ", ""): null
+
+2018-12-04 09:32:03 - [TEST_STEP][PASSED] - log.logWarning(InspectionID): 94242
+
+2018-12-04 09:32:03 - [MESSAGE][WARNING] - 94242
+
+2018-12-04 09:32:03 - [TEST_STEP][PASSED] - temp = InspectionID: null
+
+2018-12-04 09:32:03 - [TEST_STEP][PASSED] - delay(200): Delayed 200 second(s)
+
+2018-12-04 09:35:23 - [MESSAGE][PASSED] - Delayed 200 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager" classname="Test Cases/Generic/Launch Job Manager" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:35:23 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager: Test Cases/Generic/Launch Job Manager
+
+2018-12-04 09:35:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-04 09:35:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-04 09:35:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-04 09:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-04 09:35:27 - [TEST_STEP][PASSED] - navigateToUrl(JMURL): Navigate to 'https://kirona-def-11.kirona.com/jmtrain/jclient/jclient.html' successfully
+
+2018-12-04 09:35:28 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-11.kirona.com/jmtrain/jclient/jclient.html' successfully
+
+2018-12-04 09:35:28 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), "KIR1"): Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-04 09:35:31 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-04 09:35:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-04 09:35:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-04 09:35:31 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Configure App")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-04 09:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-04 09:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC"), findTestData("Pre Production/Environmental/UandP").getValue(3, 1)): Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-04 09:35:32 - [MESSAGE][PASSED] - Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-04 09:35:32 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2"), findTestData("Pre Production/Environmental/UandP").getValue(4, 1)): Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-04 09:35:33 - [MESSAGE][PASSED] - Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-04 09:35:33 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Sign In")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-04 09:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-04 09:35:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-04 09:35:48 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Select Inspection" classname="Test Cases/Generic/Select Inspection" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:35:48 - [TEST_CASE][PASSED] - Test Cases/Generic/Select Inspection: Test Cases/Generic/Select Inspection
+
+2018-12-04 09:35:48 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2018-12-04 09:36:18 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-12-04 09:36:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FSM1/Select Inspection/Landing/Refresh"), 250): Object 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clickable
+
+2018-12-04 09:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clickable
+
+2018-12-04 09:36:19 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Landing/Refresh")): Object: 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clicked on
+
+2018-12-04 09:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clicked on
+
+2018-12-04 09:36:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FSM1/Select Inspection/Landing/Refresh"), 250): Object 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clickable
+
+2018-12-04 09:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Select Inspection/Landing/Refresh' is clickable
+
+2018-12-04 09:36:20 - [TEST_STEP][NOT_RUN] - delay(180): NOT_RUN: delay(180)
+
+2018-12-04 09:36:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(180)
+
+2018-12-04 09:36:20 - [TEST_STEP][PASSED] - InspectionRef = modifyObjectProperty(findTestObject("FSM1/Select Inspection/Landing/Page_JClient/div_35098"), "text", "equals", temp, true, STOP_ON_FAILURE): Modify property of object successfully
+
+2018-12-04 09:36:20 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-04 09:36:20 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2018-12-04 09:36:40 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-12-04 09:36:40 - [TEST_STEP][PASSED] - if (verifyElementPresent(InspectionRef, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' located by 'By.xpath: //div[(text() = '94242' or . = '94242')]' not found
+
+2018-12-04 09:37:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = '94242' or . = '94242')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-04 09:37:12 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' located by 'By.xpath: //div[(text() = '94242' or . = '94242')]' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_NEW\\Reports\\PMM\\PMM Regression - Registration\\20181204_092207\\1543916231180.png]]
+
+2018-12-04 09:37:12 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-04 09:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days")): Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days' is clicked on
+
+2018-12-04 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days' is clicked on
+
+2018-12-04 09:37:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-04 09:37:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 09:37:15 - [TEST_STEP][PASSED] - click(InspectionRef): Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-04 09:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-04 09:37:15 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-04 09:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-04 09:37:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:18 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-04 09:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-04 09:37:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:20 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-04 09:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-04 09:37:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:22 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-04 09:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-04 09:37:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:24 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-04 09:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-04 09:37:24 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2018-12-04 09:37:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-12-04 09:37:28 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-04 09:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-04 09:37:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PMM/Registration/Complete PMM Inspection - Registration - Inspection Details" classname="Test Cases/PMM/Registration/Complete PMM Inspection - Registration - Inspection Details" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:37:31 - [TEST_CASE][PASSED] - Test Cases/PMM/Registration/Complete PMM Inspection - Registration - Inspection Details: Test Cases/PMM/Registration/Complete PMM Inspection - Registration - Inspection Details
+
+2018-12-04 09:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Inspection Details")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Inspection Details' is clicked on
+
+2018-12-04 09:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Inspection Details' is clicked on
+
+2018-12-04 09:37:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_2")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_2' is clicked on
+
+2018-12-04 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_2' is clicked on
+
+2018-12-04 09:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_3")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_3' is clicked on
+
+2018-12-04 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/input_Yes_radio_group_3' is clicked on
+
+2018-12-04 09:37:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_RegisterRemedial action"), "Register", true): All options with value 'Register' are selected in object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_RegisterRemedial action'  using regular expression
+
+2018-12-04 09:37:34 - [MESSAGE][PASSED] - All options with value 'Register' are selected in object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_RegisterRemedial action'  using regular expression
+
+2018-12-04 09:37:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/textarea_Recommended Action -"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/textarea_Recommended Action -'
+
+2018-12-04 09:37:35 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/textarea_Recommended Action -'
+
+2018-12-04 09:37:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_Routine"), "Routine", true): All options with value 'Routine' are selected in object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_Routine'  using regular expression
+
+2018-12-04 09:37:35 - [MESSAGE][PASSED] - All options with value 'Routine' are selected in object 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/select_Routine'  using regular expression
+
+2018-12-04 09:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Inspector Signature_gwt-Im")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Inspector Signature_gwt-Im' is clicked on
+
+2018-12-04 09:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Inspector Signature_gwt-Im' is clicked on
+
+2018-12-04 09:37:35 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Complete PMM Inspection/Registration/Page_JClient/Inspector_Unable To Sign")): Object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/Inspector_Unable To Sign' is clicked on
+
+2018-12-04 09:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/Inspector_Unable To Sign' is clicked on
+
+2018-12-04 09:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Person Seen Signature_gwt-")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Person Seen Signature_gwt-' is clicked on
+
+2018-12-04 09:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Person Seen Signature_gwt-' is clicked on
+
+2018-12-04 09:37:38 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Complete PMM Inspection/Registration/Page_JClient/Person_Unable To Sign")): Object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/Person_Unable To Sign' is clicked on
+
+2018-12-04 09:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/Person_Unable To Sign' is clicked on
+
+2018-12-04 09:37:39 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2018-12-04 09:37:39 - [TEST_STEP][PASSED] - tomorrow = mydate.next(): null
+
+2018-12-04 09:37:39 - [TEST_STEP][PASSED] - formattedDate = tomorrow.format("MM/dd/yyyy"): null
+
+2018-12-04 09:37:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/Complete PMM Inspection/Registration/Page_JClient/input_Next inspection due_GKH2"), formattedDate): Keys '12/05/2018' sent to object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/input_Next inspection due_GKH2'
+
+2018-12-04 09:37:41 - [MESSAGE][PASSED] - Keys '12/05/2018' sent to object: 'Object Repository/FSM1/Complete PMM Inspection/Registration/Page_JClient/input_Next inspection due_GKH2'
+
+2018-12-04 09:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Save' is clicked on
+
+2018-12-04 09:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PMM/Compliance/Complete PMM Inspection - Complete" classname="Test Cases/PMM/Compliance/Complete PMM Inspection - Complete" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:37:41 - [TEST_CASE][PASSED] - Test Cases/PMM/Compliance/Complete PMM Inspection - Complete: Test Cases/PMM/Compliance/Complete PMM Inspection - Complete
+
+2018-12-04 09:37:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_STARTED (locked)")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_STARTED (locked)' is clicked on
+
+2018-12-04 09:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_STARTED (locked)' is clicked on
+
+2018-12-04 09:37:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_COMPLETED")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-04 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-04 09:37:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/select_Yes"), "COMPLETED", true): All options with value 'COMPLETED' are selected in object 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/select_Yes'  using regular expression
+
+2018-12-04 09:37:47 - [MESSAGE][PASSED] - All options with value 'COMPLETED' are selected in object 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/select_Yes'  using regular expression
+
+2018-12-04 09:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_Save' is clicked on
+
+2018-12-04 09:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_Save' is clicked on
+
+2018-12-04 09:37:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:37:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:37:49 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Complete PMM Inspection/Page_JClient/div_Ok")): Object: 'Object Repository/FSM1/Complete PMM Inspection/Page_JClient/div_Ok' is clicked on
+
+2018-12-04 09:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete PMM Inspection/Page_JClient/div_Ok' is clicked on
+
+2018-12-04 09:37:49 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2018-12-04 09:38:19 - [MESSAGE][PASSED] - Delayed 30 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" classname="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:38:19 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre - Check Result: Test Cases/Generic/Launch Job Manager Control Centre - Check Result
+
+2018-12-04 09:38:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-04 09:38:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-04 09:38:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-04 09:38:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-04 09:38:23 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-12-04 09:38:25 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-11.kirona.com/jmtrain' successfully
+
+2018-12-04 09:38:25 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-04 09:38:26 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-04 09:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-04 09:38:27 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-04 09:38:27 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-04 09:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-04 09:38:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-04 09:38:32 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PMM/Registration/Control Centre - Check Results - PMM Registration" classname="Test Cases/PMM/Registration/Control Centre - Check Results - PMM Registration" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:38:32 - [TEST_CASE][PASSED] - Test Cases/PMM/Registration/Control Centre - Check Results - PMM Registration: Test Cases/PMM/Registration/Control Centre - Check Results - PMM Registration
+
+2018-12-04 09:38:32 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-04 09:38:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), temp): Text '94242' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-04 09:38:33 - [MESSAGE][PASSED] - Text '94242' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-04 09:38:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), "88292"): NOT_RUN: setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), "88292")
+
+2018-12-04 09:38:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), "88292")
+
+2018-12-04 09:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-04 09:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-04 09:38:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED"), 60): Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-12-04 09:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-12-04 09:38:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-04 09:38:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 09:38:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FSM1/Complete PMM Inspection/PMM Check Results/Page_JM Control Centre/div_Attachments_PMR03 - Registration"), 5): Object 'Object Repository/FSM1/Complete PMM Inspection/PMM Check Results/Page_JM Control Centre/div_Attachments_PMR03 - Registration' is present
+
+2018-12-04 09:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Complete PMM Inspection/PMM Check Results/Page_JM Control Centre/div_Attachments_PMR03 - Registration' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" classname="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" status="PASSED">
+         <system-out><![CDATA[2018-12-04 09:38:39 - [TEST_CASE][PASSED] - Test Cases/ABP/Generic/Check Subsequent Inspection Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Exist
+
+2018-12-04 09:38:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-04 09:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-04 09:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-04 09:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-04 09:38:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-04 09:38:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-04 09:38:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")): Object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible
+
+2018-12-04 09:38:46 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible
+
+2018-12-04 09:38:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-04 09:38:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-04 09:30:22 - [TEST_SUITE][PASSED] - PMM Regression - Registration: Test Cases/ABP/Generic/Check Subsequent Inspection Exist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

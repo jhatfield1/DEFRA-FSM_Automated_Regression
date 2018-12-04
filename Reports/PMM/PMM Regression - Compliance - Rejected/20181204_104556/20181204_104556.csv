@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PMM Regression - Compliance - Rejected,Chrome 70.0.3538.110,R21 - FP-184,2018-12-04 11:28:54,2018-12-04 11:36:13,7m - 19.651s,FAILED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre,Chrome 70.0.3538.110,,2018-12-04 11:28:54,2018-12-04 11:29:02,7.268s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 11:28:55,2018-12-04 11:29:01,5.130s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-04 11:29:01,2018-12-04 11:29:02,1.046s,FAILED
+,,,,,,
+Test Cases/PMM/Compliance/Create PMM Inspection - Compliance,Chrome 70.0.3538.110,,2018-12-04 11:29:02,2018-12-04 11:29:36,34.793s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-04 11:29:02,2018-12-04 11:29:02,0.002s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 11:29:02,2018-12-04 11:29:05,2.042s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Create""))",Chrome 70.0.3538.110,,2018-12-04 11:29:05,2018-12-04 11:29:36,31.933s,FAILED
+,,,,,,
+Test Cases/Generic/Launch Job Manager,Chrome 70.0.3538.110,,2018-12-04 11:29:36,2018-12-04 11:29:41,4.849s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 11:29:37,2018-12-04 11:29:40,3.302s,PASSED
+navigateToUrl(JMURL),Chrome 70.0.3538.110,,2018-12-04 11:29:40,2018-12-04 11:29:41,0.973s,FAILED
+,,,,,,
+Test Cases/Generic/Select Inspection For Rejection - Conflict of Interest,Chrome 70.0.3538.110,,2018-12-04 11:29:41,2018-12-04 11:35:01,5m - 19.642s,FAILED
+delay(30),Chrome 70.0.3538.110,,2018-12-04 11:29:42,2018-12-04 11:30:12,30.012s,PASSED
+"waitForElementClickable(findTestObject(""FSM1/Select Inspection/Landing/Refresh""), 250)",Chrome 70.0.3538.110,,2018-12-04 11:30:12,2018-12-04 11:34:29,4m - 16.995s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Landing/Refresh""))",Chrome 70.0.3538.110,,2018-12-04 11:34:29,2018-12-04 11:35:01,32.034s,FAILED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre - Check Result,Chrome 70.0.3538.110,,2018-12-04 11:35:01,2018-12-04 11:35:06,5.081s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 11:35:02,2018-12-04 11:35:05,3.614s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-04 11:35:05,2018-12-04 11:35:06,0.931s,FAILED
+,,,,,,
+Test Cases/ABP/Rejection/Control Centre - Check Results - Rejection,Chrome 70.0.3538.110,,2018-12-04 11:35:06,2018-12-04 11:35:38,32.391s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-04 11:35:07,2018-12-04 11:35:07,0.003s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi""), temp)",Chrome 70.0.3538.110,,2018-12-04 11:35:07,2018-12-04 11:35:38,31.914s,FAILED
+,,,,,,
+Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist,Chrome 70.0.3538.110,,2018-12-04 11:35:38,2018-12-04 11:36:13,34.175s,FAILED
+delay(2),Chrome 70.0.3538.110,,2018-12-04 11:35:39,2018-12-04 11:35:41,2.003s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_""))",Chrome 70.0.3538.110,,2018-12-04 11:35:41,2018-12-04 11:36:13,31.756s,FAILED
