@@ -6,8 +6,16 @@
    <elementGuidId>69e9c8a9-ce12-4c41-8f98-4622f8775247</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @name = 'radio_group_4' and @id = 'gwt-uid-101']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Are former foodstuffs used in animal feed?'])[1]/following::input[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

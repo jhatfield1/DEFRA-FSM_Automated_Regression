@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EMI Regression - Hygiene" time="74" tests="1" failures="1" errors="0">
+   <testsuite name="EMI Regression - Hygiene" tests="1" failures="1" errors="0" time="74" timestamp="2018-12-05 13:27:33" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/EMI/EMI Regression - Hygiene">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181205_132727"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181205_132727\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181205_132727\\1544016519188.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="3a6a05f6910988b170456ae1bb0d7370"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre" classname="Test Cases/Generic/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-12-05 13:27:34 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre: Test Cases/Generic/Launch Job Manager Control Centre
+
+2018-12-05 13:27:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-05 13:27:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-05 13:27:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-05 13:27:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-05 13:27:42 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-05 13:27:44 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-05 13:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-05 13:27:45 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-05 13:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-05 13:27:45 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-05 13:27:45 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-05 13:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-05 13:27:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-05 13:27:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Create EMI Hygiene Inspection" classname="Test Cases/EMI/Create EMI Hygiene Inspection" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EMI/Create EMI Hygiene Inspection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id(&quot;jmcontent&quot;)/div[@class=&quot;v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout&quot;]/div[@class=&quot;v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-csslayout v-layout v-widget v-has-width v-has-height&quot;]/div[@class=&quot;v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required&quot;]/div[@class=&quot;v-filterselect-button&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create EMI Hygiene Inspection.run(Create EMI Hygiene Inspection:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544016447835.run(TempTestSuite1544016447835.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-05 13:27:51 - [TEST_CASE][FAILED] - Test Cases/EMI/Create EMI Hygiene Inspection: Test Cases/EMI/Create EMI Hygiene Inspection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create EMI Hygiene Inspection.run(Create EMI Hygiene Inspection:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544016447835.run(TempTestSuite1544016447835.groovy:36)
+
+
+2018-12-05 13:27:52 - [TEST_STEP][PASSED] - logg = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-05 13:27:52 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-05 13:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-05 13:28:01 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button' is clicked on
+
+2018-12-05 13:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button' is clicked on
+
+2018-12-05 13:28:03 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8"), "emi"): Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-12-05 13:28:03 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-12-05 13:28:03 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-05 13:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-05 13:28:04 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16"), "15"): Text '15' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-12-05 13:28:06 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-12-05 13:28:06 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-12-05 13:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-12-05 13:28:07 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-05 13:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-05 13:28:07 - [TEST_STEP][FAILED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2")): click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create EMI Hygiene Inspection.run(Create EMI Hygiene Inspection:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544016447835.run(TempTestSuite1544016447835.groovy:36)
+
+
+2018-12-05 13:28:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-05 13:28:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181205_132727\\1544016519188.png]]
+
+2018-12-05 13:28:40 - [MESSAGE][FAILED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create EMI Hygiene Inspection.run(Create EMI Hygiene Inspection:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544016447835.run(TempTestSuite1544016447835.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-05 13:27:51 - [TEST_CASE][FAILED] - Test Cases/EMI/Create EMI Hygiene Inspection: Test Cases/EMI/Create EMI Hygiene Inspection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2' located by 'By.xpath: id("jmcontent")/div[@class="v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout"]/div[@class="v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel"]/div[@class="v-csslayout v-layout v-widget"]/div[@class="v-csslayout v-layout v-widget v-has-width v-has-height"]/div[@class="v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required"]/div[@class="v-filterselect-button"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create EMI Hygiene Inspection.run(Create EMI Hygiene Inspection:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544016447835.run(TempTestSuite1544016447835.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager" classname="Test Cases/Generic/Launch Job Manager" status="INCOMPLETE">
+         <system-out><![CDATA[2018-12-05 13:28:40 - [TEST_CASE][INCOMPLETE] - Test Cases/Generic/Launch Job Manager: null
+
+2018-12-05 13:28:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-05 13:28:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-05 13:28:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-05 13:28:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-05 13:28:45 - [TEST_STEP][PASSED] - navigateToUrl(JMURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-05 13:28:48 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-05 13:28:48 - [TEST_STEP][INCOMPLETE] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), "KIR1"): null]]></system-out>
+         <system-err><![CDATA[2018-12-05 13:28:40 - [TEST_CASE][INCOMPLETE] - Test Cases/Generic/Launch Job Manager: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 13:27:33 - [TEST_SUITE][INCOMPLETE] - EMI Regression - Hygiene: null]]></system-out>
+      <system-err><![CDATA[2018-12-05 13:27:33 - [TEST_SUITE][INCOMPLETE] - EMI Regression - Hygiene: null]]></system-err>
+   </testsuite>
+</testsuites>

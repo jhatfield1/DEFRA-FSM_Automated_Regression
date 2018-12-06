@@ -6,16 +6,16 @@
    <elementGuidId>b34e0729-434e-4c2a-b893-ea05315f1965</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Record full details of each sample at Data Capture; Samples Taken NFA'])[1]/following::div[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Record full details of each sample at Data Capture; Samples Taken NFA'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBFYB.GKH2EKQBKYB</value>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCG-B.GFNJNYPCL-B</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

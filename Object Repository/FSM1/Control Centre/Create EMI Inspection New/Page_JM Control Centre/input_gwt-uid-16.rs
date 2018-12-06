@@ -4,6 +4,12 @@
    <name>input_gwt-uid-16</name>
    <tag></tag>
    <elementGuidId>b58f6057-8333-4ae5-afb2-6e6f002f9e2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'gwt-uid-20' and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/iframe_vaadiniframe']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>gwt-uid-16</value>
+      <value>gwt-uid-20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

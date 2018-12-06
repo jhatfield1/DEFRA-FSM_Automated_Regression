@@ -87,5 +87,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/EMI Hygiene1/Hy
 
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Flock'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Data_Capture'))
 

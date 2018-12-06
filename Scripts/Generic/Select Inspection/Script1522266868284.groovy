@@ -22,11 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(30)
 
-WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
+WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
+    250)
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Refresh'))
+WebUI.click(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'))
 
-WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
+WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
+    250)
 
 not_run: WebUI.delay(180)
 
@@ -40,7 +42,7 @@ if (WebUI.verifyElementPresent(InspectionRef, 30, FailureHandling.OPTIONAL)) {
 
     WebUI.click(InspectionRef)
 } else {
-    WebUI.click(findTestObject('Object Repository/FSM1/Select Inspection/Landing/Page_JClient (1)/2 Days'))
+    WebUI.click(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/div_2 Days'))
 
     WebUI.delay(3)
 

@@ -40,28 +40,30 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_J
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours'))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2'))
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_West'))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_2'))
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JM Control Centre/div_Inspection Type_v-filterse'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection'))
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34'), 'Test Automation')
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'), RandomStringUtils.randomNumeric(
+        5))
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'), RandomStringUtils.randomNumeric(
+        5))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_'))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
+not_run: WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
 
-WebUI.setText(findTestObject('FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'), findTestData('Pre Production/EMI/EMI Inspection Data').getValue(
+WebUI.setText(findTestObject('JM_8918/Page_JM Control Centre/input_Add Location_v-textfield'), findTestData('Pre Production/EMI/EMI Inspection Data').getValue(
         1, 1))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
+WebUI.doubleClick(findTestObject('JM_8918/Page_JM Control Centre/div_Search'))
 
 FullAddress = WebUI.modifyObjectProperty(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address'), 
     'text', 'equals', findTestData('Pre Production/EMI/EMI Inspection Data').getValue(2, 1), true)
@@ -72,10 +74,11 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Add
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('FSM1/Control Centre/Create EMI Inspection/FixedResource/Page_JM Control Centre (3)/input_gwt-uid-137'), 
-    'test')
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'test')
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector'))
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'Test Inspector')
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create'))
 

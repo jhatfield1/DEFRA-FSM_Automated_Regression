@@ -28,102 +28,84 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 KeywordLogger log = new KeywordLogger('')
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Page_JClient (2)/div_Edit attributes'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Mr Automation'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Business TypeAUCTION MARKE'), FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/div_Job TypeEMI InspectionJob'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/input_gwt-TextBox GKH2EKQBOHC (1)'), '99/888/7777', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/div_Edit attributes'))
 
 WebUI.delay(3)
 
-not_run: WebUI.check(findTestObject('Object Repository/FSM1/Select Inspection/Landing/Page_JClient (5)/UpdateDetails'))
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_County Parish Holding (C'), '11/222/3333')
 
-not_run: WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/input_gwt-TextBox GKH2EKQBOHC (1)'), 'automation@eggs.com')
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Trading Name_gwt-TextBox'), 'Test Automation')
 
-not_run: WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/textarea_gwt-TextArea GKH2EKQB'), 'Automation Street\n')
-
-not_run: WebUI.sendKeys(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/textarea_gwt-TextArea GKH2EKQB'), Keys.chord(
-        Keys.ENTER))
-
-not_run: WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/textarea_gwt-TextArea GKH2EKQB'), 'Automation Street\nAutomation ')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient/TradingName'), 'Egg Automation')
-
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (6)/EggThroughput'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/EggThroughput/Page_JClient/input_gwt-DoubleBox GKH2EKQBOH'), 
-    '100')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerRegularFreeRange'), '90')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerRegularBarn'), '80')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerRegularCageEnriched'), 
-    '70')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerImporterOrganic'), '60')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerImporterFreeRange'), 
-    '70')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerImporterBarn'), '50')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/PackerImporterCageEnriched'), 
-    '50')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/ThroughputChangedUK'), '11')
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/ThroughputChangedImported'), 
-    '12')
-
-WebUI.selectOptionByValue(findTestObject('FSM1/Complete Egg Inspection/Page_JClient/select_Compliance (Schedule  A'), 'COMPLIANCE', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/Page_JClient/select_Compliance (Schedule  A'), 'COMPLIANCE', 
     true)
 
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/WholeSalerRegularOrganic'), 
-    '9')
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/input_Have the egg throughputs'))
 
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/WholeSalerRegularFreeRange'), 
-    '8')
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF'), '10')
 
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (2)/WholeSalerRegularBarn'), '7')
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox'), '10')
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (1)/div_Signatures  Remarks'))
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN'), '10')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double'), '12')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - EP Imp'), '11')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - EP Imp'), '11')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Ep Imp'), '11')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Ep Imp'), '11')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - Wh Reg'), '12')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - Wh Reg'), '12')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Wh Reg'), '12')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Wh Reg'), '12')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - Wh Imp'), '13')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - Wh Imp'), '13')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Wh Imp'), '13')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Wh Imp'), '13')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Throughput Changed To (U'), '50')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Throughput Changed To (I'), '55')
+
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/input_Was the inspection compl'))
+
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/input_Accreditation Body_gwt-u'))
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Packer Throughput_gwt-Do'), '100')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Wholesaler Throughput_gw'), '150')
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Importer Throughput_gwt-'), '200')
+
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/div_Signatures  Remarks'))
+
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/img_Inspector Signature_gwt-Im'))
+
+WebUI.click(findTestObject('JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Inspector'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (4)/InspectorSignature1'))
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/img_Recipient Signature_gwt-Im'))
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (1)/div_My JobsLast updated 1518Da'))
+WebUI.click(findTestObject('JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Recipient'))
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Recipient Name_gwt-TextB'), 'Test automation')
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (3)/RecipientSignature'))
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/input_Recipient Position_radio'))
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (1)/div_My JobsLast updated 1518Da'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (6)/RecipientName2'), 'Test Automation', 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (8)/label_Business Owner'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/div_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Signatures/Page_JClient (10)/Save'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Edit Job Details/Page_JClient (7)/div_Save_edit_details'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('JM_8918/EMI/Packer Edit Attributes/Page_JClient/div_Save - Job Details'))
 

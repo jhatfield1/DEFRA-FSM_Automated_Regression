@@ -6,15 +6,15 @@
    <elementGuidId>8203923f-5fd2-4dad-88f6-81b072c10468</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBI4B.GKH2EKQBPGC.GKH2EKQBAHC > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(1)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-ruminants on farm?'])[1]/following::input[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBI4B.GKH2EKQBPGC.GKH2EKQBAHC > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(1)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

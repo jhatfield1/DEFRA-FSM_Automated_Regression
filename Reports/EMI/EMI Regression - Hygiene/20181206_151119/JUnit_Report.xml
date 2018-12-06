@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EMI Regression - Hygiene" time="527" tests="11" failures="1" errors="0">
+   <testsuite name="EMI Regression - Hygiene" tests="11" failures="1" errors="0" time="527" timestamp="2018-12-06 15:11:24" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/EMI/EMI Regression - Hygiene">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119\\1544109608615.png, C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119\\1544109609604.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="85a7b6a4a7bc1853e69be351f2d44f32"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre" classname="Test Cases/Generic/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:11:24 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre: Test Cases/Generic/Launch Job Manager Control Centre
+
+2018-12-06 15:11:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:11:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:11:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-06 15:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:11:31 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-06 15:11:33 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-06 15:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-06 15:11:35 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-06 15:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-06 15:11:35 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-06 15:11:35 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-06 15:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-06 15:11:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-06 15:11:40 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Create EMI Hygiene Inspection" classname="Test Cases/EMI/Create EMI Hygiene Inspection" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:11:40 - [TEST_CASE][PASSED] - Test Cases/EMI/Create EMI Hygiene Inspection: Test Cases/EMI/Create EMI Hygiene Inspection
+
+2018-12-06 15:11:41 - [TEST_STEP][PASSED] - logg = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-06 15:11:41 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-06 15:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-06 15:11:49 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button' is clicked on
+
+2018-12-06 15:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button' is clicked on
+
+2018-12-06 15:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8"), "emi"): Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-12-06 15:11:52 - [MESSAGE][PASSED] - Text 'emi' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8'
+
+2018-12-06 15:11:52 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-06 15:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-06 15:11:53 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16"), "15"): Text '15' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-12-06 15:11:55 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16'
+
+2018-12-06 15:11:55 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-12-06 15:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1' is clicked on
+
+2018-12-06 15:11:56 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-06 15:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours' is clicked on
+
+2018-12-06 15:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-06 15:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-06 15:11:57 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_West")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-06 15:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-06 15:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JM_8918/Page_JM Control Centre/div_Inspection Type_v-filterse")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Inspection Type_v-filterse' is clicked on
+
+2018-12-06 15:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Inspection Type_v-filterse' is clicked on
+
+2018-12-06 15:11:57 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-06 15:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection' is clicked on
+
+2018-12-06 15:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34"), "Test Automation"): Text 'Test Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34'
+
+2018-12-06 15:11:58 - [MESSAGE][PASSED] - Text 'Test Automation' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34'
+
+2018-12-06 15:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40"), RandomStringUtils.randomNumeric(5)): Text '20563' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'
+
+2018-12-06 15:11:59 - [MESSAGE][PASSED] - Text '20563' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40'
+
+2018-12-06 15:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42"), RandomStringUtils.randomNumeric(5)): Text '82113' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-12-06 15:11:59 - [MESSAGE][PASSED] - Text '82113' is set on object 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42'
+
+2018-12-06 15:11:59 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-12-06 15:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_' is clicked on
+
+2018-12-06 15:12:00 - [TEST_STEP][NOT_RUN] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search")): NOT_RUN: click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search"))
+
+2018-12-06 15:12:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search"))
+
+2018-12-06 15:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("JM_8918/Page_JM Control Centre/input_Add Location_v-textfield"), findTestData("Pre Production/EMI/EMI Inspection Data").getValue(1, 1)): Text 'WR5 2NQ' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Add Location_v-textfield'
+
+2018-12-06 15:12:02 - [MESSAGE][PASSED] - Text 'WR5 2NQ' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Add Location_v-textfield'
+
+2018-12-06 15:12:02 - [TEST_STEP][PASSED] - doubleClick(findTestObject("JM_8918/Page_JM Control Centre/div_Search")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Search' is double clicked on
+
+2018-12-06 15:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Search' is double clicked on
+
+2018-12-06 15:12:05 - [TEST_STEP][PASSED] - FullAddress = modifyObjectProperty(findTestObject("FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address"), "text", "equals", findTestData("Pre Production/EMI/EMI Inspection Data").getValue(2, 1), true): Modify property of object successfully
+
+2018-12-06 15:12:05 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-06 15:12:05 - [TEST_STEP][PASSED] - click(FullAddress, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' is clicked on
+
+2018-12-06 15:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address' is clicked on
+
+2018-12-06 15:12:05 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-06 15:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-06 15:12:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:12:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1"), "test"): Text 'test' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-06 15:12:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-06 15:12:10 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-06 15:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-06 15:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1"), "Test Inspector"): Text 'Test Inspector' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-06 15:12:10 - [MESSAGE][PASSED] - Text 'Test Inspector' is set on object 'Object Repository/JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'
+
+2018-12-06 15:12:10 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-06 15:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-06 15:12:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC"), 120, STOP_ON_FAILURE): Object 'Object Repository/FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC' is present
+
+2018-12-06 15:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC' is present
+
+2018-12-06 15:13:03 - [TEST_STEP][PASSED] - InspectionID = getText(findTestObject("FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID")): Text of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID' is: 'Viewing Job 94369'
+
+2018-12-06 15:13:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID' is: 'Viewing Job 94369'
+
+2018-12-06 15:13:03 - [TEST_STEP][PASSED] - InspectionID = InspectionID.replaceAll("Viewing Job ", ""): null
+
+2018-12-06 15:13:03 - [TEST_STEP][PASSED] - logg.logWarning(InspectionID): 94369
+
+2018-12-06 15:13:03 - [MESSAGE][WARNING] - 94369
+
+2018-12-06 15:13:03 - [TEST_STEP][PASSED] - temp = InspectionID: null
+
+2018-12-06 15:13:03 - [TEST_STEP][PASSED] - delay(200): Delayed 200 second(s)
+
+2018-12-06 15:16:23 - [MESSAGE][PASSED] - Delayed 200 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager" classname="Test Cases/Generic/Launch Job Manager" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:16:23 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager: Test Cases/Generic/Launch Job Manager
+
+2018-12-06 15:16:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:16:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 15:16:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:16:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:16:28 - [TEST_STEP][PASSED] - navigateToUrl(JMURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-06 15:16:29 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-06 15:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), "KIR1"): Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-06 15:16:31 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-06 15:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-06 15:16:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-06 15:16:31 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Configure App")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-06 15:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-06 15:16:32 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC"), findTestData("Pre Production/Environmental/UandP").getValue(3, 1)): Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-06 15:16:33 - [MESSAGE][PASSED] - Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-06 15:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2"), findTestData("Pre Production/Environmental/UandP").getValue(4, 1)): Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-06 15:16:33 - [MESSAGE][PASSED] - Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-06 15:16:33 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Sign In")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-06 15:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-06 15:16:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-06 15:16:48 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Select Inspection" classname="Test Cases/Generic/Select Inspection" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:16:48 - [TEST_CASE][PASSED] - Test Cases/Generic/Select Inspection: Test Cases/Generic/Select Inspection
+
+2018-12-06 15:16:49 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2018-12-06 15:17:19 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-12-06 15:17:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh"), 250): Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-06 15:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-06 15:17:19 - [TEST_STEP][PASSED] - click(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clicked on
+
+2018-12-06 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clicked on
+
+2018-12-06 15:17:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh"), 250): Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-06 15:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-06 15:17:19 - [TEST_STEP][NOT_RUN] - delay(180): NOT_RUN: delay(180)
+
+2018-12-06 15:17:19 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(180)
+
+2018-12-06 15:17:19 - [TEST_STEP][PASSED] - InspectionRef = modifyObjectProperty(findTestObject("FSM1/Select Inspection/Landing/Page_JClient/div_35098"), "text", "equals", temp, true, STOP_ON_FAILURE): Modify property of object successfully
+
+2018-12-06 15:17:19 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-06 15:17:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2018-12-06 15:17:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-12-06 15:17:39 - [TEST_STEP][PASSED] - if (verifyElementPresent(InspectionRef, 30, OPTIONAL)): Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-06 15:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is present
+
+2018-12-06 15:17:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-06 15:17:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-06 15:17:42 - [TEST_STEP][PASSED] - click(InspectionRef): Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-06 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-06 15:17:43 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-06 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-06 15:17:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:17:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:17:45 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-06 15:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-06 15:17:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:17:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:17:48 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-06 15:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-06 15:17:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:17:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:17:50 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-06 15:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-06 15:17:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:17:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:17:52 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-06 15:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-06 15:17:52 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2018-12-06 15:17:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-12-06 15:17:56 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-06 15:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-06 15:17:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:17:58 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Complete EMI Hygiene Inspection - Edit Attributes" classname="Test Cases/EMI/Complete EMI Hygiene Inspection - Edit Attributes" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:17:58 - [TEST_CASE][PASSED] - Test Cases/EMI/Complete EMI Hygiene Inspection - Edit Attributes: Test Cases/EMI/Complete EMI Hygiene Inspection - Edit Attributes
+
+2018-12-06 15:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Edit attributes")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Edit attributes' is clicked on
+
+2018-12-06 15:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Edit attributes' is clicked on
+
+2018-12-06 15:17:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-06 15:18:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-06 15:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Trading Name_gwt-TextBox"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Trading Name_gwt-TextBox'
+
+2018-12-06 15:18:02 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Trading Name_gwt-TextBox'
+
+2018-12-06 15:18:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/select_Compliance (Schedule  A"), "COMPLIANCE", true): All options with value 'COMPLIANCE' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/select_Compliance (Schedule  A'  using regular expression
+
+2018-12-06 15:18:03 - [MESSAGE][PASSED] - All options with value 'COMPLIANCE' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/select_Compliance (Schedule  A'  using regular expression
+
+2018-12-06 15:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Production Type_gwt-uid-")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Production Type_gwt-uid-' is clicked on
+
+2018-12-06 15:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Production Type_gwt-uid-' is clicked on
+
+2018-12-06 15:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Signatures  Remarks")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Signatures  Remarks' is clicked on
+
+2018-12-06 15:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Signatures  Remarks' is clicked on
+
+2018-12-06 15:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Inspector Signature_gwt-Im")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Inspector Signature_gwt-Im' is clicked on
+
+2018-12-06 15:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Inspector Signature_gwt-Im' is clicked on
+
+2018-12-06 15:18:04 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Inspector")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Inspector' is clicked on
+
+2018-12-06 15:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Inspector' is clicked on
+
+2018-12-06 15:18:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Recipient Signature_gwt-Im")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Recipient Signature_gwt-Im' is clicked on
+
+2018-12-06 15:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/img_Recipient Signature_gwt-Im' is clicked on
+
+2018-12-06 15:18:07 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Recipient")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Recipient' is clicked on
+
+2018-12-06 15:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Unable To Sign_Recipient' is clicked on
+
+2018-12-06 15:18:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Name_gwt-TextB"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Name_gwt-TextB'
+
+2018-12-06 15:18:11 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Name_gwt-TextB'
+
+2018-12-06 15:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Position_radio")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Position_radio' is clicked on
+
+2018-12-06 15:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/input_Recipient Position_radio' is clicked on
+
+2018-12-06 15:18:11 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Page_JClient/div_Save_Sig")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Save_Sig' is clicked on
+
+2018-12-06 15:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Save_Sig' is clicked on
+
+2018-12-06 15:18:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:13 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Page_JClient/div_Save_edit")): Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Save_edit' is clicked on
+
+2018-12-06 15:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Page_JClient/div_Save_edit' is clicked on
+
+2018-12-06 15:18:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Complete EMI Hygiene Inspection - EMH09" classname="Test Cases/EMI/Complete EMI Hygiene Inspection - EMH09" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:18:15 - [TEST_CASE][PASSED] - Test Cases/EMI/Complete EMI Hygiene Inspection - EMH09: Test Cases/EMI/Complete EMI Hygiene Inspection - EMH09
+
+2018-12-06 15:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_EMH09")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_EMH09' is clicked on
+
+2018-12-06 15:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_EMH09' is clicked on
+
+2018-12-06 15:18:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-06 15:18:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-06 15:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities equipment kep")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities equipment kep' is clicked on
+
+2018-12-06 15:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities equipment kep' is clicked on
+
+2018-12-06 15:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Internal structures allo")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Internal structures allo' is clicked on
+
+2018-12-06 15:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Internal structures allo' is clicked on
+
+2018-12-06 15:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Birds can keep themselve")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Birds can keep themselve' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Birds can keep themselve' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Roofs and walls protect")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Roofs and walls protect' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Roofs and walls protect' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Adequate cleaning  disin")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Adequate cleaning  disin' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Adequate cleaning  disin' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No manure build-up in ca")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No manure build-up in ca' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No manure build-up in ca' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Droppings not falling on")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Droppings not falling on' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Droppings not falling on' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Litter in good condition")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Litter in good condition' is clicked on
+
+2018-12-06 15:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Litter in good condition' is clicked on
+
+2018-12-06 15:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Outside conditions_radio")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Outside conditions_radio' is clicked on
+
+2018-12-06 15:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Outside conditions_radio' is clicked on
+
+2018-12-06 15:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities available to")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities available to' is clicked on
+
+2018-12-06 15:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities available to' is clicked on
+
+2018-12-06 15:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed ingredient source a")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed ingredient source a' is clicked on
+
+2018-12-06 15:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed ingredient source a' is clicked on
+
+2018-12-06 15:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Finished feed source and")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Finished feed source and' is clicked on
+
+2018-12-06 15:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Finished feed source and' is clicked on
+
+2018-12-06 15:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source and use of supple")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source and use of supple' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source and use of supple' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from feed consumpt")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from feed consumpt' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from feed consumpt' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed system cleaned  dis")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed system cleaned  dis' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Feed system cleaned  dis' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source of potable or cle")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source of potable or cle' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Source of potable or cle' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_In-house drinking system")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_In-house drinking system' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_In-house drinking system' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from water consump")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from water consump' is clicked on
+
+2018-12-06 15:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Risks from water consump' is clicked on
+
+2018-12-06 15:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Water system cleaned  di")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Water system cleaned  di' is clicked on
+
+2018-12-06 15:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Water system cleaned  di' is clicked on
+
+2018-12-06 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Poultry houses stores an")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Poultry houses stores an' is clicked on
+
+2018-12-06 15:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Poultry houses stores an' is clicked on
+
+2018-12-06 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Evidence of pest activit")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Evidence of pest activit' is clicked on
+
+2018-12-06 15:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Evidence of pest activit' is clicked on
+
+2018-12-06 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Insects suitably control")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Insects suitably control' is clicked on
+
+2018-12-06 15:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Insects suitably control' is clicked on
+
+2018-12-06 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_House surrounds clean an")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_House surrounds clean an' is clicked on
+
+2018-12-06 15:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_House surrounds clean an' is clicked on
+
+2018-12-06 15:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Pest control procedures")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Pest control procedures' is clicked on
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Pest control procedures' is clicked on
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Dead birds removed daily")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Dead birds removed daily' is clicked on
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Dead birds removed daily' is clicked on
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Manure stored  removed s")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Manure stored  removed s' is clicked on
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Manure stored  removed s' is clicked on
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No incorrect use of medi")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No incorrect use of medi' is clicked on
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_No incorrect use of medi' is clicked on
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_All egg contact surfaces")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_All egg contact surfaces' is clicked on
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_All egg contact surfaces' is clicked on
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Cleaning frequency_radio")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Cleaning frequency_radio' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Cleaning frequency_radio' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitability of cleaning")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitability of cleaning' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitability of cleaning' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Vehicles and equipment c")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Vehicles and equipment c' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Vehicles and equipment c' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Eggs kept dry out of dir")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Eggs kept dry out of dir' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Eggs kept dry out of dir' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Egg storage facilities c")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Egg storage facilities c' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Egg storage facilities c' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitable temperatures ca")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitable temperatures ca' is clicked on
+
+2018-12-06 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Suitable temperatures ca' is clicked on
+
+2018-12-06 15:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging kept dry clean")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging kept dry clean' is clicked on
+
+2018-12-06 15:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging kept dry clean' is clicked on
+
+2018-12-06 15:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging protected from")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging protected from' is clicked on
+
+2018-12-06 15:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Packaging protected from' is clicked on
+
+2018-12-06 15:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Re-used packaging clean")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Re-used packaging clean' is clicked on
+
+2018-12-06 15:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Re-used packaging clean' is clicked on
+
+2018-12-06 15:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Hand washing and drying")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Hand washing and drying' is clicked on
+
+2018-12-06 15:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Hand washing and drying' is clicked on
+
+2018-12-06 15:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Food handlers in good he")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Food handlers in good he' is clicked on
+
+2018-12-06 15:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Food handlers in good he' is clicked on
+
+2018-12-06 15:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities provided (e.g")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities provided (e.g' is clicked on
+
+2018-12-06 15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Facilities provided (e.g' is clicked on
+
+2018-12-06 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Nature and origin of fee")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Nature and origin of fee' is clicked on
+
+2018-12-06 15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Nature and origin of fee' is clicked on
+
+2018-12-06 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Veterinary treatments da")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Veterinary treatments da' is clicked on
+
+2018-12-06 15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Veterinary treatments da' is clicked on
+
+2018-12-06 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Diseases that may have f")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Diseases that may have f' is clicked on
+
+2018-12-06 15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Diseases that may have f' is clicked on
+
+2018-12-06 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Results of analyses carr")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Results of analyses carr' is clicked on
+
+2018-12-06 15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/input_Results of analyses carr' is clicked on
+
+2018-12-06 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_Save' is clicked on
+
+2018-12-06 15:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMH09/Page_JClient/div_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Complete EMI Hygiene Inspection - EMR04h" classname="Test Cases/EMI/Complete EMI Hygiene Inspection - EMR04h" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:18:28 - [TEST_CASE][PASSED] - Test Cases/EMI/Complete EMI Hygiene Inspection - EMR04h: Test Cases/EMI/Complete EMI Hygiene Inspection - EMR04h
+
+2018-12-06 15:18:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_EMR04h")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_EMR04h' is clicked on
+
+2018-12-06 15:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_EMR04h' is clicked on
+
+2018-12-06 15:18:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-06 15:18:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-06 15:18:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Areas inspected_gwt-T"), "test automation"): Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Areas inspected_gwt-T'
+
+2018-12-06 15:18:34 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Areas inspected_gwt-T'
+
+2018-12-06 15:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Documents andor other"), "test automation"): Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Documents andor other'
+
+2018-12-06 15:18:34 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Documents andor other'
+
+2018-12-06 15:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Key areas discussed_g"), "test automation"): Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Key areas discussed_g'
+
+2018-12-06 15:18:34 - [MESSAGE][PASSED] - Text 'test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/textarea_Key areas discussed_g'
+
+2018-12-06 15:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/input_Action to be taken_radio")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/input_Action to be taken_radio' is clicked on
+
+2018-12-06 15:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/input_Action to be taken_radio' is clicked on
+
+2018-12-06 15:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Save' is clicked on
+
+2018-12-06 15:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/EMR04h/Page_JClient/div_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Complete EMI Hygiene Inspection - Hygiene Data Capture" classname="Test Cases/EMI/Complete EMI Hygiene Inspection - Hygiene Data Capture" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:18:35 - [TEST_CASE][PASSED] - Test Cases/EMI/Complete EMI Hygiene Inspection - Hygiene Data Capture: Test Cases/EMI/Complete EMI Hygiene Inspection - Hygiene Data Capture
+
+2018-12-06 15:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Hygiene Data Capture")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Hygiene Data Capture' is clicked on
+
+2018-12-06 15:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Hygiene Data Capture' is clicked on
+
+2018-12-06 15:18:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises_radio_group_14")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises_radio_group_14' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises_radio_group_14' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Equipment_radio_group_15")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Equipment_radio_group_15' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Equipment_radio_group_15' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Records (Veterinary Medi")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Records (Veterinary Medi' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Records (Veterinary Medi' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Packaging_radio_group_17")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Packaging_radio_group_17' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Packaging_radio_group_17' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT - Free Range_radio_g")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT - Free Range_radio_g' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT - Free Range_radio_g' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Operator NCP Compliant_r")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Operator NCP Compliant_r' is clicked on
+
+2018-12-06 15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Operator NCP Compliant_r' is clicked on
+
+2018-12-06 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Feed_radio_group_20")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Feed_radio_group_20' is clicked on
+
+2018-12-06 15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Feed_radio_group_20' is clicked on
+
+2018-12-06 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Staff Hygiene_radio_grou")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Staff Hygiene_radio_grou' is clicked on
+
+2018-12-06 15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Staff Hygiene_radio_grou' is clicked on
+
+2018-12-06 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Welfare_radio_group_22")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Welfare_radio_group_22' is clicked on
+
+2018-12-06 15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Welfare_radio_group_22' is clicked on
+
+2018-12-06 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Hygiene at Producer_radi")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Hygiene at Producer_radi' is clicked on
+
+2018-12-06 15:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Hygiene at Producer_radi' is clicked on
+
+2018-12-06 15:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Cage Enriched_radio_grou")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Cage Enriched_radio_grou' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Cage Enriched_radio_grou' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT Barn_radio_group_25")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT Barn_radio_group_25' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_SMT Barn_radio_group_25' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Follow Up inspection req")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Follow Up inspection req' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Follow Up inspection req' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Follow Up Inspections")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Follow Up Inspections' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Follow Up Inspections' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/textarea_Contravention Detail_"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/textarea_Contravention Detail_'
+
+2018-12-06 15:18:43 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/textarea_Contravention Detail_'
+
+2018-12-06 15:18:43 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2018-12-06 15:18:43 - [TEST_STEP][PASSED] - formattedDate = mydate.format("MM/dd/yyy"): null
+
+2018-12-06 15:18:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Rectification Date_GKH2E"), formattedDate): Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Rectification Date_GKH2E'
+
+2018-12-06 15:18:43 - [MESSAGE][PASSED] - Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Rectification Date_GKH2E'
+
+2018-12-06 15:18:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Follow Up Date_GKH2EKQBO"), formattedDate): Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Follow Up Date_GKH2EKQBO'
+
+2018-12-06 15:18:43 - [MESSAGE][PASSED] - Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Follow Up Date_GKH2EKQBO'
+
+2018-12-06 15:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises ID_gwt-TextBox"), "123"): Text '123' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises ID_gwt-TextBox'
+
+2018-12-06 15:18:44 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Premises ID_gwt-TextBox'
+
+2018-12-06 15:18:44 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Follow_up")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Follow_up' is clicked on
+
+2018-12-06 15:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Follow_up' is clicked on
+
+2018-12-06 15:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Flock Details")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Flock Details' is clicked on
+
+2018-12-06 15:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Flock Details' is clicked on
+
+2018-12-06 15:18:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-06 15:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_House Name  Number_gwt-T"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_House Name  Number_gwt-T'
+
+2018-12-06 15:18:48 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_House Name  Number_gwt-T'
+
+2018-12-06 15:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Number of Birds_gwt-Doub"), "10"): Text '10' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Number of Birds_gwt-Doub'
+
+2018-12-06 15:18:48 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Number of Birds_gwt-Doub'
+
+2018-12-06 15:18:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Date of Placing_GKH2EKQB"), formattedDate): Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Date of Placing_GKH2EKQB'
+
+2018-12-06 15:18:48 - [MESSAGE][PASSED] - Keys '12/06/2018' sent to object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Date of Placing_GKH2EKQB'
+
+2018-12-06 15:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Age of Flock (Weeks)_gwt"), "10"): Text '10' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Age of Flock (Weeks)_gwt'
+
+2018-12-06 15:18:48 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/input_Age of Flock (Weeks)_gwt'
+
+2018-12-06 15:18:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/select_Babcock B380Black Rocks"), "CAPONS", true): All options with value 'CAPONS' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/select_Babcock B380Black Rocks'  using regular expression
+
+2018-12-06 15:18:49 - [MESSAGE][PASSED] - All options with value 'CAPONS' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data Capture/Page_JClient/select_Babcock B380Black Rocks'  using regular expression
+
+2018-12-06 15:18:49 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Flock")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Flock' is clicked on
+
+2018-12-06 15:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Flock' is clicked on
+
+2018-12-06 15:18:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:18:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:18:51 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Data_Capture")): Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Data_Capture' is clicked on
+
+2018-12-06 15:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/div_Save_Data_Capture' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Complete EMI Hygiene Inspection - Complete" classname="Test Cases/EMI/Complete EMI Hygiene Inspection - Complete" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:18:52 - [TEST_CASE][PASSED] - Test Cases/EMI/Complete EMI Hygiene Inspection - Complete: Test Cases/EMI/Complete EMI Hygiene Inspection - Complete
+
+2018-12-06 15:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_STARTED (locked)")): Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_STARTED (locked)' is clicked on
+
+2018-12-06 15:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_STARTED (locked)' is clicked on
+
+2018-12-06 15:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_COMPLETED")): Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-06 15:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-06 15:18:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/select_Yes"), "COMPLETED", true): All options with value 'COMPLETED' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/select_Yes'  using regular expression
+
+2018-12-06 15:18:54 - [MESSAGE][PASSED] - All options with value 'COMPLETED' are selected in object 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/select_Yes'  using regular expression
+
+2018-12-06 15:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Save' is clicked on
+
+2018-12-06 15:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Save' is clicked on
+
+2018-12-06 15:18:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-06 15:18:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-06 15:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Ok")): Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Ok' is clicked on
+
+2018-12-06 15:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Hygiene1/Complete/Page_JClient/div_Ok' is clicked on
+
+2018-12-06 15:18:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-06 15:19:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" classname="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:19:04 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre - Check Result: Test Cases/Generic/Launch Job Manager Control Centre - Check Result
+
+2018-12-06 15:19:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:19:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 15:19:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:19:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:19:08 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-06 15:19:10 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-06 15:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-06 15:19:11 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-06 15:19:11 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-06 15:19:12 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-06 15:19:12 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-06 15:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-06 15:19:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-06 15:19:17 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EMI/Control Centre - Check Results - EMI Hygiene" classname="Test Cases/EMI/Control Centre - Check Results - EMI Hygiene" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:19:17 - [TEST_CASE][PASSED] - Test Cases/EMI/Control Centre - Check Results - EMI Hygiene: Test Cases/EMI/Control Centre - Check Results - EMI Hygiene
+
+2018-12-06 15:19:17 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-06 15:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), temp): Text '94369' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-06 15:19:27 - [MESSAGE][PASSED] - Text '94369' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-06 15:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-06 15:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-06 15:19:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED"), 60, STOP_ON_FAILURE): Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-12-06 15:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is present
+
+2018-12-06 15:19:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMH09"), 5): Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMH09' is present
+
+2018-12-06 15:19:31 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMH09' is present
+
+2018-12-06 15:19:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMR04H"), 5): Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMR04H' is present
+
+2018-12-06 15:19:31 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_EMR04H' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" classname="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-06 15:19:31 - [TEST_CASE][FAILED] - Test Cases/ABP/Generic/Check Subsequent Inspection Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)
+
+
+2018-12-06 15:19:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:19:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-06 15:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-06 15:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-06 15:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-06 15:19:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-06 15:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-06 15:19:37 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")): verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)
+
+
+2018-12-06 15:20:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-06 15:20:09 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119\\1544109608615.png]]
+
+2018-12-06 15:20:10 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\git\\DEFRA-FSM_Automated_Regression_JM_Upgrade\\Reports\\EMI\\EMI Regression - Hygiene\\20181206_151119\\1544109609604.png]]
+
+2018-12-06 15:20:10 - [MESSAGE][FAILED] - verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-06 15:19:31 - [TEST_CASE][FAILED] - Test Cases/ABP/Generic/Check Subsequent Inspection Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 15:11:24 - [TEST_SUITE][FAILED] - EMI Regression - Hygiene: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-06 15:11:24 - [TEST_SUITE][FAILED] - EMI Regression - Hygiene: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$14.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544109079141.run(TempTestSuite1544109079141.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

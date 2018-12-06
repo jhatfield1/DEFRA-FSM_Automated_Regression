@@ -4,7 +4,21 @@
    <name>span_</name>
    <tag></tag>
    <elementGuidId>d6f9c30b-af89-4ade-9fa7-89239ae90f46</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '' or . = '')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menuLocation']/div/div/div/div[3]/div[3]/div[3]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menuLocation > div > div > div > div.v-csslayout.v-layout.v-widget.menuLayout.v-csslayout-menuLayout > div.v-csslayout.v-layout.v-widget.footerComponents.v-csslayout-footerComponents > div.v-csslayout.v-layout.v-widget.jobMode.v-csslayout-jobMode.footerComponent.v-csslayout-footerComponent > div.v-csslayout.v-layout.v-widget.actionIcon.v-csslayout-actionIcon > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

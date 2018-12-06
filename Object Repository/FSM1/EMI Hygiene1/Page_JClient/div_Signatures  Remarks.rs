@@ -6,16 +6,16 @@
    <elementGuidId>fb45cd8b-9f9c-4d8c-b5cd-c8d75755f959</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div.GKH2EKQBGFC.GKH2EKQBJFC > div:nth-child(2)</value>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Signatures / Remarks' or . = 'Signatures / Remarks')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Organic'])[1]/following::div[5]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Signatures / Remarks' or . = 'Signatures / Remarks')]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div.GFNJNYPCBHC.GFNJNYPCEHC > div:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

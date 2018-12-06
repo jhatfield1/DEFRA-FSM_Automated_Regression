@@ -6,16 +6,16 @@
    <elementGuidId>848a147e-b842-4ea9-9478-d4cca1385ae0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div:nth-child(3) > div:nth-child(2) > div > div > input</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'date' and @placeholder = 'dd/MM/yyyy']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Rectification Date'])[1]/following::input[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'date' and @placeholder = 'dd/MM/yyyy']</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(3) > div:nth-child(2) > div > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

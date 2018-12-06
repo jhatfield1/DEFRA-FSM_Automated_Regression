@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EMI Regression - Hygiene,Chrome 70.0.3538.110,"R23 : FP-593, FP-796",2018-12-05 13:54:46,2018-12-05 13:55:22,35.665s,FAILED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre,Chrome 70.0.3538.110,,2018-12-05 13:54:47,2018-12-05 13:55:02,15.579s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-05 13:54:48,2018-12-05 13:54:53,5.408s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-05 13:54:53,2018-12-05 13:54:55,1.642s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 70.0.3538.110,,2018-12-05 13:54:55,2018-12-05 13:54:57,1.619s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 70.0.3538.110,,2018-12-05 13:54:57,2018-12-05 13:54:57,0.378s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 70.0.3538.110,,2018-12-05 13:54:57,2018-12-05 13:54:57,0.217s,PASSED
+delay(5),Chrome 70.0.3538.110,,2018-12-05 13:54:57,2018-12-05 13:55:02,5.099s,PASSED
+,,,,,,
+Test Cases/EMI/Create EMI Hygiene Inspection,Chrome 70.0.3538.110,,2018-12-05 13:55:02,2018-12-05 13:55:21,18.503s,FAILED
+logg = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-05 13:55:03,2018-12-05 13:55:03,0.001s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create""))",Chrome 70.0.3538.110,,2018-12-05 13:55:03,2018-12-05 13:55:13,9.716s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button""))",Chrome 70.0.3538.110,,2018-12-05 13:55:13,2018-12-05 13:55:15,1.912s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8""), ""emi"")",Chrome 70.0.3538.110,,2018-12-05 13:55:15,2018-12-05 13:55:15,0.554s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Hygiene Inspection""))",Chrome 70.0.3538.110,,2018-12-05 13:55:15,2018-12-05 13:55:16,0.453s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16""), ""15"")",Chrome 70.0.3538.110,,2018-12-05 13:55:16,2018-12-05 13:55:19,2.870s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1""))",Chrome 70.0.3538.110,,2018-12-05 13:55:19,2018-12-05 13:55:19,0.342s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours""))",Chrome 70.0.3538.110,,2018-12-05 13:55:19,2018-12-05 13:55:20,0.426s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt""))",Chrome 70.0.3538.110,,2018-12-05 13:55:20,2018-12-05 13:55:21,1.227s,FAILED
