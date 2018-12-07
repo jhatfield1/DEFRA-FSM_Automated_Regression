@@ -6,12 +6,12 @@
    <elementGuidId>f960bce2-d08d-4b21-a9e1-fcd47a129d89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of despatch'])[1]/following::input[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div.GFNJNYPCOBB.GFNJNYPCO5B.GFNJNYPCK5B.GFNJNYPCKIC.GFNJNYPCLIC > div:nth-child(2) > div > div > input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBI4B.GKH2EKQBPGC.GKH2EKQBAHC > div:nth-child(2) > div > div > input</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of despatch'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

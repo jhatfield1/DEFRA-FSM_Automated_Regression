@@ -6,11 +6,15 @@
    <elementGuidId>8e3daebe-1f2f-4065-a7af-95d3cec51a84</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[13]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(17) > div:nth-child(2) > div.GKH2EKQBEIC.GKH2EKQBLGC > input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

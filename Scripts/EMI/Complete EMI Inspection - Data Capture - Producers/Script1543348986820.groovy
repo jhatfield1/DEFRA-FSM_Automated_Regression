@@ -14,7 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-
 WebUI.click(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Data Capture'))
 
 WebUI.delay(2)
@@ -38,11 +37,11 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Dat
 
 WebUI.delay(3)
 
-WebUI.check(findTestObject('FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Premises_radio_group_17'))
+not_run: WebUI.check(findTestObject('FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Premises_radio_group_17'))
 
-WebUI.click(findTestObject('FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Premises_radio_group_17'))
+WebUI.click(findTestObject('JM_8918/New/Page_JClient/label_Yes_Premises'))
 
-not_run: WebUI.click(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Premises_radio_group_1'))
+WebUI.click(findTestObject('JM_8918/New/Page_JClient/input_Premises_radio_group_1_NEW'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Marking (Eggs)_radio_gro'))
 
@@ -119,7 +118,7 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/textarea_Contravention Detail_'), 
     'Test automation')
 
-mydate = new Date() +2;
+mydate = (new Date() + 2)
 
 formattedDate = mydate.format('MM/dd/yyy')
 

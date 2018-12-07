@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBPGB > div > div:nth-child(2) > div:nth-child(2)</value>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCPGB > div > div:nth-child(2) > div:nth-child(2)</value>
       </entry>
       <entry>
          <key>XPATH</key>

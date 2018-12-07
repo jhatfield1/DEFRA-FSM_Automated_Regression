@@ -6,12 +6,12 @@
    <elementGuidId>67aea096-1771-420f-8336-5766d7653aa4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::div[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(5) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div:nth-child(1) > div:nth-child(1) > div.GFNJNYPCEYB.GFNJNYPCJYB</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(5) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div:nth-child(1) > div:nth-child(1) > div.GKH2EKQBDXB.GKH2EKQBIXB</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

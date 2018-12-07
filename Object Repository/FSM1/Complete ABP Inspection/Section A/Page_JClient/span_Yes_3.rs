@@ -6,11 +6,15 @@
    <elementGuidId>0669f8aa-002f-4557-bc95-95b0ed520f6b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Plant operator or representative present at the inspection?'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(21) > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(1) > label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

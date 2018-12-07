@@ -9,8 +9,12 @@
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(15) > div:nth-child(2) > div.GKH2EKQBEIC.GKH2EKQBLGC > input</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[12]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

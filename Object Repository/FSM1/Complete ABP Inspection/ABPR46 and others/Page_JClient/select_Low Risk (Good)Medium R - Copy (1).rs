@@ -6,12 +6,12 @@
    <elementGuidId>78f799e5-9b30-4681-90d1-5cd366e292d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous operator testing experience'])[1]/following::select[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(3) > div:nth-child(2) > select</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div:nth-child(3) > div:nth-child(2) > select</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous operator testing experience'])[1]/following::select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -46,5 +46,5 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR4
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/input_Yes_radio_group_249'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/div_Save'))
+WebUI.click(findTestObject('FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/div_Save_1'))
 

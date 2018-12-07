@@ -14,7 +14,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Records'])[1]/following::select[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

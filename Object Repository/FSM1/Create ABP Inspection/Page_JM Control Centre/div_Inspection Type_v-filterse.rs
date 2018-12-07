@@ -4,7 +4,17 @@
    <name>div_Inspection Type_v-filterse</name>
    <tag></tag>
    <elementGuidId>e24c7db5-ac14-40ad-a47e-a3ba4463c99c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;jmcontent&quot;)/div[@class=&quot;v-csslayout v-layout v-widget mainLayout v-csslayout-mainLayout&quot;]/div[@class=&quot;v-customcomponent v-widget jm-standard-panel v-customcomponent-jm-standard-panel formBuilderPanel v-customcomponent-formBuilderPanel&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-csslayout v-layout v-widget v-has-width v-has-height&quot;]/div[@class=&quot;v-filterselect v-widget v-filterselect-error selectField v-filterselect-selectField nicer-field v-filterselect-nicer-field v-required v-filterselect-required&quot;]/div[@class=&quot;v-filterselect-button&quot;][count(. | //div[@ref_element = 'Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/iframe_close_vaadiniframe']) = count(//div[@ref_element = 'Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/iframe_close_vaadiniframe'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(2) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div:nth-child(14) > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

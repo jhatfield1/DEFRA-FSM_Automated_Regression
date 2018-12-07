@@ -6,15 +6,19 @@
    <elementGuidId>9a1dc950-0c79-41fd-bfd2-29042764e116</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Save' or . = 'Save')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature'])[1]/following::div[7]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Save' or . = 'Save')]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div:nth-child(6) > div:nth-child(1)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

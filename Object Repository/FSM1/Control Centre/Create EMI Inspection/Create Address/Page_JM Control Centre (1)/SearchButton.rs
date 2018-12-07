@@ -4,7 +4,17 @@
    <name>SearchButton</name>
    <tag></tag>
    <elementGuidId>422dc272-bf8a-4874-957c-99afa7907faf</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role = 'button' and @class = 'v-button v-widget' and (text() = 'Search' or . = 'Search') and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/iframe_vaadiniframe']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#formBuilderHeadersearch > div > div.v-csslayout.v-layout.v-widget.searchEntitiesHeader.v-csslayout-searchEntitiesHeader > div.v-customcomponent.v-widget.search-criteria-comp.v-customcomponent-search-criteria-comp > div > div.v-button.v-widget</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

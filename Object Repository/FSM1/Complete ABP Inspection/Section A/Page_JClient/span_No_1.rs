@@ -6,11 +6,15 @@
    <elementGuidId>550c0a86-a59a-4729-8330-2511bde173e4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[10]/following::span[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(39) > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(2)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

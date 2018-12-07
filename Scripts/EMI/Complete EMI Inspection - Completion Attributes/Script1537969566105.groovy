@@ -19,6 +19,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/div_COMPLETED'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/OrganicNumber'), '1')
 
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/FreeRangeNumber'))
@@ -73,6 +75,8 @@ WebUI.click(findTestObject('FSM1/Complete Egg Inspection/CompletionAttributes/Pa
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/Page_JClient/Page_JClient/select_Yes'), 
     'COMPLETED', true)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/Page_JClient/div_Save'))
 

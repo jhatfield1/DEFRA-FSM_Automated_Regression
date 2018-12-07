@@ -4,7 +4,21 @@
    <name>input_Recents_v-textfield v-wi</name>
    <tag></tag>
    <elementGuidId>2fb36ef1-d9b6-4a1b-9959-77b1c3dae3d8</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menuLocation > div > div > div > div.v-csslayout.v-layout.v-widget.menuLayout.v-csslayout-menuLayout > div.v-csslayout.v-layout.v-widget.footerComponents.v-csslayout-footerComponents > div.v-csslayout.v-layout.v-widget.jobMode.v-csslayout-jobMode.footerComponent.v-csslayout-footerComponent > input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

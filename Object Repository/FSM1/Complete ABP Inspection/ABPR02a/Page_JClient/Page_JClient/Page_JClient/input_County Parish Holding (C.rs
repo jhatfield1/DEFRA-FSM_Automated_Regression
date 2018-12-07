@@ -4,7 +4,17 @@
    <name>input_County Parish Holding (C</name>
    <tag></tag>
    <elementGuidId>242817b0-5122-458c-bceb-fbbf62c49d95</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;landscape&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBACB&quot;]/div[@class=&quot;GKH2EKQBDHB&quot;]/div[@class=&quot;GKH2EKQBCHB&quot;]/div[@class=&quot;GKH2EKQBFHB&quot;]/div[@class=&quot;GKH2EKQBEHB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBLGB&quot;]/div[@class=&quot;GKH2EKQBMDC GKH2EKQBMGB GKH2EKQBNGB&quot;]/div[1]/div[@class=&quot;GKH2EKQBOBB&quot;]/div[@class=&quot;GKH2EKQBOBB GKH2EKQBM4B GKH2EKQBI4B GKH2EKQBPGC&quot;]/div[2]/div[@class=&quot;GKH2EKQBEIC GKH2EKQBLGC&quot;]/input[@class=&quot;gwt-TextBox GKH2EKQBOHC&quot;][count(. | //input[@type = 'text' and @class = 'gwt-TextBox GKH2EKQBOHC' and @maxlength = '11' and @placeholder = 'Enter text here']) = count(//input[@type = 'text' and @class = 'gwt-TextBox GKH2EKQBOHC' and @maxlength = '11' and @placeholder = 'Enter text here'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

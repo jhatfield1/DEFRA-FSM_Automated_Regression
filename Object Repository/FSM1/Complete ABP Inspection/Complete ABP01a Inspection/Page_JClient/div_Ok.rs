@@ -6,12 +6,12 @@
    <elementGuidId>8d72a03b-d03b-427a-a8ff-2a9e34783871</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='You will no longer be able to edit this job. Continue?'])[1]/following::div[2]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCO-.GFNJNYPCO1.GFNJNYPCN1 > div:nth-child(1) > div > div > div > div.GFNJNYPCI3B > div.GFNJNYPCC3B.GFNJNYPCE3B</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBO-.GKH2EKQBO1.GKH2EKQBN1 > div:nth-child(1) > div > div > div > div.GKH2EKQBH2B > div.GKH2EKQBB2B.GKH2EKQBD2B</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='You will no longer be able to edit this job. Continue?'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

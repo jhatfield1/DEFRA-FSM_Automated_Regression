@@ -14,7 +14,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Structure'])[1]/following::select[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

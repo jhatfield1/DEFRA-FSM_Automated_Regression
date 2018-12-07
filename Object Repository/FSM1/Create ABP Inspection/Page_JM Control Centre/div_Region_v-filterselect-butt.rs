@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#jmcontent > div > div:nth-child(4) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div:nth-child(3) > div</value>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(2) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div:nth-child(3) > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

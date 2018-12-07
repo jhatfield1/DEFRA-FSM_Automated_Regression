@@ -6,12 +6,12 @@
    <elementGuidId>34f802b2-a216-42a0-b7ad-eb4e7e2de606</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Describe action taken (notify the person initiating the trace)'])[1]/following::div[6]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div:nth-child(6) > div:nth-child(1)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div:nth-child(6) > div:nth-child(1)</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Describe action taken (notify the person initiating the trace)'])[1]/following::div[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

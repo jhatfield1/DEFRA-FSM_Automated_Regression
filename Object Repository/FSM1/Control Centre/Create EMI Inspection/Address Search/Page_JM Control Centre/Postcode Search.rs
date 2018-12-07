@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>id(&quot;formBuilderHeadersearch&quot;)/div[@class=&quot;v-csslayout v-layout v-widget formBuilderHeaderArea v-csslayout-formBuilderHeaderArea&quot;]/div[@class=&quot;v-csslayout v-layout v-widget searchEntitiesHeader v-csslayout-searchEntitiesHeader&quot;]/div[@class=&quot;v-customcomponent v-widget search-criteria-comp v-customcomponent-search-criteria-comp&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/input[@class=&quot;v-textfield v-widget&quot;][count(. | //input[@type = 'text' and @class = 'v-textfield v-widget' and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/iframe_vaadiniframe']) = count(//input[@type = 'text' and @class = 'v-textfield v-widget' and @ref_element = 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/iframe_vaadiniframe'])]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#formBuilderHeadersearch > div > div.v-csslayout.v-layout.v-widget.searchEntitiesHeader.v-csslayout-searchEntitiesHeader > div.v-customcomponent.v-widget.search-criteria-comp.v-customcomponent-search-criteria-comp > div > input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

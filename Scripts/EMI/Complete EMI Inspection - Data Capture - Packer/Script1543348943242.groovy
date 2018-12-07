@@ -46,7 +46,9 @@ WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Page_JClient/input_Yes
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Page_JClient/input_Premises Contravention_g'))
+WebUI.click(findTestObject('JM_8918/New/Page_JClient/label_Yes_Premises'))
+
+WebUI.click(findTestObject('JM_8918/New/Page_JClient/input_Premises_radio_group_1_NEW'))
 
 WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Packer/Page_JClient/input_Equipment_radio_group_2'))
 

@@ -92,6 +92,8 @@ WebUI.setText(findTestObject('FSM1/Complete ABP Inspection/ABPR46 and others/Pag
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/div_Section C TSE Risk Assessm'))
 
+WebUI.delay(2)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/select_Low Risk (Good)Medium R'), 
     'LOW', true)
 

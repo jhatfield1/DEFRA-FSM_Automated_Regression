@@ -42,23 +42,25 @@ WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual 
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_24 Hours'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Region_v-filterselect-butt'))
+WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/div_Region_v-filterselect-butt'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_West'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Plant Type_v-filterselect-'))
+WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/div_Plant Type_v-filterselect-'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_SECTION I Intermediate Acti'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Inspection Type_v-filterse'))
+WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/div_Inspection Type_v-filterse'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_Routine'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Inspector Grade Required_v'))
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JClient/Page_JM Control Centre/Page_JM Control Centre/label_1'))
+
+WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/div_Inspector Grade Required_v'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_Tech'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Sequence within Inspection'))
+WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/div_Sequence within Inspection'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/td_2 - Tech'))
 
@@ -73,12 +75,12 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manua
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Postcode Search'))
+WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/PostcodeSearch'), 
-    findTestData('Pre Production/ABP/ABP Inspection Data 01a').getValue(2, 1))
+WebUI.setText(findTestObject('FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'), findTestData('Pre Production/ABP/ABP Inspection Data 01a').getValue(
+        2, 1))
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (1)/SearchButton'))
+WebUI.doubleClick(findTestObject('JM_8918/Page_JM Control Centre/div_Search'))
 
 FullAddress = WebUI.modifyObjectProperty(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address'), 
     'text', 'equals', findTestData('Pre Production/ABP/ABP Inspection Data 01a').getValue(3, 1), true)
@@ -96,15 +98,16 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/FSM1/Create ABP In
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/label_Manual Ownership'))
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311 (3)'), 
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/div_Owner_v-filterselect-butto'))
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'), 
     'test')
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector'))
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311'), 
-    'Test Inspector')
+WebUI.delay(3)
 
 mydate = new Date()
 
@@ -112,11 +115,13 @@ tomorrow = mydate.next()
 
 formattedDate = tomorrow.format('dd-MMM-yyyy')
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)'), 
-    formattedDate)
+WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-306'), formattedDate)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)'), 
-    formattedDate)
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-308'), formattedDate)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate'))
 
