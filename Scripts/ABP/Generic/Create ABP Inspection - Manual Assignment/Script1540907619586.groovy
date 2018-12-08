@@ -109,17 +109,21 @@ WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre
 
 WebUI.delay(3)
 
-mydate = new Date()
+not_run: mydate = new Date()
 
-tomorrow = mydate.next()
+not_run: tomorrow = mydate.next()
 
-formattedDate = tomorrow.format('dd-MMM-yyyy')
+not_run: formattedDate = tomorrow.format('dd-MMM-yyyy')
 
-WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-306'), formattedDate)
+not_run: WebUI.delay(2)
 
-WebUI.delay(2)
+not_run: WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-308'), 
+    formattedDate)
 
-WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-308'), formattedDate)
+not_run: WebUI.delay(2)
+
+not_run: WebUI.setText(findTestObject('JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-306'), 
+    formattedDate)
 
 WebUI.delay(5)
 

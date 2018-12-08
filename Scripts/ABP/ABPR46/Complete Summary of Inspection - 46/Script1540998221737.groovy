@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/div_ABPR46 - Summary of Inspec'))
 
+WebUI.delay(2)
+
 WebUI.selectOptionByValue(findTestObject('FSM1/Complete ABP Inspection/ABPR46 and others/Page_JClient/select_Structure'), 
     'S', true)
 
