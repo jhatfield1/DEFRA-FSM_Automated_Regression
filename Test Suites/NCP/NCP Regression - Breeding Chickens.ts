@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>NCP Regression - Breeding Chickens</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-12-09T15:19:17</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>195c997f-8a66-447f-b734-dc4564cf9a7c</testSuiteGuid>
+   <testCaseLink>
+      <guid>b140606b-5242-4852-b65b-7fd645b04742</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Generic/Launch Job Manager Control Centre</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d6e7349d-2eac-43a8-a036-598c778d8bd9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/Environmental/UandP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d6e7349d-2eac-43a8-a036-598c778d8bd9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>7e7a05b7-a8fe-4263-a211-ed7d0214de26</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d6e7349d-2eac-43a8-a036-598c778d8bd9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b38ba976-6133-4f9c-9a6f-8f2b4255ea5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dc3ac28-c9f2-41f2-90d4-368b3d76d301</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>78688e3f-c8cf-4dee-9473-a006ddaa3963</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Create NCP Inspection - Manual Assignment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0c201329-65c0-45a9-bbad-31197c474cfd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/FlockType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0c201329-65c0-45a9-bbad-31197c474cfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Breeding Chickens</value>
+         <variableId>1c044ccc-9f80-4b35-82ae-701bf1c085c6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8de437c-93e8-45bd-8eb2-b056365fc828</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Generic/Launch Job Manager</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61c33400-6300-4d6b-83c1-1f1bf8558087</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/Environmental/UandP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>61c33400-6300-4d6b-83c1-1f1bf8558087</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>3d4f513b-8b02-4fb9-b880-2c2e951d8f69</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61c33400-6300-4d6b-83c1-1f1bf8558087</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>13e7929c-4cc0-4343-bb83-7779b5b87a8c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61c33400-6300-4d6b-83c1-1f1bf8558087</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>JMUsername</value>
+         <variableId>2024dc9b-cb06-41b8-bb97-d017aea523ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61c33400-6300-4d6b-83c1-1f1bf8558087</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>JMPassword</value>
+         <variableId>c378ba3c-5e46-49f4-ad39-a46ad361e174</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0509a92-379e-4540-8708-b866ec98cc71</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bb2c536-ee72-426d-9c43-d17cc90014ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Generic/Select Inspection</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

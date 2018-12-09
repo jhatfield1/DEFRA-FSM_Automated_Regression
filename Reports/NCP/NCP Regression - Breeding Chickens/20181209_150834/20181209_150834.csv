@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+NCP Regression - Breeding Chickens,Chrome 70.0.3538.110,,2018-12-09 15:08:37,2018-12-09 15:09:29,52.584s,FAILED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre,Chrome 70.0.3538.110,,2018-12-09 15:08:37,2018-12-09 15:08:53,15.897s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-09 15:08:38,2018-12-09 15:08:41,3.567s,PASSED
+navigateToUrl(CCURL),Chrome 70.0.3538.110,,2018-12-09 15:08:41,2018-12-09 15:08:43,1.169s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-09 15:08:43,2018-12-09 15:08:46,3.025s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 70.0.3538.110,,2018-12-09 15:08:46,2018-12-09 15:08:46,0.211s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 70.0.3538.110,,2018-12-09 15:08:46,2018-12-09 15:08:46,0.178s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-09 15:08:46,2018-12-09 15:08:48,2.002s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 70.0.3538.110,,2018-12-09 15:08:48,2018-12-09 15:08:48,0.120s,PASSED
+delay(5),Chrome 70.0.3538.110,,2018-12-09 15:08:48,2018-12-09 15:08:53,5.004s,PASSED
+,,,,,,
+Test Cases/NCP/Create NCP Inspection - Manual Assignment,Chrome 70.0.3538.110,,2018-12-09 15:08:53,2018-12-09 15:09:29,35.663s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.110,,2018-12-09 15:08:53,2018-12-09 15:08:53,0.001s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Create""))",Chrome 70.0.3538.110,,2018-12-09 15:08:53,2018-12-09 15:08:54,0.106s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8""), ""cso01 - ncp salmonella"")",Chrome 70.0.3538.110,,2018-12-09 15:08:54,2018-12-09 15:08:55,1.120s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_CSO01 - NCP Salmonella""))",Chrome 70.0.3538.110,,2018-12-09 15:08:55,2018-12-09 15:08:55,0.261s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8""), ""CSO01 - NCP Salmonella"")",Chrome 70.0.3538.110,,2018-12-09 15:08:55,2018-12-09 15:08:55,0.265s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_SLA_v-filterselect-button""))",Chrome 70.0.3538.110,,2018-12-09 15:08:55,2018-12-09 15:08:56,1.242s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/td_24 Hours""))",Chrome 70.0.3538.110,,2018-12-09 15:08:56,2018-12-09 15:08:57,0.239s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Flock Type_v-filterselect-""))",Chrome 70.0.3538.110,,2018-12-09 15:08:57,2018-12-09 15:08:57,0.224s,PASSED
+"FlockType = modifyObjectProperty(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens""), ""text"", ""equals"", findTestData(""Pre Production/NCP/FlockType"").getValue(1, 1), true)",Chrome 70.0.3538.110,,2018-12-09 15:08:57,2018-12-09 15:08:57,0.036s,PASSED
+"click(FlockType, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-09 15:08:57,2018-12-09 15:08:57,0.192s,PASSED
+"click(findTestObject(""Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens""))",Chrome 70.0.3538.110,,2018-12-09 15:08:57,2018-12-09 15:09:29,31.624s,FAILED
