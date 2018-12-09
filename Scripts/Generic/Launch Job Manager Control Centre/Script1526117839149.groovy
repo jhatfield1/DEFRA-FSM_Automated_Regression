@@ -19,14 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.CCURL)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'), Username)
 
 WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'), Password)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('FSM1/PreProd/Page_Job Manager Login/div_Login'))
 

@@ -21,6 +21,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/div_COMPLETED'))
 
+WebUI.delay(2)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Complete ABP01a Inspection/Page_JClient/select_Yes'), 
     'COMPLETED', true)
 

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Is the farm one of the following?'])[1]/following::select[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = ' Hobby farmCity, open farm or petting zooA premises on which there has been a previous incident of suspected illegal feedingN/A' or . = ' Hobby farmCity, open farm or petting zooA premises on which there has been a previous incident of suspected illegal feedingN/A')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

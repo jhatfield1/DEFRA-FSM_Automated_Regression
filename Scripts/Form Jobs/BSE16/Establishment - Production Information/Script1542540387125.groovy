@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_EstablishmentProduction In'))
+
+WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/select_ 15000 tonnes15000-1500'), '15000150000_TONNES', 
     true)

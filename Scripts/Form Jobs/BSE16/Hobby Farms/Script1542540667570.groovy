@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Hobby farms city open farm'))
+
+WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/select_Hobby farmCity open far'), 'HOBBY_FARM', 
     true)
