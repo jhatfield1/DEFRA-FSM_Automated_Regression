@@ -92,5 +92,7 @@ WebUI.click(findTestObject('FSM1/Pre-Approval/Page_JClient/img_Signature_gwt-Ima
 
 WebUI.click(findTestObject('FSM1/Pre-Approval/Page_JClient/div_Unable To Sign'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('FSM1/Pre-Approval/Page_JClient/div_Save'))
 

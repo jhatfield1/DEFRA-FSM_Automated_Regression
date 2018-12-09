@@ -6,16 +6,16 @@
    <elementGuidId>f7ada7a8-0df3-46fa-a374-9006aa3d081d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(47) > div:nth-child(2) > div > div > input</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'date' and @placeholder = 'dd/MM/yyyy']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Inspection Date Range - From'])[1]/following::input[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'date' and @placeholder = 'dd/MM/yyyy']</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(47) > div:nth-child(2) > div > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
