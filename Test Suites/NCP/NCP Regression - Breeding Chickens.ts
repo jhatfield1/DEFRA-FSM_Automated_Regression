@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-09T15:19:17</lastRun>
+   <lastRun>2018-12-10T16:01:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -115,5 +115,41 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Select Inspection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>618830be-289a-437f-a044-7c27efec8582</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>408b381a-5e16-4872-9b4a-df4dfe7d4c97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EMI/Complete EMI Hygiene Inspection - Complete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9f7d6e5-7170-41f4-9671-30b6b4e1d897</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Generic/Launch Job Manager Control Centre - Check Result</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9633dd6d-8d38-4770-99c6-d4c4736ba3da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9acaa269-a0a3-406d-bc7c-7ca8e7573278</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>647a4c54-3be1-4207-ae05-6f58ee7d6155</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
