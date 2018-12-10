@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-10T16:01:30</lastRun>
+   <lastRun>2018-12-10T19:49:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -123,26 +123,47 @@
       <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>408b381a-5e16-4872-9b4a-df4dfe7d4c97</guid>
+      <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EMI/Complete EMI Hygiene Inspection - Complete</testCaseId>
+      <testCaseId>Test Cases/NCP/Breeding Chicken Samples</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Breeding Chicken Samples 2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2446333-9759-4811-ba50-3f69c5f85db0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/NCP Inspection - Complete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e9f7d6e5-7170-41f4-9671-30b6b4e1d897</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Launch Job Manager Control Centre - Check Result</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fd54972b-5332-4b8a-a58d-5970ba7ced1d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/Environmental/UandP</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>fd54972b-5332-4b8a-a58d-5970ba7ced1d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
          <variableId>9633dd6d-8d38-4770-99c6-d4c4736ba3da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>fd54972b-5332-4b8a-a58d-5970ba7ced1d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
          <variableId>9acaa269-a0a3-406d-bc7c-7ca8e7573278</variableId>
       </variableLink>
       <variableLink>
@@ -151,5 +172,23 @@
          <value></value>
          <variableId>647a4c54-3be1-4207-ae05-6f58ee7d6155</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7828d510-5053-47a1-9154-cb6d48de5e70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f9ce22e-b52a-49da-8e4d-8e5e85fa9b80</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5693dd25-3e10-42f0-b818-db173c78bcf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

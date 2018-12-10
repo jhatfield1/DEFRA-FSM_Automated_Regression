@@ -13,3 +13,36 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ'))
+
+WebUI.delay(2)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+    'BOOT_SWAB', true)
+
+WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_House_gwt-TextBox GKH2EK'), 
+    'Test automation')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_JanuaryFebruaryMarchApr'), 
+    '12', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_20102011201220132014201'), 
+    '2020', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent'), 
+    'BB', true)
+
+WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_Age of flock sampled (we'), 
+    '11')
+
+WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_No. of birds in flock_gw'), 
+    '50')
+
+WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Save'))
+
+WebUI.delay(2)
+
