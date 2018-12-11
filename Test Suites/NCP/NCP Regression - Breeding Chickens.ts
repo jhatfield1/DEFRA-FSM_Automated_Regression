@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-10T19:49:00</lastRun>
+   <lastRun>2018-12-11T18:20:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -51,7 +51,7 @@
       <testCaseId>Test Cases/NCP/Create NCP Inspection - Manual Assignment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0c201329-65c0-45a9-bbad-31197c474cfd</id>
+         <id>731fdcdd-12f8-4890-a0ae-a3a01777bda2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -59,7 +59,7 @@
          <testDataId>Data Files/Pre Production/NCP/FlockType</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0c201329-65c0-45a9-bbad-31197c474cfd</testDataLinkId>
+         <testDataLinkId>731fdcdd-12f8-4890-a0ae-a3a01777bda2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Breeding Chickens</value>
          <variableId>1c044ccc-9f80-4b35-82ae-701bf1c085c6</variableId>
@@ -120,19 +120,49 @@
       <guid>618830be-289a-437f-a044-7c27efec8582</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes</testCaseId>
+      <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Breeding Chicken Samples</testCaseId>
+      <testCaseId>Test Cases/NCP/NCP Samples</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bac0251d-e7ac-413c-b47f-e68c744fa322</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bac0251d-e7ac-413c-b47f-e68c744fa322</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Breeding Chicken</value>
+         <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Breeding Chicken Samples 2</testCaseId>
+      <testCaseId>Test Cases/NCP/NCP Samples 2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>505bfb21-534b-49f1-90fb-cdc477d7149e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>505bfb21-534b-49f1-90fb-cdc477d7149e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Breeding Chicken</value>
+         <variableId>ae19a69a-10ac-4643-bf70-4f164b26354d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d2446333-9759-4811-ba50-3f69c5f85db0</guid>

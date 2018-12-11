@@ -34,9 +34,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/FSM1/EMI Check Res
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/Page_JM Control Centre/ABPR15 - Microbiology'), 
+WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - Breeding Chickens'), 
     5)
 
-WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_ABPR02A'), 
+WebUI.verifyElementPresent(findTestObject('FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - SL47'), 
     5)
 

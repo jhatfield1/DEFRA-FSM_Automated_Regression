@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::span[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Breeding Chickens' or . = 'Breeding Chickens') and @ref_element = 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

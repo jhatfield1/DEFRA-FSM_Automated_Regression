@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Flock Type'])[2]/following::select[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = ' Broiler Breeder (parent)Table Egg Layer Broiler Grandparent/PedigreeTable Egg Layer Breeder (parent)Broiler Breeder Grandparent/Pedigree' or . = ' Broiler Breeder (parent)Table Egg Layer Broiler Grandparent/PedigreeTable Egg Layer Breeder (parent)Broiler Breeder Grandparent/Pedigree')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

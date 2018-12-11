@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_CSO01 - NCP Salmonella'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8'), 
+not_run: WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8'), 
     'CSO01 - NCP Salmonella')
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_SLA_v-filterselect-button'))
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Flock Type_v-filterselect-'))
 
 FlockType = WebUI.modifyObjectProperty(findTestObject('Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens'), 
-    'text', 'equals', findTestData('Pre Production/NCP/FlockType').getValue(1, 1), true)
+    'text', 'equals', FlockType, true)
 
 WebUI.click(FlockType, FailureHandling.STOP_ON_FAILURE)
 

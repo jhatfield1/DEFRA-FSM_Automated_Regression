@@ -6,19 +6,19 @@
    <elementGuidId>3df407f1-c79b-4406-bc90-1bf1ad81af93</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//select[(text() = ' Boot SwabComposite faeces' or . = ' Boot SwabComposite faeces')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample type'])[1]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = ' Boot SwabComposite faeces' or . = ' Boot SwabComposite faeces')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(2) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div:nth-child(1) > div:nth-child(2) > select</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

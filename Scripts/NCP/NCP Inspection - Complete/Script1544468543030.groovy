@@ -27,17 +27,21 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete In
 WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/input_Number of 14 hour units'), 
     '4')
 
-WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/input_Is another APHA sampling'))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/input_Is another APHA sampling'), 
+    FailureHandling.OPTIONAL)) 
+{
+    WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/input_Is another APHA sampling'))
 
-mydate = new Date()
+    mydate = new Date()
 
-tomorrow = mydate.next()
+    tomorrow = mydate.next()
 
-formattedDate = tomorrow.format('MM/dd/yyyy')
+    formattedDate = tomorrow.format('MM/dd/yyyy')
 
-WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_From date_GKH2EKQBOHC'), formattedDate)
+    WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_From date_GKH2EKQBOHC'), formattedDate)
 
-WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_To date_GKH2EKQBOHC'), formattedDate)
+    WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_To date_GKH2EKQBOHC'), formattedDate)
+}
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/img_Signature_gwt-Image'))
 
