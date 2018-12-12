@@ -13,21 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an'))
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'Test Inspector')
 
-WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/div_Owner_v-filterselect-butto'))
+WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/div_Auto Schedulable_v-filters'))
 
-WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'), 
-    'test')
+WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/span_Yes'))
 
-WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector'))
-
-WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'), 
-    'Test Inspector')
-
-WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-306'), 
-    '07-D1ec-2018')
-
-WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-308'), 
-    '10-1Dec-2018')
+WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/div_Create'))
 

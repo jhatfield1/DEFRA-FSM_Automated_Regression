@@ -45,10 +45,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5915688-1718-426a-b801-dac5b9d365fb</guid>
+      <guid>6a546328-81b6-4fa1-b66e-42b20e7a5806</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PMM/Registration/Create PMM Inspection - Registration</testCaseId>
+      <testCaseId>Test Cases/PMM/Generic/Create PMM Inspection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>988e98bb-83e0-46d3-9dce-5985048c8d03</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/PMM/PMM Inspection Type</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>988e98bb-83e0-46d3-9dce-5985048c8d03</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Registration</value>
+         <variableId>a8895616-6f03-433e-b22b-0694823549af</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6c2e7b75-af10-4ed2-a16f-84a0a2b1102e</guid>

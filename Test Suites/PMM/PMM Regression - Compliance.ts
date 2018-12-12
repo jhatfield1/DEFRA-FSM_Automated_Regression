@@ -4,7 +4,7 @@
    <name>PMM Regression - Compliance</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T13:28:56</lastRun>
+   <lastRun>2018-12-12T18:23:21</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -48,7 +48,22 @@
       <guid>328953dc-c0f1-4286-af32-ebcb42aa9629</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PMM/Compliance/Create PMM Inspection - Compliance</testCaseId>
+      <testCaseId>Test Cases/PMM/Generic/Create PMM Inspection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>064635af-44c4-41c2-9603-6f666859b3f9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/PMM/PMM Inspection Type</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>064635af-44c4-41c2-9603-6f666859b3f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Compliance</value>
+         <variableId>a8895616-6f03-433e-b22b-0694823549af</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6c2e7b75-af10-4ed2-a16f-84a0a2b1102e</guid>

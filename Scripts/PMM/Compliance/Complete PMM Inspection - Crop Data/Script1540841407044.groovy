@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Crop Data/Page_JClient/Page_JClient/div_Crop Data'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Crop Data/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ'))
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Crop Data/Page_JClient/Page_JClient/input_House number or name_gwt'), 

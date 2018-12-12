@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#jmcontent > div > div:nth-child(4) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div.v-filterselect.v-widget.v-filterselect-error.selectField.v-filterselect-selectField.nicer-field.v-filterselect-nicer-field.v-required.v-filterselect-required > div</value>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(2) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div:nth-child(11) > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

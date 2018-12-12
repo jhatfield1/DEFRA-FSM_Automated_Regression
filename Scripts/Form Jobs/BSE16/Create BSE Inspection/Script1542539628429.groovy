@@ -38,13 +38,19 @@ WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_BSE16'
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_WITH OPERATIVE'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_TRAVELLING'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_TRAVELLING'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_ARRIVED'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_ARRIVED'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_STARTED'))
 

@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//input[@id='gwt-uid-175']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(12) > div > div.v-csslayout.v-layout.v-widget.k-csslayout.v-csslayout-k-csslayout.options.v-csslayout-options > div.v-csslayout.v-layout.v-widget.k-csslayout.v-csslayout-k-csslayout.footer.v-csslayout-footer > div.v-filterselect.v-widget.fixedResource.v-filterselect-fixedResource.nicer-field.v-filterselect-nicer-field.medium-field.v-filterselect-medium-field > div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

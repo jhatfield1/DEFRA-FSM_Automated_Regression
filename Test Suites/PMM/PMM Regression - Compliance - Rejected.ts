@@ -48,7 +48,13 @@
       <guid>328953dc-c0f1-4286-af32-ebcb42aa9629</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PMM/Compliance/Create PMM Inspection - Compliance</testCaseId>
+      <testCaseId>Test Cases/PMM/Generic/Create PMM Inspection</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8895616-6f03-433e-b22b-0694823549af</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6c2e7b75-af10-4ed2-a16f-84a0a2b1102e</guid>

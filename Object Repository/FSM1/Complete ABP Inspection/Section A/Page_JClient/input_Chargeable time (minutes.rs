@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(57) > div:nth-child(2) > div.GFNJNYPCPJC.GFNJNYPCGIC > input</value>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div.GFNJNYPCOBB.GFNJNYPCO5B.GFNJNYPCK5B.GFNJNYPCKIC.GFNJNYPCLIC > div:nth-child(2) > div.GFNJNYPCPJC.GFNJNYPCGIC > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

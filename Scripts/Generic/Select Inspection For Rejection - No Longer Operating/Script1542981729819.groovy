@@ -23,11 +23,13 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.delay(30)
 
-WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
+WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
+    250)
 
-WebUI.click(findTestObject('FSM1/Select Inspection/Landing/Refresh'))
+WebUI.click(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'))
 
-WebUI.waitForElementClickable(findTestObject('FSM1/Select Inspection/Landing/Refresh'), 250)
+WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
+    250)
 
 not_run: WebUI.delay(180)
 
