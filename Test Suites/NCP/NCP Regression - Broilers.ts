@@ -138,7 +138,7 @@
       <variableLink>
          <testDataLinkId>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Breeding Chicken Samples</value>
+         <value>Broilers</value>
          <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
       </variableLink>
    </testCaseLink>
@@ -159,7 +159,7 @@
       <variableLink>
          <testDataLinkId>bda61741-1fc0-424f-af5c-43da5383b111</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Layers</value>
+         <value>Broilers</value>
          <variableId>ae19a69a-10ac-4643-bf70-4f164b26354d</variableId>
       </variableLink>
    </testCaseLink>

@@ -36,10 +36,11 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete In
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_20102011201220132014201'), 
     '2020', true)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent'), 2, FailureHandling.OPTIONAL)) {
-	WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent'), 
-    'BB', true)
-	}
+if (WebUI.verifyElementPresent(findTestObject('FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent'), 
+    2, FailureHandling.OPTIONAL)) {
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent'), 
+        'BB', true)
+}
 
 WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_Age of flock sampled (we'), 
     '11')

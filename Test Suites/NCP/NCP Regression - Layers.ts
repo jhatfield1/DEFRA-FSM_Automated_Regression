@@ -4,7 +4,7 @@
    <name>NCP Regression - Layers</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-11T16:55:10</lastRun>
+   <lastRun>2018-12-13T16:09:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -204,15 +204,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7828d510-5053-47a1-9154-cb6d48de5e70</guid>
+      <guid>2a758c7a-0c1f-4277-8a99-88b418727a5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
+      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Layers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8f9ce22e-b52a-49da-8e4d-8e5e85fa9b80</variableId>
+         <variableId>9c0bbd06-081c-4b2b-afb7-ef8b7ff0dab0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
