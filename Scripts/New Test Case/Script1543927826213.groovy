@@ -13,11 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'Test Inspector')
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/td_PLANNED DYNAMIC'))
 
-WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/div_Auto Schedulable_v-filters'))
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/td_CLOSED'))
 
-WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/span_Yes'))
-
-WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/div_Create'))
+WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/td_INVALID'))
 

@@ -4,7 +4,7 @@
    <name>PMM Regression - Compliance - Rejected</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T18:10:50</lastRun>
+   <lastRun>2018-12-13T11:11:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -49,10 +49,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/PMM/Generic/Create PMM Inspection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d405b3c6-83f6-4836-8ea5-79a6ea45e65c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/PMM/PMM Inspection Type</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d405b3c6-83f6-4836-8ea5-79a6ea45e65c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Compliance</value>
          <variableId>a8895616-6f03-433e-b22b-0694823549af</variableId>
       </variableLink>
    </testCaseLink>
@@ -106,10 +115,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Conflict of Interest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e955ce1a-acfa-47a9-9b22-b475eb83ebde</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/ABP/Rejection - Conflict of Interest</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>e955ce1a-acfa-47a9-9b22-b475eb83ebde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RejectionReason</value>
          <variableId>bb4ea294-87ff-4a16-b97b-b6c68c7499bc</variableId>
       </variableLink>
    </testCaseLink>

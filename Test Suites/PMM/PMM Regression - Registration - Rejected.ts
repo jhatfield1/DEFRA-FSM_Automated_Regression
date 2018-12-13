@@ -4,7 +4,7 @@
    <name>PMM Regression - Registration - Rejected</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T13:28:58</lastRun>
+   <lastRun>2018-12-13T11:20:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -45,10 +45,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5915688-1718-426a-b801-dac5b9d365fb</guid>
+      <guid>d64fcdfa-5f5b-48e1-8297-2bf01adf103d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PMM/Registration/Create PMM Inspection - Registration</testCaseId>
+      <testCaseId>Test Cases/PMM/Generic/Create PMM Inspection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e4948932-b554-42a8-8783-866ca6d208c0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/PMM/PMM Inspection Type</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e4948932-b554-42a8-8783-866ca6d208c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Registration</value>
+         <variableId>a8895616-6f03-433e-b22b-0694823549af</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6c2e7b75-af10-4ed2-a16f-84a0a2b1102e</guid>
@@ -100,10 +115,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Availability Changed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e322968b-2f30-47c2-8605-7a688a850611</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/ABP/Rejection - Availability Changed</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>e322968b-2f30-47c2-8605-7a688a850611</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RejectionReason</value>
          <variableId>4d2f0bcc-f23e-4c2b-a2fd-54644579a79b</variableId>
       </variableLink>
    </testCaseLink>

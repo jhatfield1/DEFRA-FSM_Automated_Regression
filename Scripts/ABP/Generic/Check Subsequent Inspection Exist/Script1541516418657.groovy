@@ -23,5 +23,9 @@ WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.'))
 
+WebUI.verifyElementNotPresent(findTestObject('JM_8918/New/Page_JM Control Centre/td_INVALID'), 2)
+
+WebUI.verifyElementNotPresent(findTestObject('JM_8918/New/Page_JM Control Centre/td_CREATING'), 2)
+
 WebUI.closeBrowser()
 

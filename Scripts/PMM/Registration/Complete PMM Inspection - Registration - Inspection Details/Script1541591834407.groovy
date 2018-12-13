@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/Registr
 
 WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Registration/Page_JClient/Inspector_Unable To Sign'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/img_Person Seen Signature_gwt-'))
 
 WebUI.click(findTestObject('FSM1/Complete PMM Inspection/Registration/Page_JClient/Person_Unable To Sign'))

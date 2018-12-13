@@ -6,11 +6,19 @@
    <elementGuidId>4cb399bb-dc5a-4881-bb33-c873d21e7e27</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'gwt-uid-30' and @ref_element = 'Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='gwt-uid-30']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(2) > div > div.v-csslayout.v-layout.v-widget.v-has-width.v-has-height > div:nth-child(9) > div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

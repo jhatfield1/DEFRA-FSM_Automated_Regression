@@ -27,10 +27,6 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Type_gwt-uid-8'), 
     PMMInspectionType)
 
-not_run: WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03A - Producer Complia'))
-
-not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Type_gwt-uid-8'), 
-    'PMR03A - Producer Compliance / Follow Up Inspection')
 
 PMMInspectionType = WebUI.modifyObjectProperty(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03A - Producer Complia'), 
     'text', 'equals', PMMInspectionType, true)
@@ -46,29 +42,36 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Pag
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_West'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Region_gwt-uid-24'), 
-    'West')
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Priority_gwt-uid-26'), 
     'h')
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_High'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Priority_gwt-uid-26'), 
-    'High')
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Inspection Type_gwt-uid-'), 
-    'r')
+if (WebUI.verifyElementPresent(findTestObject('JM_8918/PMM/Page_JM Control Centre/Page_JM Control Centre/InspectionType'), 
+    2, FailureHandling.OPTIONAL)) {
+    WebUI.setText(findTestObject('JM_8918/PMM/Page_JM Control Centre/Page_JM Control Centre/InspectionType'), 'r')
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_Routine'))
+    WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_Routine'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Production Type_v-filterse'))
+    WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Production Type_v-filterse'))
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_Extensive Indoor (Barn Re'))
+    WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_Extensive Indoor (Barn Re'))
+} else {
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Production Type_v-filterse'))
+
+    WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Extensive Indoor (Barn Re'))
+}
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Species_v-filterselect-but'))
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_Chicken'))
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_Keeper ID_gwt-uid-34'), 
+    RandomStringUtils.randomNumeric(5))
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Keeper ID_gwt-uid-36'), 
     RandomStringUtils.randomNumeric(5))
@@ -79,22 +82,22 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Pag
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Keeper Contact Name_gwt-'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Location ID_gwt-uid-46'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_Location ID_gwt-uid-44'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Customer ID_gwt-uid-50'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_Customer ID_gwt-uid-48'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Customer Name_gwt-uid-52'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_Customer Name_gwt-uid-50'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Customer Contact Name_gw'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_Customer Contact Name_gw'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_County Parish Holding (C'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_County Parish Holding (C'), 
     RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_CPHH_gwt-uid-66'), 
+WebUI.setText(findTestObject('Object Repository/JM_8918/PMM/Registration/Page_JM Control Centre/input_CPHH_gwt-uid-64'), 
     RandomStringUtils.randomNumeric(5))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_'))

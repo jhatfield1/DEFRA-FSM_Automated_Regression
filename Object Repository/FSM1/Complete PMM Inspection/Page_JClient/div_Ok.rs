@@ -6,15 +6,19 @@
    <elementGuidId>90b6c0c9-d246-43ba-9bd0-0fc39800620d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'GKH2EKQBB2B GKH2EKQBD2B' and (text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='You will no longer be able to edit this job. Continue?'])[1]/following::div[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'GKH2EKQBB2B GKH2EKQBD2B' and (text() = 'Ok' or . = 'Ok')]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCO-.GFNJNYPCO1.GFNJNYPCN1 > div:nth-child(1) > div > div > div > div.GFNJNYPCI3B > div.GFNJNYPCC3B.GFNJNYPCE3B</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
