@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NCP Regression - Breeding Chickens" time="506" tests="8" failures="3" errors="0">
+   <testsuite name="NCP Regression - Breeding Chickens" tests="8" failures="3" errors="0" time="506" timestamp="2018-12-14 17:25:19" hostname="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com" id="Test Suites/NCP/NCP Regression - Breeding Chickens">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514"/>
+         <property name="logFiles" value="C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808583527.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808639346.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808652018.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808691507.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808785529.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808823573.png, C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808824551.png"/>
+         <property name="hostName" value="JHATFIELD - SNDFSMINFSRV001.defra.onmicrosoft.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.201.1.17"/>
+         <property name="sessionId" value="4e19a43d60efa03f57984939f1cae0cf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre" classname="Test Cases/Generic/Launch Job Manager Control Centre" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:25:20 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre: Test Cases/Generic/Launch Job Manager Control Centre
+
+2018-12-14 17:25:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 17:25:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 17:25:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 17:25:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 17:25:27 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-14 17:25:28 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-14 17:25:28 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-14 17:25:30 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-14 17:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-14 17:25:30 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-14 17:25:30 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-14 17:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-14 17:25:31 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-14 17:25:46 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/Create NCP Inspection - Manual Assignment" classname="Test Cases/NCP/Create NCP Inspection - Manual Assignment" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:25:46 - [TEST_CASE][PASSED] - Test Cases/NCP/Create NCP Inspection - Manual Assignment: Test Cases/NCP/Create NCP Inspection - Manual Assignment
+
+2018-12-14 17:25:47 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-14 17:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Create")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-14 17:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Create' is clicked on
+
+2018-12-14 17:25:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8"), "cso01 - ncp salmonella"): Text 'cso01 - ncp salmonella' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8'
+
+2018-12-14 17:25:51 - [MESSAGE][PASSED] - Text 'cso01 - ncp salmonella' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8'
+
+2018-12-14 17:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_CSO01 - NCP Salmonella")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_CSO01 - NCP Salmonella' is clicked on
+
+2018-12-14 17:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_CSO01 - NCP Salmonella' is clicked on
+
+2018-12-14 17:25:52 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8"), "CSO01 - NCP Salmonella"): NOT_RUN: setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8"), "CSO01 - NCP Salmonella")
+
+2018-12-14 17:25:52 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Type_gwt-uid-8"), "CSO01 - NCP Salmonella")
+
+2018-12-14 17:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_SLA_v-filterselect-button")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_SLA_v-filterselect-button' is clicked on
+
+2018-12-14 17:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_SLA_v-filterselect-button' is clicked on
+
+2018-12-14 17:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/td_24 Hours")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/td_24 Hours' is clicked on
+
+2018-12-14 17:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/td_24 Hours' is clicked on
+
+2018-12-14 17:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Flock Type_v-filterselect-")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Flock Type_v-filterselect-' is clicked on
+
+2018-12-14 17:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Flock Type_v-filterselect-' is clicked on
+
+2018-12-14 17:25:56 - [TEST_STEP][PASSED] - FlockType = modifyObjectProperty(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens"), "text", "equals", FlockType, true): Modify property of object successfully
+
+2018-12-14 17:25:56 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-14 17:25:56 - [TEST_STEP][PASSED] - click(FlockType, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens' is clicked on
+
+2018-12-14 17:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens' is clicked on
+
+2018-12-14 17:25:56 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens")): NOT_RUN: click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens"))
+
+2018-12-14 17:25:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_Breeding Chickens"))
+
+2018-12-14 17:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Region_v-filterselect-butt")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-14 17:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/div_Region_v-filterselect-butt' is clicked on
+
+2018-12-14 17:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_West")): Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-14 17:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/span_West' is clicked on
+
+2018-12-14 17:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer ID_gwt-uid-34"), RandomStringUtils.randomNumeric(5)): Text '22143' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer ID_gwt-uid-34'
+
+2018-12-14 17:25:58 - [MESSAGE][PASSED] - Text '22143' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer ID_gwt-uid-34'
+
+2018-12-14 17:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Name_gwt-uid-36"), "Test Automation"): Text 'Test Automation' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Name_gwt-uid-36'
+
+2018-12-14 17:25:59 - [MESSAGE][PASSED] - Text 'Test Automation' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Name_gwt-uid-36'
+
+2018-12-14 17:25:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Phone_gwt-uid-3"), "07824487657"): Text '07824487657' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Phone_gwt-uid-3'
+
+2018-12-14 17:25:59 - [MESSAGE][PASSED] - Text '07824487657' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer Phone_gwt-uid-3'
+
+2018-12-14 17:25:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer email_gwt-uid-4"), "test@automation.com"): Text 'test@automation.com' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer email_gwt-uid-4'
+
+2018-12-14 17:26:00 - [MESSAGE][PASSED] - Text 'test@automation.com' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Customer email_gwt-uid-4'
+
+2018-12-14 17:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Name_gwt-uid-42"), "Test Automation Reg"): Text 'Test Automation Reg' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Name_gwt-uid-42'
+
+2018-12-14 17:26:00 - [MESSAGE][PASSED] - Text 'Test Automation Reg' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Name_gwt-uid-42'
+
+2018-12-14 17:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Phone_gwt-uid-44"), "017877645322"): Text '017877645322' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Phone_gwt-uid-44'
+
+2018-12-14 17:26:01 - [MESSAGE][PASSED] - Text '017877645322' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Phone_gwt-uid-44'
+
+2018-12-14 17:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_CPHRegistration Number_g"), "11/222/3333"): Text '11/222/3333' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_CPHRegistration Number_g'
+
+2018-12-14 17:26:01 - [MESSAGE][PASSED] - Text '11/222/3333' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_CPHRegistration Number_g'
+
+2018-12-14 17:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Survey Ref_gwt-uid-48"), RandomStringUtils.randomNumeric(5)): Text '64668' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Survey Ref_gwt-uid-48'
+
+2018-12-14 17:26:02 - [MESSAGE][PASSED] - Text '64668' is set on object 'Object Repository/FSM1/NCP/Create Inspection/Page_JM Control Centre/input_Survey Ref_gwt-uid-48'
+
+2018-12-14 17:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_' is clicked on
+
+2018-12-14 17:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_' is clicked on
+
+2018-12-14 17:26:02 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-12-14 17:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search' is clicked on
+
+2018-12-14 17:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/PreProd/Page_JM Control Centre/PostcodeSearch"), findTestData("Pre Production/ABP/ABP Inspection Data 01a").getValue(2, 1)): Text 'WR5 2NQ' is set on object 'Object Repository/FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'
+
+2018-12-14 17:26:04 - [MESSAGE][PASSED] - Text 'WR5 2NQ' is set on object 'Object Repository/FSM1/PreProd/Page_JM Control Centre/PostcodeSearch'
+
+2018-12-14 17:26:04 - [TEST_STEP][PASSED] - doubleClick(findTestObject("JM_8918/Page_JM Control Centre/div_Search")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Search' is double clicked on
+
+2018-12-14 17:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/div_Search' is double clicked on
+
+2018-12-14 17:26:06 - [TEST_STEP][PASSED] - FullAddress = modifyObjectProperty(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address"), "text", "equals", findTestData("Pre Production/ABP/ABP Inspection Data 01a").getValue(3, 1), true): Modify property of object successfully
+
+2018-12-14 17:26:06 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-14 17:26:06 - [TEST_STEP][PASSED] - click(FullAddress, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address' is clicked on
+
+2018-12-14 17:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Address' is clicked on
+
+2018-12-14 17:26:07 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-14 17:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item' is clicked on
+
+2018-12-14 17:26:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:26:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:26:10 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create")): Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-14 17:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create' is clicked on
+
+2018-12-14 17:26:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_APPROVED"), 120, STOP_ON_FAILURE): Object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_APPROVED' is present
+
+2018-12-14 17:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_APPROVED' is present
+
+2018-12-14 17:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule")): Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule' is clicked on
+
+2018-12-14 17:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule' is clicked on
+
+2018-12-14 17:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an")): Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an' is clicked on
+
+2018-12-14 17:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an' is clicked on
+
+2018-12-14 17:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/div_Owner_v-filterselect-butto")): Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/div_Owner_v-filterselect-butto' is clicked on
+
+2018-12-14 17:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/div_Owner_v-filterselect-butto' is clicked on
+
+2018-12-14 17:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304"), "test"): Text 'test' is set on object 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'
+
+2018-12-14 17:26:21 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'
+
+2018-12-14 17:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector")): Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-14 17:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector' is clicked on
+
+2018-12-14 17:26:22 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311"), "Test Inspector"): NOT_RUN: setText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311"), "Test Inspector")
+
+2018-12-14 17:26:22 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311"), "Test Inspector")
+
+2018-12-14 17:26:22 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2018-12-14 17:26:22 - [TEST_STEP][PASSED] - tomorrow = mydate.next(): null
+
+2018-12-14 17:26:22 - [TEST_STEP][PASSED] - formattedDate = tomorrow.format("dd-MMM-yyyy"): null
+
+2018-12-14 17:26:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)"), formattedDate): Text '15-Dec-2018' is set on object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)'
+
+2018-12-14 17:26:23 - [MESSAGE][PASSED] - Text '15-Dec-2018' is set on object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)'
+
+2018-12-14 17:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)"), formattedDate): Text '15-Dec-2018' is set on object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)'
+
+2018-12-14 17:26:24 - [MESSAGE][PASSED] - Text '15-Dec-2018' is set on object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)'
+
+2018-12-14 17:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate")): Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate' is clicked on
+
+2018-12-14 17:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate' is clicked on
+
+2018-12-14 17:26:25 - [TEST_STEP][PASSED] - InspectionID = getText(findTestObject("Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/InspectionID")): Text of object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/InspectionID' is: 'Viewing Job 96028'
+
+2018-12-14 17:26:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/InspectionID' is: 'Viewing Job 96028'
+
+2018-12-14 17:26:26 - [TEST_STEP][PASSED] - InspectionID = InspectionID.replaceAll("Viewing Job ", ""): null
+
+2018-12-14 17:26:26 - [TEST_STEP][PASSED] - log.logWarning(InspectionID): 96028
+
+2018-12-14 17:26:26 - [MESSAGE][WARNING] - 96028
+
+2018-12-14 17:26:26 - [TEST_STEP][PASSED] - temp = InspectionID: null
+
+2018-12-14 17:26:26 - [TEST_STEP][PASSED] - delay(90): Delayed 90 second(s)
+
+2018-12-14 17:27:56 - [MESSAGE][PASSED] - Delayed 90 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager" classname="Test Cases/Generic/Launch Job Manager" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:27:56 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager: Test Cases/Generic/Launch Job Manager
+
+2018-12-14 17:27:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 17:27:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 17:27:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 17:28:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 17:28:00 - [TEST_STEP][PASSED] - navigateToUrl(JMURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-14 17:28:01 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html' successfully
+
+2018-12-14 17:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), "KIR1"): Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-14 17:28:04 - [MESSAGE][PASSED] - Text 'KIR1' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-14 17:28:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-14 17:28:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'
+
+2018-12-14 17:28:04 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Configure App")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-14 17:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Configure App' is clicked on
+
+2018-12-14 17:28:04 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC"), findTestData("Pre Production/Environmental/UandP").getValue(3, 1)): Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-14 17:28:06 - [MESSAGE][PASSED] - Text 'test.inspector' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC'
+
+2018-12-14 17:28:06 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2"), findTestData("Pre Production/Environmental/UandP").getValue(4, 1)): Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-14 17:28:06 - [MESSAGE][PASSED] - Text 'Password1.' is set on object 'Object Repository/FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2'
+
+2018-12-14 17:28:06 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Launch Application/Page_JClient/div_Sign In")): Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-14 17:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Launch Application/Page_JClient/div_Sign In' is clicked on
+
+2018-12-14 17:28:06 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-14 17:28:21 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Select Inspection" classname="Test Cases/Generic/Select Inspection" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:28:21 - [TEST_CASE][PASSED] - Test Cases/Generic/Select Inspection: Test Cases/Generic/Select Inspection
+
+2018-12-14 17:28:22 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2018-12-14 17:28:52 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-12-14 17:28:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh"), 250): Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-14 17:28:52 - [MESSAGE][PASSED] - Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-14 17:28:52 - [TEST_STEP][PASSED] - click(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clicked on
+
+2018-12-14 17:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clicked on
+
+2018-12-14 17:28:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh"), 250): Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-14 17:28:52 - [MESSAGE][PASSED] - Object 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh' is clickable
+
+2018-12-14 17:28:52 - [TEST_STEP][NOT_RUN] - delay(180): NOT_RUN: delay(180)
+
+2018-12-14 17:28:52 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(180)
+
+2018-12-14 17:28:52 - [TEST_STEP][PASSED] - InspectionRef = modifyObjectProperty(findTestObject("FSM1/Select Inspection/Landing/Page_JClient/div_35098"), "text", "equals", temp, true, STOP_ON_FAILURE): Modify property of object successfully
+
+2018-12-14 17:28:52 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-14 17:28:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2018-12-14 17:29:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-12-14 17:29:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(InspectionRef, 30, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' located by 'By.xpath: //div[(text() = '96028' or . = '96028')]' not found
+
+2018-12-14 17:29:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = '96028' or . = '96028')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:29:44 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' located by 'By.xpath: //div[(text() = '96028' or . = '96028')]' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808583527.png]]
+
+2018-12-14 17:29:44 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-14 17:29:44 - [TEST_STEP][PASSED] - click(findTestObject("JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/div_2 Days")): Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/div_2 Days' is clicked on
+
+2018-12-14 17:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/div_2 Days' is clicked on
+
+2018-12-14 17:29:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-14 17:29:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-14 17:29:47 - [TEST_STEP][PASSED] - click(InspectionRef): Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-14 17:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Landing/Page_JClient/div_35098' is clicked on
+
+2018-12-14 17:29:47 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-14 17:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE' is clicked on
+
+2018-12-14 17:29:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:29:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:29:50 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-14 17:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-14 17:29:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:29:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:29:52 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_TRAVELLING")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-14 17:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_TRAVELLING' is clicked on
+
+2018-12-14 17:29:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:29:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:29:54 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-14 17:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-14 17:29:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:29:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:29:57 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_ARRIVED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-14 17:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_ARRIVED' is clicked on
+
+2018-12-14 17:29:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2018-12-14 17:30:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-12-14 17:30:01 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/Select Inspection/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-14 17:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Select Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-14 17:30:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens" classname="Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:30:03 - [TEST_CASE][PASSED] - Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens: Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens
+
+2018-12-14 17:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Edit attributes")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Edit attributes' is clicked on
+
+2018-12-14 17:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Edit attributes' is clicked on
+
+2018-12-14 17:30:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_1")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_1' is clicked on
+
+2018-12-14 17:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_1' is clicked on
+
+2018-12-14 17:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_2")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_2' is clicked on
+
+2018-12-14 17:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Yes_radio_group_2' is clicked on
+
+2018-12-14 17:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Does the operator wish t")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Does the operator wish t' is clicked on
+
+2018-12-14 17:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Does the operator wish t' is clicked on
+
+2018-12-14 17:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Name and address of p"), "Test Automation"): Text 'Test Automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Name and address of p'
+
+2018-12-14 17:30:07 - [MESSAGE][PASSED] - Text 'Test Automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Name and address of p'
+
+2018-12-14 17:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_None_gwt-uid-103")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_None_gwt-uid-103' is clicked on
+
+2018-12-14 17:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_None_gwt-uid-103' is clicked on
+
+2018-12-14 17:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Avipro Vac E_gwt-uid-105")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Avipro Vac E_gwt-uid-105' is clicked on
+
+2018-12-14 17:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Avipro Vac E_gwt-uid-105' is clicked on
+
+2018-12-14 17:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Has the flock been treat")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Has the flock been treat' is clicked on
+
+2018-12-14 17:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Has the flock been treat' is clicked on
+
+2018-12-14 17:30:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_WaterFeed"), "WATER", true): All options with value 'WATER' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_WaterFeed'  using regular expression
+
+2018-12-14 17:30:08 - [MESSAGE][PASSED] - All options with value 'WATER' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_WaterFeed'  using regular expression
+
+2018-12-14 17:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Name of product_gwt-Text"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Name of product_gwt-Text'
+
+2018-12-14 17:30:08 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Name of product_gwt-Text'
+
+2018-12-14 17:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of houses (Complete"), "2"): Text '2' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of houses (Complete'
+
+2018-12-14 17:30:08 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of houses (Complete'
+
+2018-12-14 17:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_NCP Salmonella Record Chec")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_NCP Salmonella Record Chec' is clicked on
+
+2018-12-14 17:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_NCP Salmonella Record Chec' is clicked on
+
+2018-12-14 17:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_NCP Salmonella Record Ch")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_NCP Salmonella Record Ch' is clicked on
+
+2018-12-14 17:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_NCP Salmonella Record Ch' is clicked on
+
+2018-12-14 17:30:09 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Salmonella")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Salmonella' is clicked on
+
+2018-12-14 17:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Salmonella' is clicked on
+
+2018-12-14 17:30:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Record Check Details")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Record Check Details' is clicked on
+
+2018-12-14 17:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Record Check Details' is clicked on
+
+2018-12-14 17:30:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Total No. of flocks on p"), "5"): Text '5' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Total No. of flocks on p'
+
+2018-12-14 17:30:14 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Total No. of flocks on p'
+
+2018-12-14 17:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of birds on premises"), "10"): Text '10' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of birds on premises'
+
+2018-12-14 17:30:14 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_No. of birds on premises'
+
+2018-12-14 17:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Housing typepremises_gwt")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Housing typepremises_gwt' is clicked on
+
+2018-12-14 17:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Housing typepremises_gwt' is clicked on
+
+2018-12-14 17:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Cage_gwt-uid-163")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Cage_gwt-uid-163' is clicked on
+
+2018-12-14 17:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Cage_gwt-uid-163' is clicked on
+
+2018-12-14 17:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_BarnHoused_gwt-uid-164")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_BarnHoused_gwt-uid-164' is clicked on
+
+2018-12-14 17:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_BarnHoused_gwt-uid-164' is clicked on
+
+2018-12-14 17:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Free Range_gwt-uid-165")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Free Range_gwt-uid-165' is clicked on
+
+2018-12-14 17:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Free Range_gwt-uid-165' is clicked on
+
+2018-12-14 17:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Rearing_gwt-uid-166")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Rearing_gwt-uid-166' is clicked on
+
+2018-12-14 17:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Rearing_gwt-uid-166' is clicked on
+
+2018-12-14 17:30:15 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Barn"), "1"): Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Barn'
+
+2018-12-14 17:30:15 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Barn'
+
+2018-12-14 17:30:15 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Cage"), "1"): Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Cage'
+
+2018-12-14 17:30:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Cage'
+
+2018-12-14 17:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Conventional"), "1"): Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Conventional'
+
+2018-12-14 17:30:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Conventional'
+
+2018-12-14 17:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free"), "1"): Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free'
+
+2018-12-14 17:30:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free'
+
+2018-12-14 17:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Rearing"), "1"): Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Rearing'
+
+2018-12-14 17:30:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Rearing'
+
+2018-12-14 17:30:16 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free"), STOP_ON_FAILURE): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free' is clicked on
+
+2018-12-14 17:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_ No. of flocks - Free' is clicked on
+
+2018-12-14 17:30:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are movement records up")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are movement records up' is clicked on
+
+2018-12-14 17:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are movement records up' is clicked on
+
+2018-12-14 17:30:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_Are movement records up_2")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_Are movement records up_2' is clicked on
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_Are movement records up_2' is clicked on
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad' is clicked on
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad' is clicked on
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are  the medicine record")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are  the medicine record' is clicked on
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Are  the medicine record' is clicked on
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad_1")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad_1' is clicked on
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please comment_rad_1' is clicked on
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please give detail")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please give detail' is clicked on
+
+2018-12-14 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_If No please give detail' is clicked on
+
+2018-12-14 17:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_If Yes please comment"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_If Yes please comment'
+
+2018-12-14 17:30:22 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_If Yes please comment'
+
+2018-12-14 17:30:22 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Record Check")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Record Check' is clicked on
+
+2018-12-14 17:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Record Check' is clicked on
+
+2018-12-14 17:30:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Biosecurity Assessment")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Biosecurity Assessment' is clicked on
+
+2018-12-14 17:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Biosecurity Assessment' is clicked on
+
+2018-12-14 17:30:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G"), "ONE_MINOR_ISSU_GOOD", true): All options with value 'ONE_MINOR_ISSU_GOOD' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'  using regular expression
+
+2018-12-14 17:30:26 - [MESSAGE][PASSED] - All options with value 'ONE_MINOR_ISSU_GOOD' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'  using regular expression
+
+2018-12-14 17:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Specify_gwt-TextArea"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Specify_gwt-TextArea'
+
+2018-12-14 17:30:27 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Specify_gwt-TextArea'
+
+2018-12-14 17:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/img_Signature_gwt-Image")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/img_Signature_gwt-Image' is clicked on
+
+2018-12-14 17:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/img_Signature_gwt-Image' is clicked on
+
+2018-12-14 17:30:27 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/UnableToSign")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/UnableToSign' is clicked on
+
+2018-12-14 17:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/UnableToSign' is clicked on
+
+2018-12-14 17:30:28 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity' is clicked on
+
+2018-12-14 17:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity' is clicked on
+
+2018-12-14 17:30:29 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2018-12-14 17:30:29 - [TEST_STEP][PASSED] - formattedDate = mydate.format("MM/dd/yyy"): null
+
+2018-12-14 17:30:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G"), formattedDate): Keys '12/14/2018' sent to object: 'Object Repository/FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G'
+
+2018-12-14 17:30:30 - [MESSAGE][PASSED] - Keys '12/14/2018' sent to object: 'Object Repository/FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G'
+
+2018-12-14 17:30:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save' is clicked on
+
+2018-12-14 17:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/NCP Samples" classname="Test Cases/NCP/NCP Samples" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:30:30 - [TEST_CASE][PASSED] - Test Cases/NCP/NCP Samples: Test Cases/NCP/NCP Samples
+
+2018-12-14 17:30:31 - [TEST_STEP][PASSED] - SampleType = modifyObjectProperty(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples"), "text", "equals", SampleType, true): Modify property of object successfully
+
+2018-12-14 17:30:31 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-14 17:30:31 - [TEST_STEP][PASSED] - click(SampleType, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples' is clicked on
+
+2018-12-14 17:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples' is clicked on
+
+2018-12-14 17:30:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-14 17:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-14 17:30:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec"), "BOOT_SWAB", true): All options with value 'BOOT_SWAB' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'  using regular expression
+
+2018-12-14 17:30:35 - [MESSAGE][PASSED] - All options with value 'BOOT_SWAB' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'  using regular expression
+
+2018-12-14 17:30:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_House_gwt-TextBox GKH2EK"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_House_gwt-TextBox GKH2EK'
+
+2018-12-14 17:30:36 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_House_gwt-TextBox GKH2EK'
+
+2018-12-14 17:30:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_JanuaryFebruaryMarchApr"), "12", true): All options with value '12' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-12-14 17:30:36 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-12-14 17:30:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_20102011201220132014201"), "2020", true): All options with value '2020' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_20102011201220132014201'  using regular expression
+
+2018-12-14 17:30:37 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_20102011201220132014201'  using regular expression
+
+2018-12-14 17:30:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent"), 2, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent' located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(1) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select' not found
+
+2018-12-14 17:30:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(1) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:30:40 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent' located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(1) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808639346.png]]
+
+2018-12-14 17:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_Age of flock sampled (we"), "11"): Text '11' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_Age of flock sampled (we'
+
+2018-12-14 17:30:40 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_Age of flock sampled (we'
+
+2018-12-14 17:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_No. of birds in flock_gw"), "50"): Text '50' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_No. of birds in flock_gw'
+
+2018-12-14 17:30:41 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_No. of birds in flock_gw'
+
+2018-12-14 17:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Save' is clicked on
+
+2018-12-14 17:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Save' is clicked on
+
+2018-12-14 17:30:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:43 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/NCP Samples 2" classname="Test Cases/NCP/NCP Samples 2" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:30:43 - [TEST_CASE][PASSED] - Test Cases/NCP/NCP Samples 2: Test Cases/NCP/NCP Samples 2
+
+2018-12-14 17:30:43 - [TEST_STEP][PASSED] - SampleType = modifyObjectProperty(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples"), "text", "equals", SampleType, true): Modify property of object successfully
+
+2018-12-14 17:30:43 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-12-14 17:30:43 - [TEST_STEP][PASSED] - click(SampleType, STOP_ON_FAILURE): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples' is clicked on
+
+2018-12-14 17:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/div_Breeding Chicken Samples' is clicked on
+
+2018-12-14 17:30:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-14 17:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ' is clicked on
+
+2018-12-14 17:30:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_Boot SwabComposite faec"), "FACOMPOSITE_FAECES", true): All options with value 'FACOMPOSITE_FAECES' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_Boot SwabComposite faec'  using regular expression
+
+2018-12-14 17:30:48 - [MESSAGE][PASSED] - All options with value 'FACOMPOSITE_FAECES' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_Boot SwabComposite faec'  using regular expression
+
+2018-12-14 17:30:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_House_gwt-TextBox GKH2EK"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_House_gwt-TextBox GKH2EK'
+
+2018-12-14 17:30:48 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_House_gwt-TextBox GKH2EK'
+
+2018-12-14 17:30:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_JanuaryFebruaryMarchApr"), "12", true): All options with value '12' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-12-14 17:30:49 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_JanuaryFebruaryMarchApr'  using regular expression
+
+2018-12-14 17:30:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_20102011201220132014201"), "2018", true): All options with value '2018' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_20102011201220132014201'  using regular expression
+
+2018-12-14 17:30:49 - [MESSAGE][PASSED] - All options with value '2018' are selected in object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/select_20102011201220132014201'  using regular expression
+
+2018-12-14 17:30:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent3"), 2, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent3' located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(2) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select' not found
+
+2018-12-14 17:30:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(2) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:30:53 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Broiler Breeder (parent3' located by 'By.cssSelector: body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB.GKH2EKQBMIB > div:nth-child(2) > div.GKH2EKQBOBB.GKH2EKQBC1B > div.GKH2EKQBF1B > div > div > div.GKH2EKQBOBB.GKH2EKQBM4B.GKH2EKQBPGC.GKH2EKQBI4B.GKH2EKQBAHC > div:nth-child(2) > select' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808652018.png]]
+
+2018-12-14 17:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_Age of flock sampled (we"), "10"): Text '10' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_Age of flock sampled (we'
+
+2018-12-14 17:30:53 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_Age of flock sampled (we'
+
+2018-12-14 17:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_No. of birds in flock_gw"), "50"): Text '50' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_No. of birds in flock_gw'
+
+2018-12-14 17:30:53 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/input_No. of birds in flock_gw'
+
+2018-12-14 17:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Save")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Save' is clicked on
+
+2018-12-14 17:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/Page_JClient/div_Save' is clicked on
+
+2018-12-14 17:30:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:55 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/NCP Inspection - Complete" classname="Test Cases/NCP/NCP Inspection - Complete" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NCP/NCP Inspection - Complete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 17:30:55 - [TEST_CASE][FAILED] - Test Cases/NCP/NCP Inspection - Complete: Test Cases/NCP/NCP Inspection - Complete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_STARTED")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-14 17:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_STARTED' is clicked on
+
+2018-12-14 17:30:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:30:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_COMPLETED")): Object: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-14 17:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/div_COMPLETED' is clicked on
+
+2018-12-14 17:30:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:31:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:31:00 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes"), "COMPLETED", true): selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes"), "COMPLETED", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:31:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:31:32 - [MESSAGE][FAILED] - Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808691507.png]]
+
+2018-12-14 17:31:32 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes"), "COMPLETED", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 17:30:55 - [TEST_CASE][FAILED] - Test Cases/NCP/NCP Inspection - Complete: Test Cases/NCP/NCP Inspection - Complete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" classname="Test Cases/Generic/Launch Job Manager Control Centre - Check Result" status="PASSED">
+         <system-out><![CDATA[2018-12-14 17:31:32 - [TEST_CASE][PASSED] - Test Cases/Generic/Launch Job Manager Control Centre - Check Result: Test Cases/Generic/Launch Job Manager Control Centre - Check Result
+
+2018-12-14 17:31:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 17:31:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 17:31:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 17:31:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 17:31:36 - [TEST_STEP][PASSED] - navigateToUrl(CCURL): Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-14 17:31:38 - [MESSAGE][PASSED] - Navigate to 'https://kirona-def-6.kirona.com/jmprep/login#!loginView' successfully
+
+2018-12-14 17:31:38 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3"), Username): Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-14 17:31:39 - [MESSAGE][PASSED] - Text 'jon.hatfield' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3'
+
+2018-12-14 17:31:39 - [TEST_STEP][PASSED] - setText(findTestObject("FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5"), Password): Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-14 17:31:40 - [MESSAGE][PASSED] - Text 'Fr@nc1sJ0n' is set on object 'Object Repository/FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5'
+
+2018-12-14 17:31:40 - [TEST_STEP][PASSED] - click(findTestObject("FSM1/PreProd/Page_Job Manager Login/div_Login")): Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-14 17:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/PreProd/Page_Job Manager Login/div_Login' is clicked on
+
+2018-12-14 17:31:40 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-14 17:31:55 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens" classname="Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at Control Centre - Check Results - NCP Breeding Chickens.run(Control Centre - Check Results - NCP Breeding Chickens:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 17:31:55 - [TEST_CASE][FAILED] - Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens: Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at Control Centre - Check Results - NCP Breeding Chickens.run(Control Centre - Check Results - NCP Breeding Chickens:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:31:56 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-12-14 17:31:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi"), temp): Text '96028' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-14 17:31:56 - [MESSAGE][PASSED] - Text '96028' is set on object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi'
+
+2018-12-14 17:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_")): Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-14 17:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_' is clicked on
+
+2018-12-14 17:31:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED"), 60): Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is not present after 60 second(s)
+
+2018-12-14 17:33:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'CLOSED' or . = 'CLOSED')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:33:02 - [MESSAGE][WARNING] - Object 'Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED' is not present after 60 second(s)
+
+2018-12-14 17:33:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-14 17:33:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-14 17:33:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - Breeding Chickens"), 5): verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - Breeding Chickens"), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at Control Centre - Check Results - NCP Breeding Chickens.run(Control Centre - Check Results - NCP Breeding Chickens:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:33:05 - [MESSAGE][WARNING] - Test object with id 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - Breeding Chickens' does not exist
+
+2018-12-14 17:33:05 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-12-14 17:33:06 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808785529.png]]
+
+2018-12-14 17:33:06 - [MESSAGE][FAILED] - verifyElementPresent(findTestObject("FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/div_Attachments_NCP - Breeding Chickens"), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at Control Centre - Check Results - NCP Breeding Chickens.run(Control Centre - Check Results - NCP Breeding Chickens:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 17:31:55 - [TEST_CASE][FAILED] - Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens: Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$14.call(Unknown Source)
+	at Control Centre - Check Results - NCP Breeding Chickens.run(Control Centre - Check Results - NCP Breeding Chickens:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" classname="Test Cases/ABP/Generic/Check Subsequent Inspection Exist" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$15.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 17:33:06 - [TEST_CASE][FAILED] - Test Cases/ABP/Generic/Check Subsequent Inspection Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$15.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:33:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:33:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-14 17:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_' is clicked on
+
+2018-12-14 17:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs")): Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-14 17:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs' is clicked on
+
+2018-12-14 17:33:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 17:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 17:33:11 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")): verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$15.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)
+
+
+2018-12-14 17:33:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 17:33:44 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808823573.png]]
+
+2018-12-14 17:33:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+[[ATTACHMENT|C:\\Users\\JHATFIELD\\Documents\\Katalon\\JM 8.9\\FSM_Automated_Regression_8_9\\Reports\\NCP\\NCP Regression - Breeding Chickens\\20181214_172514\\1544808824551.png]]
+
+2018-12-14 17:33:45 - [MESSAGE][FAILED] - verifyElementVisible(findTestObject("Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$15.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 17:33:06 - [TEST_CASE][FAILED] - Test Cases/ABP/Generic/Check Subsequent Inspection Exist: Test Cases/ABP/Generic/Check Subsequent Inspection Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.' located by 'By.xpath: //div[@class = 'v-captiontext' and (text() = '2 found.' or . = '2 found.')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$15.call(Unknown Source)
+	at Check Subsequent Inspection Exist.run(Check Subsequent Inspection Exist:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 17:25:19 - [TEST_SUITE][FAILED] - NCP Regression - Breeding Chickens: Test Cases/NCP/NCP Inspection - Complete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 17:25:19 - [TEST_SUITE][FAILED] - NCP Regression - Breeding Chickens: Test Cases/NCP/NCP Inspection - Complete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'COMPLETED' of object 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FSM1/NCP/Complete Inspection/Complete Inspection/Page_JClient/select_Yes' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='eForm Complete?'])[1]/following::select[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at NCP Inspection - Complete.run(NCP Inspection - Complete:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544808314783.run(TempTestSuite1544808314783.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
