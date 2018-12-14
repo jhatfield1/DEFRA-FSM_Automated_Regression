@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>R22 - FP-738
-R21 - FP-670</description>
+R21 - FP-670
+R20 - FP-516</description>
    <name>ABP Regression - 07a</name>
    <tag></tag>
    <isRerun>false</isRerun>

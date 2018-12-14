@@ -54,6 +54,19 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR3
 
 WebUI.click(findTestObject('Object Repository/Complete ABPR37 - Section B/Page_JClient/Page_JClient/input_Yes_radio_group_19'))
 
+WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR34a - Inspection B/ABPR34a - Section A/Page_JClient/div_Save'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR34a - Inspection B/ABPR34a - Section A/Page_JClient/div_Section A Summary of Inspe'), 
+    2)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR34a - Inspection B/ABPR34a - Section A/Page_JClient/div_Section A Summary of Inspe'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR34a - Inspection B/ABPR34a - Section A/Page_JClient/input_Chargeable time (minutes'), 
     '10')
 

@@ -40,3 +40,21 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/ABPR42 - Sectio
 
 WebUI.click(findTestObject('Object Repository/FSM1/ABPR42 - Section A/Page_JClient/div_Save'))
 
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/ABPR42 - Section A/Page_JClient/div_Section A Summary of Inspe'), 
+    2)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/FSM1/ABPR42 - Section A/Page_JClient/div_Section A Summary of Inspe'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/FSM1/Complete 31 Section A/Page_JClient/input_Chargeable time (minutes'), 
+    '12')
+
+WebUI.click(findTestObject('Object Repository/FSM1/ABPR42 - Section A/Page_JClient/div_Save'))
+
+WebUI.delay(3)
+

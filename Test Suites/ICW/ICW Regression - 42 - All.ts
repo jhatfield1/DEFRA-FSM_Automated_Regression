@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>R20 : FP-794</description>
    <name>ICW Regression - 42 - All</name>
    <tag></tag>
    <isRerun>false</isRerun>

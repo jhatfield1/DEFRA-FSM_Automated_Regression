@@ -37,6 +37,17 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete 191/Se
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete 191/Section A/Page_JClient/input_Yes_radio_group_6'))
 
+WebUI.click(findTestObject('Object Repository/FSM1/Complete 191/Section A/Page_JClient/div_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Complete 191/Section A/Page_JClient/div_Section A Summary of Inspe'), 
+    2)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Complete 191/Section A/Page_JClient/div_Section A Summary of Inspe'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete 191/Section A/Page_JClient/input_Chargeable time (minutes'), 
     '10')
 

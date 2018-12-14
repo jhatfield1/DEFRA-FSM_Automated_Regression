@@ -48,11 +48,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_ARRIVED'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_ARRIVED'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_STARTED'))
+
+WebUI.delay(2)
 
 not_run: mydate = new Date()
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>R23 - FP-844</description>
+   <description>R23 - FP-844
+R20 : FP-794</description>
    <name>ICW Regression - 191 - 3rd</name>
    <tag></tag>
    <isRerun>false</isRerun>

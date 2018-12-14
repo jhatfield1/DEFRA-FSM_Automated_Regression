@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>R23 - FP-949</description>
+   <description>R23 - FP-949
+R24 - FP-836</description>
    <name>ABP Regression - Pre-Approval - Next Routine</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-12T12:53:35</lastRun>
+   <lastRun>2018-12-14T14:26:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -133,6 +134,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ABP/Generic/Complete ABP Inspection - ABPR15 Sample Submission</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f59bee3-e83a-44df-a6ef-6f8eeec722ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/ABPR13/Complete ABPR13</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02dda902-9d21-4009-a521-78ab10dd8787</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/ABPR14/Complete ABPR14</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf7a2f50-a74e-40e9-bf94-16f1671dc295</guid>

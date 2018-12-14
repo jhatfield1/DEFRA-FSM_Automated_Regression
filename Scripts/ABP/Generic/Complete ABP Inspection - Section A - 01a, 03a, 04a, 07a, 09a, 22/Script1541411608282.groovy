@@ -30,12 +30,6 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Secti
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/input_Updated Customer Name_gw'), 
     'Test Automation')
 
-not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/textarea_Updated Customer Addr'), 
-    'Hazelwood Manor Farm , Cherington Road Burmington, Shipston on Stour, CV36 5AR (UPRN:SP 26605 37867)')
-
-not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/input_Updated Customer Postcod'), 
-    'CV36 5AR')
-
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/input_Updated Customer Phone_g'), 
     '07812664043')
 
@@ -100,11 +94,11 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Secti
 
 WebUI.delay(2)
 
-
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3'), 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3'))
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3'), 
+    5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3'))
 } else {
-WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3_Alternate'))
+    WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/span_No_3_Alternate'))
 }
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/select_(a) Continue with curre'), 
@@ -118,10 +112,21 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Secti
 
 WebUI.setText(findTestObject('FSM1/Complete ABP Inspection/Section A/Page_JClient/NotifiedAndActions'), 'Test Automation')
 
+WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/div_Save'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/div_Section A Summary of Inspe'), 
+    2)
+
+WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/div_Section A Summary of Inspe'))
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/input_Chargeable time (minutes'), 
     '10')
 
-not_run: WebUI.delay(60)
-
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Section A/Page_JClient/div_Save'))
+
+WebUI.delay(2)
 

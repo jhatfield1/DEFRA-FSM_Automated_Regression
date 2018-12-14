@@ -70,8 +70,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete ABP In
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR17 Backward Trace Complete/Page_JClient/input_Category_gwt-TextBox GKH'), 
     'Test automation')
 
+'Release 20 - FP-579'
 WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR17 Backward Trace Complete/Page_JClient/input_Quantity_gwt-TextBox GKH'), 
-    '12')
+    '12abc')
 
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR17 Backward Trace Complete/Page_JClient/input_Any other relevant infor'))
 
