@@ -6,12 +6,12 @@
    <elementGuidId>9fdcf12c-07b0-48e3-9d5a-da4829afc522</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='No. of flocks per housing type/premises (Conventional)'])[1]/following::input[2]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(10) > div:nth-child(2) > div.GFNJNYPCPJC.GFNJNYPCGIC > input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(10) > div:nth-child(2) > div.GKH2EKQBEIC.GKH2EKQBLGC > input</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No. of flocks per housing type/premises (Conventional)'])[1]/following::input[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

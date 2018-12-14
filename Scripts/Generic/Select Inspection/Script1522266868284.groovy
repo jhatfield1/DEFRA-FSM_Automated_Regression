@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(30)
+WebUI.delay(10)
 
 WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
     250)
@@ -30,14 +30,12 @@ WebUI.click(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centr
 WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
     250)
 
-not_run: WebUI.delay(180)
-
 InspectionRef = WebUI.modifyObjectProperty(findTestObject('FSM1/Select Inspection/Landing/Page_JClient/div_35098'), 'text', 
     'equals', GlobalVariable.temp, true, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(20)
+WebUI.delay(5)
 
-if (WebUI.verifyElementPresent(InspectionRef, 30, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(InspectionRef, 10, FailureHandling.OPTIONAL)) {
     WebUI.delay(3)
 
     WebUI.click(InspectionRef)

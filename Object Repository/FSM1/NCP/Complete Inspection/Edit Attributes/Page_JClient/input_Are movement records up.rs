@@ -6,12 +6,12 @@
    <elementGuidId>7a69d978-717d-4841-ae7e-294d6ab3f8e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Are movement records up to date?'])[1]/following::input[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(12) > div:nth-child(2) > div.GFNJNYPCOBB > span:nth-child(1)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GKH2EKQBOBB.GKH2EKQBACB > div.GKH2EKQBOBB.GKH2EKQBACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GKH2EKQBMDC.GKH2EKQBMGB.GKH2EKQBNGB > div > div.GKH2EKQBOBB > div:nth-child(12) > div:nth-child(2) > div.GKH2EKQBOBB > span:nth-child(1)</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Are movement records up to date?'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
