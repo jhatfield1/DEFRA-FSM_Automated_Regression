@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>NCP Regression - Layers</name>
+   <name>NCP Regression - Breeding Turkeys</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-15T12:19:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ea8cfe8e-e21a-4b42-ac63-acb8acbcf4e0</testSuiteGuid>
+   <testSuiteGuid>a8eac4f1-df25-4865-94e0-7ca7ae68930d</testSuiteGuid>
    <testCaseLink>
       <guid>b140606b-5242-4852-b65b-7fd645b04742</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -61,7 +60,7 @@
       <variableLink>
          <testDataLinkId>bee9818e-2454-428b-b8d7-5191bf867695</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Layers</value>
+         <value>Breeding Turkeys</value>
          <variableId>1c044ccc-9f80-4b35-82ae-701bf1c085c6</variableId>
       </variableLink>
    </testCaseLink>
@@ -139,7 +138,7 @@
       <variableLink>
          <testDataLinkId>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Layers</value>
+         <value>Broilers</value>
          <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
       </variableLink>
    </testCaseLink>
@@ -160,7 +159,7 @@
       <variableLink>
          <testDataLinkId>bda61741-1fc0-424f-af5c-43da5383b111</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Layers</value>
+         <value>Broilers</value>
          <variableId>ae19a69a-10ac-4643-bf70-4f164b26354d</variableId>
       </variableLink>
    </testCaseLink>
@@ -204,15 +203,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a758c7a-0c1f-4277-8a99-88b418727a5f</guid>
+      <guid>7828d510-5053-47a1-9154-cb6d48de5e70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Layers</testCaseId>
+      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9c0bbd06-081c-4b2b-afb7-ef8b7ff0dab0</variableId>
+         <variableId>8f9ce22e-b52a-49da-8e4d-8e5e85fa9b80</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

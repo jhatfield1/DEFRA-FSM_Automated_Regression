@@ -143,6 +143,8 @@ WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JC
 
 WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity'))
 
+WebUI.delay(2)
+
 mydate = new Date()
 
 formattedDate = mydate.format('MM/dd/yyy')

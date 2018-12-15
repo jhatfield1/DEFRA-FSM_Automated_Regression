@@ -43,6 +43,8 @@ WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edi
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_NCP Salmonella Record Chec'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_NCP Salmonella Record Ch'))
 
 WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Salmonella'))
@@ -121,6 +123,8 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit 
 WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/UnableToSign'))
 
 WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity'))
+
+WebUI.delay(2)
 
 mydate = new Date()
 

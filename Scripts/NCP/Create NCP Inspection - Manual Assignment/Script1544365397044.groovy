@@ -91,6 +91,8 @@ WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Pag
 WebUI.waitForElementPresent(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_APPROVED'), 
     120, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/span_Schedule'))
 
 WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/label_Manually Allocate as an'))
@@ -100,21 +102,27 @@ WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre
 WebUI.setText(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-304'), 
     'test')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/span_Test Inspector'))
+
+WebUI.delay(2)
 
 not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Owner_gwt-uid-311'), 
     'Test Inspector')
 
-mydate = new Date()
+not_run: mydate = new Date()
 
-tomorrow = mydate.next()
+not_run: tomorrow = mydate.next()
 
-formattedDate = tomorrow.format('dd-MMM-yyyy')
+not_run: formattedDate = tomorrow.format('dd-MMM-yyyy')
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)'), 
+not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_From date_gwt-uid-504 (10)'), 
     formattedDate)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)'), 
+not_run: WebUI.delay(2)
+
+not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/input_Due date_gwt-uid-506 (11)'), 
     formattedDate)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Allocate'))

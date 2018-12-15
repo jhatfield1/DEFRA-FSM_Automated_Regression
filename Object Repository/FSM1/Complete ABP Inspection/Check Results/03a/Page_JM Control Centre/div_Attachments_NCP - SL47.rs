@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Test Inspector</name>
+   <name>div_Attachments_NCP - SL47</name>
    <tag></tag>
-   <elementGuidId>d929437a-ec60-49b8-8bc7-a2d170661ded</elementGuidId>
+   <elementGuidId>0978bdbc-8ce4-422f-b659-c2000040809b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments:'])[1]/following::div[7]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Test Inspector' or . = 'Test Inspector') and @ref_element = 'Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+         <value>//div[@id = 'SL47' and @ref_element = 'Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,63 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-label v-widget attachment-label v-label-attachment-label extend-click-area v-label-extend-click-area v-label-undef-w</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Test Inspector</value>
+      <value>SL47</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>gwt-uid-9</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;VAADIN_COMBOBOX_OPTIONLIST&quot;)/div[@class=&quot;popupContent&quot;]/div[@class=&quot;v-filterselect-suggestmenu&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;gwt-MenuItem gwt-MenuItem-selected&quot;]/span[1]</value>
+      <value>id(&quot;ABPR03A - Handling/Storage Plant&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/JM_8918/New/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe</value>
+      <value>Object Repository/FSM1/Complete ABP Inspection/Check Results/03a/Page_JM Control Centre/iframe_close_vaadiniframe</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments:'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Panel'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments'])[1]/following::div[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::div[45]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arrow down key opens calendar element for choosing the date'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signatures'])[1]/preceding::div[47]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='VAADIN_COMBOBOX_OPTIONLIST']/div/div[2]/table/tbody/tr/td/span</value>
+      <value>//div[@id='uqid1541063407149']/div/div[2]/div/div/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='ABPR03A - Handling/Storage Plant']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td/span</value>
+      <value>//div[17]/div/div[2]/div/div/div[2]/div/div/div/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
