@@ -18,6 +18,9 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 KeywordLogger log = new KeywordLogger('')
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Create'), 
+    60, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/div_Create'))
@@ -26,7 +29,6 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Type_gwt-uid-8'), 
     PMMInspectionType)
-
 
 PMMInspectionType = WebUI.modifyObjectProperty(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_PMR03A - Producer Complia'), 
     'text', 'equals', PMMInspectionType, true)
@@ -42,12 +44,10 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Pag
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_West'))
 
-
 WebUI.setText(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/input_Priority_gwt-uid-26'), 
     'h')
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/a/Page_JM Control Centre/Page_JM Control Centre/span_High'))
-
 
 if (WebUI.verifyElementPresent(findTestObject('JM_8918/PMM/Page_JM Control Centre/Page_JM Control Centre/InspectionType'), 
     2, FailureHandling.OPTIONAL)) {
@@ -116,11 +116,12 @@ WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'test')
+WebUI.setText(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 
+    'test')
 
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector'))
+WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/span_Test Inspector'))
 
 WebUI.delay(2)
 

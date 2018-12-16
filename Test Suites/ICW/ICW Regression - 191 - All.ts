@@ -4,7 +4,7 @@
    <name>ICW Regression - 191 - All</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-14T10:16:47</lastRun>
+   <lastRun>2018-12-16T16:02:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -129,10 +129,10 @@
       <testCaseId>Test Cases/ICW/AB191/Complete ICW Inspection - Section A - 191</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d64689d-53bc-4c9b-a5d2-ccb24c03b79b</guid>
+      <guid>80835879-4491-4540-960d-bfdf25e951a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ICW/AB191/Complete ICW Inspection - Section B - 3rd - 191</testCaseId>
+      <testCaseId>Test Cases/ICW/AB191/Complete ICW Inspection - Section B - All - 191</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ba59d73f-9690-4788-bc43-74b3867428e5</guid>

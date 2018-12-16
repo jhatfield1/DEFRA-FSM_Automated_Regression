@@ -26,6 +26,11 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 KeywordLogger log = new KeywordLogger('')
 
+WebUI.waitForElementClickable(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'), 
+    60, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button'))
@@ -76,11 +81,14 @@ WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item'))
 
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 
+    'test')
+
+WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/span_Test Inspector'))
+
 WebUI.delay(2)
-
-WebUI.setText(findTestObject('JM_8918/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 'test')
-
-WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_Test Inspector'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create'))
 

@@ -30,5 +30,5 @@ WebUI.setText(findTestObject('FSM1/Control Centre/Page_Job Manager Login/input_g
 
 WebUI.click(findTestObject('FSM1/PreProd/Page_Job Manager Login/div_Login'))
 
-WebUI.delay(15)
+WebUI.delay(5)
 

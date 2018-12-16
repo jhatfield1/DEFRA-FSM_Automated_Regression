@@ -4,7 +4,7 @@
    <name>NCP Regression - Layers</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-15T12:19:29</lastRun>
+   <lastRun>2018-12-16T12:59:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -48,7 +48,7 @@
       <guid>78688e3f-c8cf-4dee-9473-a006ddaa3963</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Create NCP Inspection - Manual Assignment</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/Create NCP Inspection - Manual Assignment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bee9818e-2454-428b-b8d7-5191bf867695</id>
@@ -120,13 +120,13 @@
       <guid>7150b140-9f50-434a-b247-89c97a577adc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Layers</testCaseId>
+      <testCaseId>Test Cases/NCP/Layers/Complete NCP Inspection - Edit Attributes - Layers</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Samples</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Samples</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</id>
@@ -147,7 +147,7 @@
       <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Samples 2</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Samples 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bda61741-1fc0-424f-af5c-43da5383b111</id>
@@ -168,7 +168,7 @@
       <guid>d2446333-9759-4811-ba50-3f69c5f85db0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Inspection - Complete</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Inspection - Complete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e9f7d6e5-7170-41f4-9671-30b6b4e1d897</guid>
@@ -207,7 +207,7 @@
       <guid>2a758c7a-0c1f-4277-8a99-88b418727a5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Layers</testCaseId>
+      <testCaseId>Test Cases/NCP/Layers/Control Centre - Check Results - NCP Layers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

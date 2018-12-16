@@ -6,11 +6,15 @@
    <elementGuidId>4ab66d8b-b7d9-48d6-95f3-6e830d639f70</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(6) > div:nth-child(2) > div > div.GFNJNYPCOBB > div > img</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipient Signature'])[1]/following::img[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

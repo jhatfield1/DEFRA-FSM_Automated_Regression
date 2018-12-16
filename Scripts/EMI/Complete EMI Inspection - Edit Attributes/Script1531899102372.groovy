@@ -89,13 +89,19 @@ WebUI.setText(findTestObject('Object Repository/JM_8918/Page_JClient/input_Impor
 
 WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/div_Signatures  Remarks'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/img_Inspector Signature_gwt-Im'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Inspector'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/JM_8918/Page_JClient/img_Recipient Signature_gwt-Im'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Recipient'))
 

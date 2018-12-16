@@ -48,7 +48,7 @@
       <guid>78688e3f-c8cf-4dee-9473-a006ddaa3963</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Create NCP Inspection - Manual Assignment</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/Create NCP Inspection - Manual Assignment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>731fdcdd-12f8-4890-a0ae-a3a01777bda2</id>
@@ -120,13 +120,13 @@
       <guid>618830be-289a-437f-a044-7c27efec8582</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Complete NCP Inspection - Edit Attributes - Breeding Chickens</testCaseId>
+      <testCaseId>Test Cases/NCP/Breeding Chickens/Complete NCP Inspection - Edit Attributes - Breeding Chickens</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Samples</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Samples</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bac0251d-e7ac-413c-b47f-e68c744fa322</id>
@@ -147,7 +147,7 @@
       <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Samples 2</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Samples 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>505bfb21-534b-49f1-90fb-cdc477d7149e</id>
@@ -168,7 +168,7 @@
       <guid>d2446333-9759-4811-ba50-3f69c5f85db0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/NCP Inspection - Complete</testCaseId>
+      <testCaseId>Test Cases/NCP/Generic/NCP Inspection - Complete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e9f7d6e5-7170-41f4-9671-30b6b4e1d897</guid>
@@ -207,7 +207,7 @@
       <guid>7828d510-5053-47a1-9154-cb6d48de5e70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
+      <testCaseId>Test Cases/NCP/Breeding Chickens/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

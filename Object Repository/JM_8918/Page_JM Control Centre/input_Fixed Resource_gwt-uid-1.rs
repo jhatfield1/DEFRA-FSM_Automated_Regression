@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Fixed Resource'])[1]/following::input[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jmcontent > div > div.v-csslayout.v-layout.v-widget.v-has-width > div:nth-child(12) > div > div.v-csslayout.v-layout.v-widget.k-csslayout.v-csslayout-k-csslayout.options.v-csslayout-options > div.v-csslayout.v-layout.v-widget.k-csslayout.v-csslayout-k-csslayout.footer.v-csslayout-footer > div.v-filterselect.v-widget.fixedResource.v-filterselect-fixedResource.nicer-field.v-filterselect-nicer-field.medium-field.v-filterselect-medium-field > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'gwt-uid-148' and @ref_element = 'Object Repository/JM_8918/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

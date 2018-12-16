@@ -6,11 +6,15 @@
    <elementGuidId>6754a3bf-8d3c-4b52-9cd1-ec3828e69c6f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(4) > div:nth-child(2) > div > div.GFNJNYPCOBB > div > img</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Inspector Signature'])[1]/following::img[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

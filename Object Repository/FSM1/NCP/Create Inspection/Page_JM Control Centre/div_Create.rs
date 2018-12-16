@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::div[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Create' or . = 'Create')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

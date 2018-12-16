@@ -26,6 +26,11 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 KeywordLogger logg = new KeywordLogger('')
 
+WebUI.waitForElementClickable(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'), 
+    60, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create'))
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button'))
