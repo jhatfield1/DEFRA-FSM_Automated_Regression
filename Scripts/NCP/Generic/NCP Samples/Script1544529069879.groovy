@@ -24,8 +24,41 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breed
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
-    'BOOT_SWAB', true)
+if (SampleType2 == 'Breeding Chicken Samples') {
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'BOOT_SWAB', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'FACOMPOSITE_FAECES', true, FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+if (SampleType2 == 'Broiler Samples') {
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'BOOT_SWAB', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'HAND_DRAG', true, FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+if (SampleType2 == 'Layer Samples') {
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'BOOT_SWAB', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'CBLCHI_BOK_LINER_TRAY_LINER', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'FACOMPOSITE_FAECES', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'DOADEAD_ON_ARRIVAL_OR_CULL', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'DDUST', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/select_Boot SwabComposite faec'), 
+        'OTOTHER', true, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Breeding Chicken Samples/Page_JClient/input_House_gwt-TextBox GKH2EK'), 
     'Test automation')

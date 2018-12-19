@@ -4,7 +4,7 @@
    <name>NCP Regression - Layers</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-16T12:59:22</lastRun>
+   <lastRun>2018-12-19T13:31:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -141,6 +141,12 @@
          <type>DATA_COLUMN</type>
          <value>Layers</value>
          <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Layers</value>
+         <variableId>0c52281c-309c-489a-9d47-8f11593ca2db</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

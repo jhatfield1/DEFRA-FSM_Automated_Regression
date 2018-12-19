@@ -141,6 +141,12 @@
          <value>Broilers</value>
          <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c52281c-309c-489a-9d47-8f11593ca2db</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>

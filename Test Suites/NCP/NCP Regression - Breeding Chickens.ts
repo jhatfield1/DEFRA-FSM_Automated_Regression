@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-14T18:11:29</lastRun>
+   <lastRun>2018-12-19T10:54:42</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -141,6 +141,12 @@
          <type>DATA_COLUMN</type>
          <value>Breeding Chicken</value>
          <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bac0251d-e7ac-413c-b47f-e68c744fa322</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Breeding Chicken</value>
+         <variableId>0c52281c-309c-489a-9d47-8f11593ca2db</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

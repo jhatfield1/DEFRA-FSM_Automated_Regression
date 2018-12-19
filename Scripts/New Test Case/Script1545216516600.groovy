@@ -13,11 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 
-    'test')
-
-WebUI.click(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/span_Test Inspector'))
-
-WebUI.setText(findTestObject('Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1'), 
-    'Test Inspector')
-
