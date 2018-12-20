@@ -98,7 +98,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Complete Egg In
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Date of Placing_GKH2EKQB'), 
     formattedDate)
@@ -120,7 +120,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Complete Egg Inspection/Dat
 
 mydate = (new Date() + 2)
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Follow Up Date_GKH2EKQBO'), 
     formattedDate)

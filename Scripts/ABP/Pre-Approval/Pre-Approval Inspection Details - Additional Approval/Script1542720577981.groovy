@@ -25,7 +25,7 @@ WebUI.click(findTestObject('FSM1/Pre-Approval/Page_JClient/input_Yes_radio_group
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Pre-Approval/Page_JClient/input_Date application receive'), formattedDate)
 
@@ -80,7 +80,7 @@ WebUI.selectOptionByValue(findTestObject('FSM1/Pre-Approval/Page_JClient/select_
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Pre-Approval/Page_JClient/input_Next Inspection From'), formattedDate)
 

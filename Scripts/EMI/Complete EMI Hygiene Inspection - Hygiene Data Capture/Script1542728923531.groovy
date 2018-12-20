@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/EMI Hygiene1/Hygiene Data C
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/EMI Hygiene1/Hygiene Data/Page_JClient/input_Rectification Date_GKH2E'), formattedDate)
 

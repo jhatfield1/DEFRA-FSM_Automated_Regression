@@ -44,7 +44,7 @@ mydate = new Date()
 
 tomorrow = mydate.next()
 
-formattedDate = tomorrow.format('MM/dd/yyyy')
+formattedDate = tomorrow.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete PMM Inspection/Registration/Page_JClient/input_Next inspection due_GKH2'), 
     formattedDate)

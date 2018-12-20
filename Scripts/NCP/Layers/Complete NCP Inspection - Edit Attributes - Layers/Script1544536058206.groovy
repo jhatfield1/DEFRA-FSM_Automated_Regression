@@ -147,7 +147,7 @@ WebUI.delay(2)
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G'), formattedDate)
 

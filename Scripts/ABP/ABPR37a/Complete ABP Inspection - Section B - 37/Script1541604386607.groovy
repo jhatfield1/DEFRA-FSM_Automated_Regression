@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Complete ABPR37 - Section B/Page_J
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('Complete ABPR37 - Section B/Page_JClient/DocumentationDate'), formattedDate)
 

@@ -44,7 +44,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/Complete PMM Inspection/Cro
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete PMM Inspection/Crop Data/Page_JClient/input_(e) Date birds placed_GK'), formattedDate)
 

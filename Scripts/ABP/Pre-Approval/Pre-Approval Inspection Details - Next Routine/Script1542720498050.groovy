@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/FSM1/Pre-Approval/Page_JClient/inp
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Pre-Approval/Page_JClient/input_Date application receive'), formattedDate)
 
@@ -83,7 +83,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Pre-Approval/Pa
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Pre-Approval/Page_JClient/input_Next Inspection From'), formattedDate)
 

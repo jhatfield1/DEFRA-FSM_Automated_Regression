@@ -98,7 +98,7 @@ not_run: WebUI.setText(findTestObject('Object Repository/FSM1/Complete ABP Inspe
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABP18 Forward Trace/Page_JClient/DateofDespatch'), formattedDate)
 

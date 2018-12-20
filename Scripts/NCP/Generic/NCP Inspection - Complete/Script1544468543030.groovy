@@ -36,7 +36,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/FSM1/NCP/Comple
 
     tomorrow = mydate.next()
 
-    formattedDate = tomorrow.format('MM/dd/yyyy')
+    formattedDate = tomorrow.format('dd/MM/yyyy')
 
     WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_From date_GKH2EKQBOHC'), formattedDate)
 

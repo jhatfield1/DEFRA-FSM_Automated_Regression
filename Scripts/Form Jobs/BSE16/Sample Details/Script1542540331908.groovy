@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_No
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/BSE16/Page_JClient/input_Date of dispatch to Weyb'), formattedDate)
 

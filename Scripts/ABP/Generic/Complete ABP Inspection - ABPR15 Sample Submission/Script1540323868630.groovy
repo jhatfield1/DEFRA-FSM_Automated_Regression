@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/ABPR1
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('FSM1/Complete ABP Inspection/ABPR15 Sample Submission/Page_JClient/DateofSample'), formattedDate)
 

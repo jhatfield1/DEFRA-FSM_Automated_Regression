@@ -118,7 +118,7 @@ WebUI.click(findTestObject('Object Repository/FSM1/Release22/Page_JClient/div_Ch
 
 mydate = new Date()
 
-formattedDate = mydate.format('MM/dd/yyy')
+formattedDate = mydate.format('dd/MM/yyyy')
 
 WebUI.sendKeys(findTestObject('Object Repository/FSM1/Release22/Page_JClient/IV17 Date of Visit'), formattedDate)
 
