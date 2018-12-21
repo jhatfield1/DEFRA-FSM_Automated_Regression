@@ -4,7 +4,7 @@
    <name>NCP Regression - Broilers</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-19T11:23:14</lastRun>
+   <lastRun>2018-12-21T14:41:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -120,7 +120,28 @@
       <guid>1620de7e-b39c-49c6-b619-b963c4c15a62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Broilers/Complete NCP Inspection - Edit Attributes - Broilers</testCaseId>
+      <testCaseId>Test Cases/NCP/Broilers/Complete NCP Inspection - Edit Attributes - Broilers, Turkeys</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b0cf0749-1823-4d23-8c3c-4c24229c769a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b0cf0749-1823-4d23-8c3c-4c24229c769a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Broilers</value>
+         <variableId>ad37c40b-8e37-4db0-807b-ed4bcbd2e2b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b0cf0749-1823-4d23-8c3c-4c24229c769a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Broilers</value>
+         <variableId>cb804cfe-7747-45c8-9aee-222fb8a92f15</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>

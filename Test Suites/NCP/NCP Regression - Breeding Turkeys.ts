@@ -116,19 +116,13 @@
       <testCaseId>Test Cases/Generic/Select Inspection</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7150b140-9f50-434a-b247-89c97a577adc</guid>
+      <guid>8b5658f6-334c-4f78-90a8-6f3903b216b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Layers/Complete NCP Inspection - Edit Attributes - Layers</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>023b667b-1688-4c13-aed5-e2ddfbd435ad</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Generic/NCP Samples</testCaseId>
+      <testCaseId>Test Cases/NCP/Broilers/Complete NCP Inspection - Edit Attributes - Broilers, Turkeys</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</id>
+         <id>388fb85b-c437-479c-bc87-49f834756664</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -136,37 +130,16 @@
          <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>d782e7c8-2c76-48f5-bfca-b4358f50fb6a</testDataLinkId>
+         <testDataLinkId>388fb85b-c437-479c-bc87-49f834756664</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Broilers</value>
-         <variableId>89cef3b3-2d13-4f27-bec9-71df4e149312</variableId>
+         <value>Breeding Turkey</value>
+         <variableId>ad37c40b-8e37-4db0-807b-ed4bcbd2e2b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0c52281c-309c-489a-9d47-8f11593ca2db</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0697e8be-ece1-41e4-9763-2c09b104da35</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Generic/NCP Samples 2</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>bda61741-1fc0-424f-af5c-43da5383b111</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>bda61741-1fc0-424f-af5c-43da5383b111</testDataLinkId>
+         <testDataLinkId>388fb85b-c437-479c-bc87-49f834756664</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Broilers</value>
-         <variableId>ae19a69a-10ac-4643-bf70-4f164b26354d</variableId>
+         <value>Breeding Turkey</value>
+         <variableId>cb804cfe-7747-45c8-9aee-222fb8a92f15</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
