@@ -219,6 +219,6 @@
       <guid>e9ed5506-eedd-4c5b-bb64-86248b2b4382</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

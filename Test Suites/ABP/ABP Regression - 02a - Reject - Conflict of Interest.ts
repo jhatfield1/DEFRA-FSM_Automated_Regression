@@ -186,6 +186,6 @@
       <guid>78a35d4c-7def-4cbc-877a-4f7466ddb442</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

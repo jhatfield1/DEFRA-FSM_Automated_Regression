@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-19T10:54:42</lastRun>
+   <lastRun>2018-12-27T11:50:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -225,6 +225,6 @@
       <guid>5693dd25-3e10-42f0-b818-db173c78bcf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

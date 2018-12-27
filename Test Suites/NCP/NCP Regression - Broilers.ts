@@ -4,7 +4,7 @@
    <name>NCP Regression - Broilers</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-21T14:41:25</lastRun>
+   <lastRun>2018-12-27T11:50:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -246,6 +246,6 @@
       <guid>e01bc1bd-de13-4071-b0c7-5722ee95f76e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

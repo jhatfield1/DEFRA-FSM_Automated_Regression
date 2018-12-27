@@ -4,7 +4,7 @@
    <name>NCP Regression - Fattening Turkeys</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-23T18:24:21</lastRun>
+   <lastRun>2018-12-27T11:50:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -225,21 +225,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8d242b5d-8359-45f4-96ec-e5b8d0ee1f49</guid>
+      <guid>9baec84a-56f3-4429-b25b-a0cad6410b59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Breeding Turkeys/Control Centre - Check Results - NCP Breeding Turkey</testCaseId>
+      <testCaseId>Test Cases/NCP/Fattening Turkeys/Control Centre - Check Results - NCP Fattening Turkeys</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c8d5ad0b-e275-415e-ba0e-9b03603f9353</variableId>
+         <variableId>198b4b75-4291-44ce-9e23-965a83dca6f7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d71707b-a426-417f-a4cb-c86b88636d16</guid>
+      <guid>1665714f-575b-4d1d-87b7-160fcef840d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

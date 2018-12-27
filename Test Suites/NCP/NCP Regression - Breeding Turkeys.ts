@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Turkeys</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-23T13:17:25</lastRun>
+   <lastRun>2018-12-27T11:50:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -61,7 +61,7 @@
       <variableLink>
          <testDataLinkId>bee9818e-2454-428b-b8d7-5191bf867695</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Fattening Turkeys</value>
+         <value>Breeding Turkeys</value>
          <variableId>1c044ccc-9f80-4b35-82ae-701bf1c085c6</variableId>
       </variableLink>
    </testCaseLink>
@@ -160,7 +160,7 @@
       <variableLink>
          <testDataLinkId>e8f4bfc4-bca9-4698-a656-baa926a54339</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Fattening Turkey</value>
+         <value>Breeding Turkey</value>
          <variableId>e9be8721-683c-4caa-9d08-34aabdd4446d</variableId>
       </variableLink>
    </testCaseLink>
@@ -181,7 +181,7 @@
       <variableLink>
          <testDataLinkId>7b2a54fc-6338-4f95-8d8e-0e4fa2633700</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Fattening Turkey</value>
+         <value>Breeding Turkey</value>
          <variableId>6925393e-75e1-40c0-993f-660375378c3e</variableId>
       </variableLink>
    </testCaseLink>
@@ -237,9 +237,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d71707b-a426-417f-a4cb-c86b88636d16</guid>
+      <guid>36662124-89c4-45f5-8c70-b50a88736dd9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

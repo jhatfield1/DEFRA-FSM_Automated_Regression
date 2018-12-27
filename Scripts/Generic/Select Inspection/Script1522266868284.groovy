@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.waitForElementClickable(findTestObject('JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh'), 
     250)
