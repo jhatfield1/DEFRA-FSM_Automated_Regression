@@ -20,7 +20,7 @@ WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Check
 WebUI.click(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.'), 
-    5)
+    20)
 
 WebUI.closeBrowser()
 

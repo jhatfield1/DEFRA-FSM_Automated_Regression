@@ -4,6 +4,7 @@
    <name>NCP Regression - Breeding Turkeys</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-23T13:17:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -60,7 +61,7 @@
       <variableLink>
          <testDataLinkId>bee9818e-2454-428b-b8d7-5191bf867695</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Breeding Turkeys</value>
+         <value>Fattening Turkeys</value>
          <variableId>1c044ccc-9f80-4b35-82ae-701bf1c085c6</variableId>
       </variableLink>
    </testCaseLink>
@@ -143,6 +144,48 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>1c10dad4-b6ed-4ec2-966a-c9b2e496fd3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Generic/NCP Turkey Samples</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e8f4bfc4-bca9-4698-a656-baa926a54339</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e8f4bfc4-bca9-4698-a656-baa926a54339</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Fattening Turkey</value>
+         <variableId>e9be8721-683c-4caa-9d08-34aabdd4446d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa13daed-bb18-48dd-9b58-a10b6cbb3bb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NCP/Generic/NCP Turkey Samples 2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7b2a54fc-6338-4f95-8d8e-0e4fa2633700</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Pre Production/NCP/SampleType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7b2a54fc-6338-4f95-8d8e-0e4fa2633700</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Fattening Turkey</value>
+         <variableId>6925393e-75e1-40c0-993f-660375378c3e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d2446333-9759-4811-ba50-3f69c5f85db0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -182,21 +225,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7828d510-5053-47a1-9154-cb6d48de5e70</guid>
+      <guid>8d242b5d-8359-45f4-96ec-e5b8d0ee1f49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NCP/Breeding Chickens/Control Centre - Check Results - NCP Breeding Chickens</testCaseId>
+      <testCaseId>Test Cases/NCP/Breeding Turkeys/Control Centre - Check Results - NCP Breeding Turkey</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8f9ce22e-b52a-49da-8e4d-8e5e85fa9b80</variableId>
+         <variableId>c8d5ad0b-e275-415e-ba0e-9b03603f9353</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e01bc1bd-de13-4071-b0c7-5722ee95f76e</guid>
+      <guid>5d71707b-a426-417f-a4cb-c86b88636d16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
+      <testCaseId>Test Cases/ABP/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

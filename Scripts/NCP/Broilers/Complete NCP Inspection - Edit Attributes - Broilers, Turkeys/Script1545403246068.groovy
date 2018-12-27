@@ -40,13 +40,13 @@ WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edi
 WebUI.delay(2)
 
 if (SampleType == 'Broiler Samples') {
-	WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Total No. of flocks on p'),
-		'5')
+    WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Total No. of flocks on p'), 
+        '5')
 }
 
 if (SampleType == 'Breeding Turkey Samples') {
-	WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Total No. of flocks on p_2'),
-		'5')
+    WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Total No. of flocks on p_2'), 
+        '5')
 }
 
 WebUI.delay(2)
@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edi
     '50')
 
 if (SampleType == 'Broiler Samples') {
-	WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_No. of houses on premise'), 
+    WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_No. of houses on premise'), 
         '2')
 }
 
@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edi
     '4')
 
 if (SampleType == 'Breeding Turkey Samples') {
-	WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Turkeys/Page_JClient/input_NCP Holding Type_radio_g'))
+    WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Turkeys/Page_JClient/input_NCP Holding Type_radio_g'))
 }
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_State whether convention'))
@@ -73,20 +73,20 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Gallimune SEST_gwt-uid-1'))
 
 if (SampleType == 'Broiler Samples') {
-	WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Has the flock been treat'))
-	
-		WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/select_WaterFeed'),
-			'WATER', true)
-	
-		WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Name of product_gwt-Text'),
-			'test automation')
-	
-		mydate = new Date()
-	
-		formattedDate = mydate.format('dd/MM/yyyy')
-	
-		WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G'), formattedDate)
-	}
+    WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Has the flock been treat'))
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/select_WaterFeed'), 
+        'WATER', true)
+
+    WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_Name of product_gwt-Text'), 
+        'test automation')
+
+    mydate = new Date()
+
+    formattedDate = mydate.format('dd/MM/yyyy')
+
+    WebUI.sendKeys(findTestObject('FSM1/NCP/Complete Inspection/Spy/Page_JClient/input_When last administered_G'), formattedDate)
+}
 
 WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit - Broilers/Page_JClient/input_No. of houses (Complete'), 
     '2')

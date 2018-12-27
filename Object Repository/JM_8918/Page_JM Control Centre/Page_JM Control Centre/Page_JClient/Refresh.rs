@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Day'])[2]/following::div[5]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div > div > div > div.GFNJNYPCJGB > div > div:nth-child(3) > div > div.GFNJNYPCLSB</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;landscape&quot;]/div[@class=&quot;GFNJNYPCOBB GFNJNYPCACB&quot;]/div[@class=&quot;GFNJNYPCOBB GFNJNYPCACB&quot;]/div[@class=&quot;GFNJNYPCDHB&quot;]/div[@class=&quot;GFNJNYPCCHB&quot;]/div[@class=&quot;GFNJNYPCFHB&quot;]/div[@class=&quot;GFNJNYPCEHB&quot;]/div[@class=&quot;GFNJNYPCOBB GFNJNYPCLGB&quot;]/div[@class=&quot;GFNJNYPCJGB&quot;]/div[@class=&quot;GFNJNYPCOBB GFNJNYPCDTB&quot;]/div[3]/div[@class=&quot;GFNJNYPCJSB GFNJNYPCKSB&quot;]/div[@class=&quot;GFNJNYPCLSB&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
