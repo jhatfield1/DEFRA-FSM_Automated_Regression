@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Raw material feed rate a</name>
+   <name>input_How is feed rate control 1</name>
    <tag></tag>
-   <elementGuidId>e840edae-2f68-4307-9171-951c09d27a22</elementGuidId>
+   <elementGuidId>8a4db7a9-238b-41f5-b960-f9cd59c670b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Raw material feed rate at time of visit'])[1]/following::input[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(5) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(13) > div:nth-child(2) > div.GFNJNYPCPJC.GFNJNYPCGIC > input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(5) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(7) > div:nth-child(2) > div.GFNJNYPCPJC.GFNJNYPCGIC > input</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate controlled?'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -62,36 +62,36 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raw material feed rate at time of visit'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate controlled?'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of By-product'])[1]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate measured?*'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate measured?*'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raw material feed rate at time of visit'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate controlled?'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How is feed rate measured?*'])[2]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[19]</value>
+      <value>(//input[@type='text'])[20]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[5]/div/div/div[3]/div/div[5]/div/div[2]/div[2]/div/div/div[7]/div[2]/div/input</value>
+      <value>//div[2]/div/div/div[9]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

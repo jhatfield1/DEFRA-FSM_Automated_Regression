@@ -6,11 +6,19 @@
    <elementGuidId>99c0c67e-ddb4-455f-8a5d-90e13e3fb6fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(17) > div:nth-child(2) > div > textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@placeholder = 'Enter text here']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='What happens if the feed rate is wrong?'])[1]/following::textarea[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

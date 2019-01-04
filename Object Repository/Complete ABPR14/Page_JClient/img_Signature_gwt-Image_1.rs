@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Signature_gwt-Image</name>
+   <name>img_Signature_gwt-Image_1</name>
    <tag></tag>
-   <elementGuidId>53a44294-bf78-4102-9d6c-3724034cd699</elementGuidId>
+   <elementGuidId>922a6321-23d2-4a32-92fd-77e2ed37922b</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(5) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(37) > div:nth-child(2) > div > div.GFNJNYPCOBB > div > img</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature'])[1]/following::img[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB.GFNJNYPCNJB > div > div.GFNJNYPCOBB.GFNJNYPCD2B > div.GFNJNYPCG2B > div > div > div:nth-child(33) > div:nth-child(2) > div > div.GFNJNYPCOBB > div > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

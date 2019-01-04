@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/tex
 
 WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_What happens if the gap'), 'test')
 
-WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/textarea_What happens if the f'), 'test automation')
+WebUI.setText(findTestObject('Complete ABPR14/Page_JClient/textarea_What happens if the feed'), 'test automation')
 
 WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_What happens if the feed'), 'test')
 
@@ -64,11 +64,11 @@ WebUI.click(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input
 
 WebUI.click(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_Inspecting Officers Asse'))
 
-WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/textarea_Please comment_gwt-Te'), 'test automation')
+WebUI.setText(findTestObject('Complete ABPR14/Page_JClient/textarea_Please comment_gwt-Te - 1'), 'test automation')
 
 WebUI.click(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_Are you satisfied with t'))
 
-WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/textarea_Please comment_gwt-Te'), 'Test automation')
+WebUI.setText(findTestObject('Complete ABPR14/Page_JClient/textarea_Please comment_gwt-Te - 2'), 'Test automation')
 
 WebUI.click(findTestObject('Object Repository/Complete ABPR14/Page_JClient/img_Signature_gwt-Image'))
 
@@ -101,12 +101,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Complete ABPR14/Page
 
 WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_How is feed rate control'), 'test automation')
 
-WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_Raw material feed rate a'), 'test automation')
+WebUI.setText(findTestObject('Complete ABPR14/Page_JClient/input_Raw material feed rate a_1'), 'test automation')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Complete ABPR14/Page_JClient/select_Automatic weighing or v'), 
     'Automatic weighing/vol equip', true)
 
-WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_How is feed rate control'), 'test automation')
+WebUI.setText(findTestObject('Complete ABPR14/Page_JClient/input_How is feed rate control 1'), 'test automation')
 
 WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_Position of thermocouple'), 'test automation')
 
@@ -134,9 +134,13 @@ WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/inp
 
 WebUI.setText(findTestObject('Object Repository/Complete ABPR14/Page_JClient/input_Time above 130C (mins)_g'), '10')
 
-WebUI.click(findTestObject('Object Repository/Complete ABPR14/Page_JClient/img_Signature_gwt-Image'))
+WebUI.click(findTestObject('Complete ABPR14/Page_JClient/img_Signature_gwt-Image_1'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Complete ABPR14/Spy/Page_JClient/div_Unable To Sign'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Complete ABPR14/Spy/Page_JClient/div_Save_cooker'))
 

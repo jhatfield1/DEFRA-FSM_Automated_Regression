@@ -4,7 +4,7 @@
    <name>BSE16 Regression - Livestock Farm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-21T12:22:50</lastRun>
+   <lastRun>2019-01-04T10:36:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

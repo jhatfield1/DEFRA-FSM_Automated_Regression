@@ -4,7 +4,7 @@
    <name>ABP Regression - Pre-Approval - Additional Approval</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-12T12:53:35</lastRun>
+   <lastRun>2019-01-04T15:53:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -174,15 +174,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb050601-1a46-4113-94b6-14e3641b73b0</guid>
+      <guid>c126157e-d8cd-4178-986a-a19efa9571ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Pre-Approval/Control Centre - Check Results - ABP Pre-Approval</testCaseId>
+      <testCaseId>Test Cases/ABP/Pre-Approval/Control Centre - Check Results - ABP Pre-Approval Additional Approval</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>56d0d2a5-dd83-498a-a282-b7d0f0d1f24c</variableId>
+         <variableId>b71831d0-8f9c-464c-9fe0-ebc0be93803b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

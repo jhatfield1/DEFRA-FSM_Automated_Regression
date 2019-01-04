@@ -5,7 +5,7 @@ R24 - FP-836</description>
    <name>ABP Regression - Pre-Approval - Next Routine</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-14T14:26:43</lastRun>
+   <lastRun>2019-01-04T18:36:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -190,7 +190,7 @@ R24 - FP-836</description>
       <guid>cb050601-1a46-4113-94b6-14e3641b73b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ABP/Pre-Approval/Control Centre - Check Results - ABP Pre-Approval</testCaseId>
+      <testCaseId>Test Cases/ABP/Pre-Approval/Control Centre - Check Results - ABP Pre-Approval Next Routine</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
