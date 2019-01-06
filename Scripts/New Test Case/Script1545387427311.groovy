@@ -15,43 +15,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kirona-def-6.kirona.com/jmprep/login?postLoginUrl=%2Fjmprep%2Fui&postLoginQuery=%23%21fwc#!loginView')
+WebUI.navigateToUrl('https://kirona-def-6.kirona.com/jmprep/jclient/jclient.html')
 
-WebUI.setText(findTestObject('Object Repository/A/Page_Job Manager Login/input_User_gwt-uid-3'), 'jon.hatfield')
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'CONFIRMATORY', 
+    true)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/A/Page_Job Manager Login/input_Password_gwt-uid-5'), 'x7VPQlF3Im+e+3AuW6khww==')
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'ROUTINE_OFFICIAL', 
+    true)
 
-WebUI.sendKeys(findTestObject('Object Repository/A/Page_Job Manager Login/input_Password_gwt-uid-5'), Keys.chord(Keys.ENTER))
-
-WebUI.setText(findTestObject('Object Repository/A/Page_JM Control Centre/input_Recents_v-textfield v-wi'), '97698')
-
-WebUI.sendKeys(findTestObject('Object Repository/A/Page_JM Control Centre/input_Recents_v-textfield v-wi'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_Nav'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_Lines'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_View'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_Fattening Turkey Samples'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_House10MonthNovemberYear20'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_House'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_Fattening Turkey Samples'))
-
-WebUI.doubleClick(findTestObject('Object Repository/A/Page_JM Control Centre/span_Fattening Turkey Samples'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_10 11 2019'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/span_House'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_House10MonthNovemberYear20_1'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_House10MonthNovemberYear20_2'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_House10MonthNovemberYear20_3'))
-
-WebUI.click(findTestObject('Object Repository/A/Page_JM Control Centre/div_House10MonthNovemberYear20_4'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'OTHER', 
+    true)
 

@@ -26,7 +26,19 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit 
 WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Name and address of p'), 
     'Test Automation')
 
-WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_None_gwt-uid-103'))
+not_run: WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_None_gwt-uid-103'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'CONFIRMATORY', 
+    true, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'ROUTINE_OFFICIAL', 
+    true, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'OTHER', 
+    true, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/JM_8918/NCP/Page_JClient/select_Routine OfficialConfirm'), 'ROUTINE_OFFICIAL', 
+    true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/input_Avipro Vac E_gwt-uid-105'))
 
