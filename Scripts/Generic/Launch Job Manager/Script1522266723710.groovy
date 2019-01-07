@@ -21,14 +21,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.JMURL)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'), 'KIR1')
 
 WebUI.sendKeys(findTestObject('FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('FSM1/Launch Application/Page_JClient/div_Configure App'))
 

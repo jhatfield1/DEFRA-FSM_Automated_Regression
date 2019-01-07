@@ -4,7 +4,7 @@
    <name>EMI Regression - Packer</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-04T10:36:20</lastRun>
+   <lastRun>2019-01-07T08:33:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
