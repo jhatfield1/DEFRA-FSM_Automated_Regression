@@ -4,7 +4,7 @@
    <name>PMM Regression - Registration</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-04T10:36:20</lastRun>
+   <lastRun>2019-01-08T15:14:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

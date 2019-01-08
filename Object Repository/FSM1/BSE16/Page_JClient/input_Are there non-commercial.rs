@@ -6,11 +6,15 @@
    <elementGuidId>b70ef9a8-d133-477b-a878-0257d9dd9e78</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(4) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div.GFNJNYPCOBB.GFNJNYPCO5B.GFNJNYPCK5B.GFNJNYPCKIC.GFNJNYPCLIC > div:nth-child(2) > div.GFNJNYPCOBB > span:nth-child(1)</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Are there non-commercial numbers of the following species present (for hobby farms only)?'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

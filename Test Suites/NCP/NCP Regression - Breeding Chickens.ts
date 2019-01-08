@@ -4,13 +4,25 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-06T17:42:27</lastRun>
+   <lastRun>2019-01-08T15:14:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>195c997f-8a66-447f-b734-dc4564cf9a7c</testSuiteGuid>
+   <testCaseLink>
+      <guid>33e3c6ca-9b98-47dc-b0ba-75413002d556</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Email/Verify Email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>544d0a6e-a1aa-445f-8b56-615f95f80199</variableId>
+      </variableLink>
+   </testCaseLink>
    <testCaseLink>
       <guid>b140606b-5242-4852-b65b-7fd645b04742</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -226,5 +238,50 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c6a8540-9000-48b1-b6c1-31a67e66af97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Email/Check Email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>745c90c9-b24d-4d4a-8e55-17c99fbf8011</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d68c03e0-bfa6-4c69-a9fa-c122406a43b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Email/FetchEmail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c34ddc7a-fffb-4487-960b-0750539d7e3c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Inspection Emails/Email - NCP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c34ddc7a-fffb-4487-960b-0750539d7e3c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attachments</value>
+         <variableId>eeeaee39-0a93-407b-a93c-f51de73c0874</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c34ddc7a-fffb-4487-960b-0750539d7e3c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>42adf5f0-4285-4c22-9d61-c1b61c504baf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>729f8d07-e0c1-4c17-842c-9c437c612566</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

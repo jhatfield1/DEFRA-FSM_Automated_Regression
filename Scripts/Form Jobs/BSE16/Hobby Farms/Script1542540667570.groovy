@@ -18,9 +18,11 @@ WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/div_Hobby 
 WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/select_Hobby farmCity open far'), 'HOBBY_FARM', 
     true)
 
-WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_Are there non-commercial'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/FSM1/BSE16/Page_JClient/input_If you have any welfare'))
+WebUI.click(findTestObject('Object Repository/JM_8918/BSE16/Page_JClient/input_Are there non-commercial'))
+
+WebUI.click(findTestObject('Object Repository/JM_8918/BSE16/Page_JClient/input_If you have any welfare'))
 
 WebUI.click(findTestObject('FSM1/BSE16/Page_JClient/div_Save - Generic'))
 
