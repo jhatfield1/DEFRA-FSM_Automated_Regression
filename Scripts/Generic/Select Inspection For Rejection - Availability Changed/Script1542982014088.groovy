@@ -66,6 +66,8 @@ not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/Reject
 
 WebUI.click(findTestObject('Object Repository/FSM1/Reject Inspection/Page_JClient/div_Save'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/FSM1/Reject Inspection/Page_JClient/div_Ok'))
 
 WebUI.delay(30)
