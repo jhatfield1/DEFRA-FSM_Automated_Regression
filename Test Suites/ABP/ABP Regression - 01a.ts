@@ -7,13 +7,25 @@ R20 - FP-579</description>
    <name>ABP Regression - 01a</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-14T14:19:50</lastRun>
+   <lastRun>2019-01-15T15:18:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>2e52f475-c2dc-447f-8b65-7164849a663a</testSuiteGuid>
+   <testCaseLink>
+      <guid>239084e2-762c-488c-bcd9-d805b4b392f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Email/Verify Email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>544d0a6e-a1aa-445f-8b56-615f95f80199</variableId>
+      </variableLink>
+   </testCaseLink>
    <testCaseLink>
       <guid>ab80adcb-98b8-479a-975d-3e1786a5ac93</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -202,5 +214,50 @@ R20 - FP-579</description>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>551bc926-9118-484d-9e28-505fbe27fbf1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Email/Check Email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>745c90c9-b24d-4d4a-8e55-17c99fbf8011</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd4b7539-1a44-4670-bc14-547cdd8f9eb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Email/FetchEmail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d3dd9946-fe83-49f8-9baa-6e0f9326b726</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Inspection Emails/Email - ABP</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d3dd9946-fe83-49f8-9baa-6e0f9326b726</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attachments</value>
+         <variableId>eeeaee39-0a93-407b-a93c-f51de73c0874</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d3dd9946-fe83-49f8-9baa-6e0f9326b726</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>42adf5f0-4285-4c22-9d61-c1b61c504baf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>729f8d07-e0c1-4c17-842c-9c437c612566</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

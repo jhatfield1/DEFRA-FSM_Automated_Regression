@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Day'])[1]/following::div[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div > div > div > div.GFNJNYPCJGB > div > div:nth-child(2) > div.GFNJNYPCMTB.GFNJNYPCNTB > div.GFNJNYPCEUB.GFNJNYPCCUB</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '2 Days' or . = '2 Days')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

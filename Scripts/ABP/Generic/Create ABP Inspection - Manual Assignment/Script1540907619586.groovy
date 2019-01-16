@@ -94,7 +94,7 @@ WebUI.click(FullAddress, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create'))
 

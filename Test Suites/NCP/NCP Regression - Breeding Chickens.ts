@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-14T14:19:50</lastRun>
+   <lastRun>2019-01-16T18:06:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -282,6 +282,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>729f8d07-e0c1-4c17-842c-9c437c612566</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5d39945-a188-4c51-8ec4-b0e3150e9491</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Email/DeleteEmail</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce134993-e81c-48b6-8b2f-8493f14ba030</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -162,15 +162,32 @@ WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit 
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'), 
-    'ONE_MINOR_ISSU_GOOD', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'),
+	'NONE', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'),
+	'ONE_MINOR_ISSU_GOOD', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'),
+	'TWO_TO_FOUR_MINOR_ISSU_SATI', true,FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/select_NoneOne minor issue - G'),
+	'ONE_MAJOR_OR_FIVE_MINO_ISSU', true, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/textarea_Specify_gwt-TextArea'), 
-    'Test automation')
+WebUI.setText(findTestObject('Object Repository/FSM1/NCP/Page_JClient/textarea_Specify_gwt-TextArea'), 'Test Automation')
 
-WebUI.click(findTestObject('Object Repository/FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/img_Signature_gwt-Image'))
+WebUI.click(findTestObject('FSM1/NCP/Page_JClient/Page_JClient/img_Signature_gwt-Image_TOP'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/FSM1/NCP/Page_JClient/img_Signature_gwt-Image'))
 
-WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/UnableToSign'))
+mydate = new Date()
+
+formattedDate = mydate.format('dd/MM/yyyy')
+
+WebUI.sendKeys(findTestObject('FSM1/NCP/Page_JClient/Page_JClient/input_If non-compliant Date'), formattedDate)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/FSM1/NCP/Page_JClient/select_NorthScotlandSouthernWa'), 'NORTH',
+	true)
+
+WebUI.selectOptionByValue(findTestObject('FSM1/NCP/Page_JClient/select_LeadVet'), 'NORTH_LEAD_VET', true)
+
 
 WebUI.click(findTestObject('FSM1/NCP/Complete Inspection/Edit Attributes/Page_JClient/div_Save - Biosecurity'))
 

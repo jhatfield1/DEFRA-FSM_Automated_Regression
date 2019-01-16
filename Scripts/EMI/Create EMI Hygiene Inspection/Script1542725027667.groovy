@@ -98,5 +98,5 @@ logg.logWarning(InspectionID)
 
 GlobalVariable.temp = InspectionID
 
-WebUI.delay(200)
+WebUI.delay(30)
 
