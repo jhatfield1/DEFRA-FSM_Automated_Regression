@@ -6,12 +6,12 @@
    <elementGuidId>8c01a601-5047-47a5-9f4f-fb4b9066d822</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Inspection Recommendation'])[1]/following::select[1]</value>
+         <key>CSS</key>
+         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(46) > div:nth-child(2) > select</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>body > div.GFNJNYPCOBB.GFNJNYPCACB > div.GFNJNYPCOBB.GFNJNYPCACB > div:nth-child(2) > div > div:nth-child(3) > div > div > div.GFNJNYPCOEC.GFNJNYPCMGB.GFNJNYPCNGB > div > div.GFNJNYPCOBB > div:nth-child(47) > div:nth-child(2) > select</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Inspection Recommendation'])[1]/following::select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

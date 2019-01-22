@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Customer ID_gwt-uid-40</name>
+   <name>input_Customer ID_gwt-uid-42</name>
    <tag></tag>
-   <elementGuidId>dd12d0c6-d08a-4859-95f1-23ea4efb80f8</elementGuidId>
+   <elementGuidId>59454a14-9d91-469a-bf0e-e22d960e0668</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='gwt-uid-40']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'gwt-uid-40' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/iframe_close_vaadiniframe' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/iframe_close_vaadiniframe' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer ID'])[1]/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -46,14 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>gwt-uid-40</value>
+      <value>gwt-uid-42</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>gwt-uid-39</value>
+      <value>gwt-uid-41</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,36 +66,24 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>200</value>
+      <value>100</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;gwt-uid-40&quot;)</value>
+      <value>id(&quot;gwt-uid-42&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe</value>
+      <value>Object Repository/JM_8918/ABP/Page_JM Control Centre/iframe_close_vaadiniframe</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//input[@id='gwt-uid-40']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='jmcontent']/div/div[4]/div/div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer ID'])[1]/following::input[1]</value>
@@ -129,7 +109,19 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='jmcontent']/div/div[4]/div[2]/div/div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@id='gwt-uid-42']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/div/div[2]/input</value>
+      <value>//div[2]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

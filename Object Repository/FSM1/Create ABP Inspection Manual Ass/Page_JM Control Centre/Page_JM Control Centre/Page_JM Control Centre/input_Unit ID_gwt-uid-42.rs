@@ -4,7 +4,17 @@
    <name>input_Unit ID_gwt-uid-42</name>
    <tag></tag>
    <elementGuidId>0a1b7024-e540-4a65-9cb7-afdcd9088db9</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='gwt-uid-42']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'gwt-uid-42' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/iframe_close_vaadiniframe' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/iframe_close_vaadiniframe' and @ref_element = 'Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/iframe_close_vaadiniframe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,20 +78,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gwt-uid-42&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/iframe_close_vaadiniframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/FSM1/Create ABP Inspection Manual Ass/Page_JM Control Centre/iframe_close_vaadiniframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
