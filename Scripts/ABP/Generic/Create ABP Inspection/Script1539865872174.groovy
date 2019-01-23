@@ -66,14 +66,13 @@ WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM
 
 WebUI.click(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/td_2 - Tech'))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/input_Customer ID_gwt-uid-40'), 
-    RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('JM_8918/ABP/Page_JM Control Centre/input_Customer ID_gwt-uid-42'), RandomStringUtils.randomNumeric(
+        5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/input_Unit ID_gwt-uid-42'), 
-    RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('JM_8918/ABP/Page_JM Control Centre/input_Unit ID_gwt-uid-44'), RandomStringUtils.randomNumeric(
+        5))
 
-WebUI.setText(findTestObject('Object Repository/FSM1/Create ABP Inspection/Page_JM Control Centre/input_Customer Name_gwt-uid-44'), 
-    'Test Automation')
+WebUI.setText(findTestObject('JM_8918/ABP/Page_JM Control Centre/input_Customer Name_gwt-uid-46'), 'Test Automation')
 
 WebUI.click(findTestObject('FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_'))
 
