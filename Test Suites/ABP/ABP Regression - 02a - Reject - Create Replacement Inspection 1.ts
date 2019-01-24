@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ABP Regression - 02a - Reject - No Longer Operating</name>
+   <name>ABP Regression - 02a - Reject - Create Replacement Inspection 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-16T13:49:35</lastRun>
+   <lastRun>2019-01-24T14:05:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d883b58d-f7db-461b-8684-add59f2b5d89</testSuiteGuid>
+   <testSuiteGuid>90b4a9a9-f3dd-48ea-ba45-c65124f35e7e</testSuiteGuid>
    <testCaseLink>
       <guid>c92be3a2-e124-40f4-b298-12a4efe4aa98</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -117,24 +117,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0caef9d9-f81d-4857-9f59-225fe81af060</guid>
+      <guid>3072a125-20ff-4ecf-a36e-4a3885a71c46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - No Longer Operating</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>892db590-010e-46e1-b7d4-a362fb05dc1e</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Pre Production/ABP/Rejection - No Longer Operating</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Create New Inspection 1</testCaseId>
       <variableLink>
-         <testDataLinkId>892db590-010e-46e1-b7d4-a362fb05dc1e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>RejectionReason</value>
-         <variableId>ef3273ff-fbe7-44f1-94e1-510bdca67306</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d2f0bcc-f23e-4c2b-a2fd-54644579a79b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -183,9 +174,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c6e12ce6-35fe-45e2-93c3-3ca7c2ad33e9</guid>
+      <guid>c7ba3d7b-283d-416d-b71a-fd5a697cc92f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

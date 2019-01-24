@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ABP Regression - 02a - Reject - Conflict of Interest</name>
+   <name>ABP Regression - 02a - Reject - No Replacement Inspection</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-15T18:23:09</lastRun>
+   <lastRun>2019-01-24T14:24:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d4124e77-19c0-479a-9470-03cd1189c04a</testSuiteGuid>
+   <testSuiteGuid>6700c50b-e850-4a7b-bc80-93444e734f01</testSuiteGuid>
    <testCaseLink>
       <guid>c92be3a2-e124-40f4-b298-12a4efe4aa98</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -117,24 +117,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a6fc3b82-d85e-4092-82e5-fa0d8b50fa30</guid>
+      <guid>5647aab9-8063-45b8-83ca-ceb75be6fa35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Conflict of Interest</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>83f4f1da-facd-4b3c-9d35-1d2a13b215ec</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Pre Production/ABP/Rejection - Conflict of Interest</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - No Creation of New Inspection 1</testCaseId>
       <variableLink>
-         <testDataLinkId>83f4f1da-facd-4b3c-9d35-1d2a13b215ec</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>RejectionReason</value>
-         <variableId>bb4ea294-87ff-4a16-b97b-b6c68c7499bc</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ec545bc-b65a-485a-b0dd-77e7d1189afb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -183,7 +174,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>78a35d4c-7def-4cbc-877a-4f7466ddb442</guid>
+      <guid>7cc9afd5-efb8-4fc9-9cf8-954be2971d79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>

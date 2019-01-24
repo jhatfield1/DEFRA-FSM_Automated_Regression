@@ -114,7 +114,7 @@
       <guid>e7a280a2-6e54-4225-b612-df73b29a5505</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Availability Changed</testCaseId>
+      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Create New Inspection 1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e322968b-2f30-47c2-8605-7a688a850611</id>

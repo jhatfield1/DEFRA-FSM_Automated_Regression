@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ABP Regression - 02a - Reject - Biosecurity</name>
+   <name>ABP Regression - 02a - Reject - No Replacement Inspection 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-15T18:23:09</lastRun>
+   <lastRun>2019-01-24T14:35:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>af8adb57-faef-482c-9ad4-ff1101bc501e</testSuiteGuid>
+   <testSuiteGuid>0374c9b8-abce-482d-b9d2-c426d30dbc1f</testSuiteGuid>
    <testCaseLink>
       <guid>c92be3a2-e124-40f4-b298-12a4efe4aa98</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -117,15 +117,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>138a71b0-87fc-4488-b4bf-2a343356145f</guid>
+      <guid>504182b7-59d0-472a-ac10-61bf78abcd2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Biosecurity</testCaseId>
+      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - No Creation of New Inspection 2</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>240079b3-a63e-45d5-9823-4bbbd89dcbe8</variableId>
+         <variableId>45ff1a01-fd0e-497d-94c5-3407dd7c1601</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -174,9 +174,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f473b5da-6fed-4312-8d83-8b3dbe03dec8</guid>
+      <guid>3965c293-2c33-4953-863c-3bef5af9a3c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Exist</testCaseId>
+      <testCaseId>Test Cases/Generic/Check Subsequent Inspection Doesnt Exist</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

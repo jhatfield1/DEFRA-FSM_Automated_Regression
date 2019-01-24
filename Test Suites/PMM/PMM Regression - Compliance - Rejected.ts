@@ -111,24 +111,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>30733adb-a31b-4f30-97bf-15b0e18a5727</guid>
+      <guid>e6fad715-0b41-4cb4-8aef-03aa8e7d9ced</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - Conflict of Interest</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>e955ce1a-acfa-47a9-9b22-b475eb83ebde</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Pre Production/ABP/Rejection - Conflict of Interest</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Generic/Select Inspection For Rejection - No Creation of New Inspection 1</testCaseId>
       <variableLink>
-         <testDataLinkId>e955ce1a-acfa-47a9-9b22-b475eb83ebde</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>RejectionReason</value>
-         <variableId>bb4ea294-87ff-4a16-b97b-b6c68c7499bc</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ec545bc-b65a-485a-b0dd-77e7d1189afb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
