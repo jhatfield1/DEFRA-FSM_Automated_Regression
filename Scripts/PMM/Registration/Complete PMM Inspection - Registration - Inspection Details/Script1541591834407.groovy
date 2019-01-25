@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/FSM1/Create PMM Inspection/Registration - Inspection Details/Page_JClient/div_Inspection Details'))
+WebUI.click(findTestObject('Object Repository/JM_8918/PMM/Page_JClient/div_Inspection Details'))
 
 WebUI.delay(2)
 
