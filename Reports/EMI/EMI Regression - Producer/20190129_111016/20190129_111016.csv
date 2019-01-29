@@ -1,0 +1,252 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EMI Regression - Producer,Chrome 71.0.3578.98,R21 - FP-72,2019-01-29 11:16:20,2019-01-29 11:22:13,5m - 53.110s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre,Chrome 71.0.3578.98,,2019-01-29 11:16:20,2019-01-29 11:16:33,13.402s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-29 11:16:21,2019-01-29 11:16:25,4.044s,PASSED
+navigateToUrl(CCURL),Chrome 71.0.3578.98,,2019-01-29 11:16:25,2019-01-29 11:16:26,0.945s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 71.0.3578.98,,2019-01-29 11:16:26,2019-01-29 11:16:26,0.379s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 71.0.3578.98,,2019-01-29 11:16:26,2019-01-29 11:16:26,0.152s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:16:26,2019-01-29 11:16:28,2.025s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 71.0.3578.98,,2019-01-29 11:16:28,2019-01-29 11:16:28,0.092s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-29 11:16:28,2019-01-29 11:16:33,5.001s,PASSED
+,,,,,,
+Test Cases/EMI/Create EMI Inspection,Chrome 71.0.3578.98,,2019-01-29 11:16:33,2019-01-29 11:18:36,2m - 2.858s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 71.0.3578.98,,2019-01-29 11:16:34,2019-01-29 11:16:34,0.005s,PASSED
+"waitForElementClickable(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create""), 60, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-29 11:16:34,2019-01-29 11:16:43,9.360s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-29 11:16:43,2019-01-29 11:16:46,3.006s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_Create""))",Chrome 71.0.3578.98,,2019-01-29 11:16:46,2019-01-29 11:16:46,0.079s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button""))",Chrome 71.0.3578.98,,2019-01-29 11:16:46,2019-01-29 11:16:48,2.031s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-8""), ""emi"")",Chrome 71.0.3578.98,,2019-01-29 11:16:48,2019-01-29 11:16:48,0.206s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Inspection""))",Chrome 71.0.3578.98,,2019-01-29 11:16:48,2019-01-29 11:16:49,0.191s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-16""), ""15"")",Chrome 71.0.3578.98,,2019-01-29 11:16:49,2019-01-29 11:16:49,0.005s,NOT_RUN
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/div_v-filterselect-button_1""))",Chrome 71.0.3578.98,,2019-01-29 11:16:49,2019-01-29 11:16:52,2.882s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_24 Hours""))",Chrome 71.0.3578.98,,2019-01-29 11:16:52,2019-01-29 11:16:52,0.198s,PASSED
+"click(findTestObject(""JM_8918/Page_JM Control Centre/div_Region_v-filterselect-butt""))",Chrome 71.0.3578.98,,2019-01-29 11:16:52,2019-01-29 11:16:52,0.218s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_West""))",Chrome 71.0.3578.98,,2019-01-29 11:16:52,2019-01-29 11:16:52,0.188s,PASSED
+"click(findTestObject(""JM_8918/Page_JM Control Centre/div_Inspection Type_v-filterse""))",Chrome 71.0.3578.98,,2019-01-29 11:16:52,2019-01-29 11:16:52,0.160s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/span_EMI Routine""))",Chrome 71.0.3578.98,,2019-01-29 11:16:52,2019-01-29 11:16:53,0.184s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-34""), ""Test Automation"")",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:53,0.238s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-40""), RandomStringUtils.randomNumeric(5))",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:53,0.173s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/input_gwt-uid-42""), RandomStringUtils.randomNumeric(5))",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:53,0.178s,PASSED
+"click(findTestObject(""JM_8918/Page_JM Control Centre/Page_JM Control Centre/div_Business Type_v-filtersele""))",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:53,0.147s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection New/Page_JM Control Centre/td_EGG PACKER""))",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:53,0.175s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/span_""))",Chrome 71.0.3578.98,,2019-01-29 11:16:53,2019-01-29 11:16:54,0.158s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Address Search/Page_JM Control Centre/Postcode Search""))",Chrome 71.0.3578.98,,2019-01-29 11:16:54,2019-01-29 11:16:54,0.001s,NOT_RUN
+"setText(findTestObject(""JM_8918/Page_JM Control Centre/input_Add Location_v-textfield""), findTestData(""Pre Production/EMI/EMI Inspection Data"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-29 11:16:54,2019-01-29 11:16:54,0.822s,PASSED
+"doubleClick(findTestObject(""JM_8918/Page_JM Control Centre/div_Search""))",Chrome 71.0.3578.98,,2019-01-29 11:16:54,2019-01-29 11:16:55,0.732s,PASSED
+"FullAddress = modifyObjectProperty(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Page_JM Control Centre/Address""), ""text"", ""equals"", findTestData(""Pre Production/EMI/EMI Inspection Data"").getValue(2, 1), true)",Chrome 71.0.3578.98,,2019-01-29 11:16:55,2019-01-29 11:16:55,0.023s,PASSED
+"click(FullAddress, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-29 11:16:55,2019-01-29 11:16:56,1.205s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Create Address/Page_JM Control Centre (2)/div_Add Selected Item""))",Chrome 71.0.3578.98,,2019-01-29 11:16:56,2019-01-29 11:16:57,0.165s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-29 11:16:57,2019-01-29 11:17:02,5.005s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/input_Fixed Resource_gwt-uid-1""), ""test"")",Chrome 71.0.3578.98,,2019-01-29 11:17:02,2019-01-29 11:17:02,0.201s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/EMI/Fixed Resource/Page_JM Control Centre/span_Test Inspector""))",Chrome 71.0.3578.98,,2019-01-29 11:17:02,2019-01-29 11:17:02,0.667s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:17:02,2019-01-29 11:17:04,2.004s,PASSED
+"click(findTestObject(""FSM1/Control Centre/Create EMI Inspection/Finish/Page_JM Control Centre (3)/div_Create""))",Chrome 71.0.3578.98,,2019-01-29 11:17:04,2019-01-29 11:17:05,0.139s,PASSED
+"waitForElementPresent(findTestObject(""FSM1/Control Centre/Status/Page_JM Control Centre/div_PLANNED DYNAMIC""), 120, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-29 11:17:05,2019-01-29 11:18:06,1m - 1.612s,PASSED
+"InspectionID = getText(findTestObject(""FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID""))",Chrome 71.0.3578.98,,2019-01-29 11:18:06,2019-01-29 11:18:06,0.103s,PASSED
+"InspectionID = InspectionID.replaceAll(""Viewing Job "", """")",Chrome 71.0.3578.98,,2019-01-29 11:18:06,2019-01-29 11:18:06,0.003s,PASSED
+log.logWarning(InspectionID),Chrome 71.0.3578.98,,2019-01-29 11:18:06,2019-01-29 11:18:06,0.002s,PASSED
+temp = InspectionID,Chrome 71.0.3578.98,,2019-01-29 11:18:06,2019-01-29 11:18:06,0.001s,PASSED
+delay(30),Chrome 71.0.3578.98,,2019-01-29 11:18:06,2019-01-29 11:18:36,30.000s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager,Chrome 71.0.3578.98,,2019-01-29 11:18:36,2019-01-29 11:19:05,28.612s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-29 11:18:37,2019-01-29 11:18:39,2.842s,PASSED
+navigateToUrl(JMURL),Chrome 71.0.3578.98,,2019-01-29 11:18:39,2019-01-29 11:18:43,3.424s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-29 11:18:43,2019-01-29 11:18:46,3.001s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB""), ""KIR1"")",Chrome 71.0.3578.98,,2019-01-29 11:18:46,2019-01-29 11:18:46,0.119s,PASSED
+"sendKeys(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBMDB""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-29 11:18:46,2019-01-29 11:18:46,0.060s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-29 11:18:46,2019-01-29 11:18:49,3.000s,PASSED
+"click(findTestObject(""FSM1/Launch Application/Page_JClient/div_Configure App""))",Chrome 71.0.3578.98,,2019-01-29 11:18:49,2019-01-29 11:18:49,0.074s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-TextBox GKH2EKQBNHC""), findTestData(""Pre Production/Environmental/UandP"").getValue(3, 1))",Chrome 71.0.3578.98,,2019-01-29 11:18:49,2019-01-29 11:18:50,0.661s,PASSED
+"setText(findTestObject(""FSM1/Launch Application/Page_JClient/input_gwt-PasswordTextBox GKH2""), findTestData(""Pre Production/Environmental/UandP"").getValue(4, 1))",Chrome 71.0.3578.98,,2019-01-29 11:18:50,2019-01-29 11:18:50,0.124s,PASSED
+"click(findTestObject(""FSM1/Launch Application/Page_JClient/div_Sign In""))",Chrome 71.0.3578.98,,2019-01-29 11:18:50,2019-01-29 11:18:50,0.079s,PASSED
+delay(15),Chrome 71.0.3578.98,,2019-01-29 11:18:50,2019-01-29 11:19:05,15.002s,PASSED
+,,,,,,
+Test Cases/Generic/Select Inspection,Chrome 71.0.3578.98,,2019-01-29 11:19:05,2019-01-29 11:19:48,43.540s,PASSED
+delay(20),Chrome 71.0.3578.98,,2019-01-29 11:19:05,2019-01-29 11:19:25,20.004s,PASSED
+"waitForElementClickable(findTestObject(""JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh""), 250)",Chrome 71.0.3578.98,,2019-01-29 11:19:25,2019-01-29 11:19:25,0.054s,PASSED
+"click(findTestObject(""JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh""))",Chrome 71.0.3578.98,,2019-01-29 11:19:25,2019-01-29 11:19:25,0.061s,PASSED
+"waitForElementClickable(findTestObject(""JM_8918/Page_JM Control Centre/Page_JM Control Centre/Page_JClient/Refresh""), 250)",Chrome 71.0.3578.98,,2019-01-29 11:19:25,2019-01-29 11:19:25,0.030s,PASSED
+"InspectionRef = modifyObjectProperty(findTestObject(""FSM1/Select Inspection/Landing/Page_JClient/div_35098""), ""text"", ""equals"", temp, true, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-29 11:19:25,2019-01-29 11:19:25,0.004s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-29 11:19:25,2019-01-29 11:19:30,5.001s,PASSED
+"if (verifyElementPresent(InspectionRef, 10, OPTIONAL))",Chrome 71.0.3578.98,,2019-01-29 11:19:30,2019-01-29 11:19:33,3.116s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_WITH OPERATIVE""))",Chrome 71.0.3578.98,,2019-01-29 11:19:33,2019-01-29 11:19:34,0.639s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:34,2019-01-29 11:19:36,2.003s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_TRAVELLING""))",Chrome 71.0.3578.98,,2019-01-29 11:19:36,2019-01-29 11:19:36,0.092s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:36,2019-01-29 11:19:38,2.003s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_TRAVELLING""))",Chrome 71.0.3578.98,,2019-01-29 11:19:38,2019-01-29 11:19:38,0.077s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:38,2019-01-29 11:19:40,2.004s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_ARRIVED""))",Chrome 71.0.3578.98,,2019-01-29 11:19:40,2019-01-29 11:19:40,0.097s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:40,2019-01-29 11:19:42,2.003s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_ARRIVED""))",Chrome 71.0.3578.98,,2019-01-29 11:19:42,2019-01-29 11:19:42,0.061s,PASSED
+delay(4),Chrome 71.0.3578.98,,2019-01-29 11:19:42,2019-01-29 11:19:46,4.004s,PASSED
+"click(findTestObject(""FSM1/Select Inspection/Page_JClient/div_STARTED""))",Chrome 71.0.3578.98,,2019-01-29 11:19:46,2019-01-29 11:19:46,0.078s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:46,2019-01-29 11:19:48,2.002s,PASSED
+,,,,,,
+Test Cases/EMI/Complete EMI Inspection - Edit Attributes,Chrome 71.0.3578.98,,2019-01-29 11:19:48,2019-01-29 11:20:06,17.539s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 71.0.3578.98,,2019-01-29 11:19:49,2019-01-29 11:19:49,0.001s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/div_Edit attributes""))",Chrome 71.0.3578.98,,2019-01-29 11:19:49,2019-01-29 11:19:49,0.194s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-29 11:19:49,2019-01-29 11:19:52,3.004s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_County Parish Holding (C""), ""11/222/3333"")",Chrome 71.0.3578.98,,2019-01-29 11:19:52,2019-01-29 11:19:52,0.186s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Trading Name_gwt-TextBox""), ""Test Automation"")",Chrome 71.0.3578.98,,2019-01-29 11:19:52,2019-01-29 11:19:52,0.221s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/JM_8918/Page_JClient/select_Compliance (Schedule  A""), ""COMPLIANCE"", true)",Chrome 71.0.3578.98,,2019-01-29 11:19:52,2019-01-29 11:19:52,0.185s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Have the egg throughputs""))",Chrome 71.0.3578.98,,2019-01-29 11:19:52,2019-01-29 11:19:53,0.069s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF""), ""10"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.139s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox""), ""10"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.130s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN""), ""10"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.141s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.130s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - EP Imp""), ""11"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.118s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - EP Imp""), ""11"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.121s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Ep Imp""), ""11"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:53,0.122s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Ep Imp""), ""11"")",Chrome 71.0.3578.98,,2019-01-29 11:19:53,2019-01-29 11:19:54,0.122s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - Wh Reg""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.106s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - Wh Reg""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.103s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Wh Reg""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.094s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Wh Reg""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.120s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Organic_gwt-DoubleBox GF - Wh Imp""), ""13"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.123s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Free Range_gwt-DoubleBox - Wh Imp""), ""13"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.103s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Barn_gwt-DoubleBox GFNJN - Wh Imp""), ""13"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.094s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Cage Enriched_gwt-Double - Wh Imp""), ""13"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:54,0.100s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Throughput Changed To (U""), ""50"")",Chrome 71.0.3578.98,,2019-01-29 11:19:54,2019-01-29 11:19:55,0.093s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Throughput Changed To (I""), ""55"")",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.101s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Was the inspection compl""))",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.057s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Accreditation Body_gwt-u""))",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.078s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Packer Throughput_gwt-Do""), ""100"")",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.104s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Wholesaler Throughput_gw""), ""150"")",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.098s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Importer Throughput_gwt-""), ""200"")",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.095s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/div_Signatures  Remarks""))",Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:55,0.104s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:55,2019-01-29 11:19:57,2.003s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/img_Inspector Signature_gwt-Im""))",Chrome 71.0.3578.98,,2019-01-29 11:19:57,2019-01-29 11:19:57,0.092s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:57,2019-01-29 11:19:59,2.006s,PASSED
+"click(findTestObject(""JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Inspector""))",Chrome 71.0.3578.98,,2019-01-29 11:19:59,2019-01-29 11:19:59,0.079s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:19:59,2019-01-29 11:20:01,2.002s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/img_Recipient Signature_gwt-Im""))",Chrome 71.0.3578.98,,2019-01-29 11:20:01,2019-01-29 11:20:01,0.071s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:01,2019-01-29 11:20:03,2.001s,PASSED
+"click(findTestObject(""JM_8918/EMI/Packer Edit Attributes/Page_JClient/Page_JClient/div_Unable To Sign_Recipient""))",Chrome 71.0.3578.98,,2019-01-29 11:20:03,2019-01-29 11:20:03,0.060s,PASSED
+"setText(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Recipient Name_gwt-TextB""), ""Test automation"")",Chrome 71.0.3578.98,,2019-01-29 11:20:03,2019-01-29 11:20:04,0.238s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/input_Recipient Position_radio""))",Chrome 71.0.3578.98,,2019-01-29 11:20:04,2019-01-29 11:20:04,0.097s,PASSED
+"click(findTestObject(""Object Repository/JM_8918/Page_JClient/div_Save""))",Chrome 71.0.3578.98,,2019-01-29 11:20:04,2019-01-29 11:20:04,0.096s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:04,2019-01-29 11:20:06,2.004s,PASSED
+"click(findTestObject(""JM_8918/EMI/Packer Edit Attributes/Page_JClient/div_Save - Job Details""))",Chrome 71.0.3578.98,,2019-01-29 11:20:06,2019-01-29 11:20:06,0.074s,PASSED
+,,,,,,
+Test Cases/EMI/Complete EMI Inspection - Data Capture - Producers,Chrome 71.0.3578.98,,2019-01-29 11:20:06,2019-01-29 11:20:34,27.832s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Data Capture""))",Chrome 71.0.3578.98,,2019-01-29 11:20:06,2019-01-29 11:20:06,0.147s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:06,2019-01-29 11:20:08,2.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Producer""))",Chrome 71.0.3578.98,,2019-01-29 11:20:08,2019-01-29 11:20:08,0.104s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:08,2019-01-29 11:20:10,2.005s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ""))",Chrome 71.0.3578.98,,2019-01-29 11:20:11,2019-01-29 11:20:11,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:11,2019-01-29 11:20:13,2.002s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Inspection Duration 1 (m""), """")",Chrome 71.0.3578.98,,2019-01-29 11:20:13,2019-01-29 11:20:13,0.110s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/select_ADLAORAPCAPLASDCATCCICS""), ""ADL"", true)",Chrome 71.0.3578.98,,2019-01-29 11:20:13,2019-01-29 11:20:13,0.468s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Inspection Duration 1 (m""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:20:13,2019-01-29 11:20:13,0.117s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-29 11:20:13,2019-01-29 11:20:16,3.002s,PASSED
+"check(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Premises_radio_group_17""))",Chrome 71.0.3578.98,,2019-01-29 11:20:16,2019-01-29 11:20:16,0.003s,NOT_RUN
+"click(findTestObject(""JM_8918/New/Page_JClient/label_Yes_Premises""))",Chrome 71.0.3578.98,,2019-01-29 11:20:16,2019-01-29 11:20:16,0.078s,PASSED
+"click(findTestObject(""JM_8918/New/Page_JClient/input_Premises_radio_group_1_NEW""))",Chrome 71.0.3578.98,,2019-01-29 11:20:16,2019-01-29 11:20:17,0.074s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Marking (Eggs)_radio_gro""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.073s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Packaging_radio_group_3""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.085s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Labelling_radio_group_4""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.076s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_SMT Free Range_radio_gro""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.068s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Barn_radio_group_6""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.066s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Cage Enriched_radio_grou""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.080s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Records_radio_group_8""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.073s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Hygiene at Producer_radi""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.080s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Welfare_radio_group_10""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.067s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Yes_radio_group_11""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.100s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Operator NCP Contraventi""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.066s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/textarea_Remarks_gwt-TextArea""), ""Test automation"")",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:17,0.132s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Records (Eggs  Hens)_rad""))",Chrome 71.0.3578.98,,2019-01-29 11:20:17,2019-01-29 11:20:18,0.089s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Records (Veterinary Medi""))",Chrome 71.0.3578.98,,2019-01-29 11:20:18,2019-01-29 11:20:18,0.097s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Penalty Notice Issued fo""))",Chrome 71.0.3578.98,,2019-01-29 11:20:18,2019-01-29 11:20:18,0.065s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Follow Up inspection req""))",Chrome 71.0.3578.98,,2019-01-29 11:20:18,2019-01-29 11:20:18,0.066s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Flock Details""))",Chrome 71.0.3578.98,,2019-01-29 11:20:18,2019-01-29 11:20:18,0.104s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:18,2019-01-29 11:20:20,2.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ - Flock""))",Chrome 71.0.3578.98,,2019-01-29 11:20:20,2019-01-29 11:20:20,0.091s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:20,2019-01-29 11:20:22,2.003s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_House Name  Number_gwt-T""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:20:22,2019-01-29 11:20:22,0.129s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Number of Birds_gwt-Doub""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:20:22,2019-01-29 11:20:22,0.124s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Age of Flock (Weeks)_gwt""), ""12"")",Chrome 71.0.3578.98,,2019-01-29 11:20:22,2019-01-29 11:20:22,0.119s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/select_Babcock B380Black Rocks""), ""BLACK_ROCKS"", true)",Chrome 71.0.3578.98,,2019-01-29 11:20:22,2019-01-29 11:20:23,0.371s,PASSED
+mydate = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-29 11:20:23,2019-01-29 11:20:23,0.004s,PASSED
+"formattedDate = mydate.format(""dd/MM/yyyy"")",Chrome 71.0.3578.98,,2019-01-29 11:20:23,2019-01-29 11:20:23,0.005s,PASSED
+"sendKeys(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Date of Placing_GKH2EKQB""), formattedDate)",Chrome 71.0.3578.98,,2019-01-29 11:20:23,2019-01-29 11:20:23,0.116s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/div_Save_flock""))",Chrome 71.0.3578.98,,2019-01-29 11:20:23,2019-01-29 11:20:23,0.106s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:23,2019-01-29 11:20:25,2.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Follow Up Inspections""))",Chrome 71.0.3578.98,,2019-01-29 11:20:25,2019-01-29 11:20:25,0.107s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:25,2019-01-29 11:20:27,2.002s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/div_Create_GKH2EKQBDXB GKH2EKQ - Follow Up""))",Chrome 71.0.3578.98,,2019-01-29 11:20:27,2019-01-29 11:20:27,0.088s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:27,2019-01-29 11:20:29,2.001s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/textarea_Contravention Detail_""), ""Test automation"")",Chrome 71.0.3578.98,,2019-01-29 11:20:29,2019-01-29 11:20:29,0.163s,PASSED
+mydate = new java.util.Date() + 2,Chrome 71.0.3578.98,,2019-01-29 11:20:29,2019-01-29 11:20:29,0.002s,PASSED
+"formattedDate = mydate.format(""dd/MM/yyyy"")",Chrome 71.0.3578.98,,2019-01-29 11:20:29,2019-01-29 11:20:29,0.001s,PASSED
+"sendKeys(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Follow Up Date_GKH2EKQBO""), formattedDate)",Chrome 71.0.3578.98,,2019-01-29 11:20:29,2019-01-29 11:20:29,0.108s,PASSED
+"sendKeys(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/input_Rectification Date_GKH2E""), formattedDate)",Chrome 71.0.3578.98,,2019-01-29 11:20:29,2019-01-29 11:20:30,0.087s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/Page_JClient/input_Premises ID_gwt-TextBox""), ""123"")",Chrome 71.0.3578.98,,2019-01-29 11:20:30,2019-01-29 11:20:30,0.103s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/div_Save_follow up""))",Chrome 71.0.3578.98,,2019-01-29 11:20:30,2019-01-29 11:20:30,0.083s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:30,2019-01-29 11:20:32,2.003s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/Data Capture Producer/Page_JClient/div_Save_Producer""))",Chrome 71.0.3578.98,,2019-01-29 11:20:32,2019-01-29 11:20:32,0.089s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:32,2019-01-29 11:20:34,2.001s,PASSED
+,,,,,,
+Test Cases/EMI/Complete EMI Inspection - Completion Attributes,Chrome 71.0.3578.98,,2019-01-29 11:20:34,2019-01-29 11:21:24,50.587s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/div_STARTED (locked)""))",Chrome 71.0.3578.98,,2019-01-29 11:20:34,2019-01-29 11:20:34,0.073s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:34,2019-01-29 11:20:36,2.004s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/div_COMPLETED""))",Chrome 71.0.3578.98,,2019-01-29 11:20:36,2019-01-29 11:20:36,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:36,2019-01-29 11:20:38,2.002s,PASSED
+"setText(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/OrganicNumber""), ""1"")",Chrome 71.0.3578.98,,2019-01-29 11:20:38,2019-01-29 11:20:38,0.107s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/FreeRangeNumber""))",Chrome 71.0.3578.98,,2019-01-29 11:20:38,2019-01-29 11:20:38,0.073s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/OrganicCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:38,2019-01-29 11:20:39,0.064s,PASSED
+"setText(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/FreeRangeNumber1""), ""1"")",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.107s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/BarnNumber""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.069s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/FreeRangeCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.062s,PASSED
+"setText(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/BarnNumber1""), ""1"")",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.075s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/CageEnriched""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.064s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/BarnNumberCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.056s,PASSED
+"setText(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/CageEnriched1""), ""1"")",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.089s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/VeterinaryRecords""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.064s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/CageEnrichedCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.066s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/VeterinaryMedical""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.065s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/HygieneCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.069s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/WelfareCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.065s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/SalmonellaCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:39,0.084s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/VMDCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:39,2019-01-29 11:20:40,0.065s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/PremisesCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.082s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/PremisesTempCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.084s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/EquipmentCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.066s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/QualityCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.067s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/WeightGradingCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.069s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/ProductionCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.070s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/MarkingEggsCompliant""))",Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:40,0.082s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:40,2019-01-29 11:20:42,2.003s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/LabellingCompliant1""))",Chrome 71.0.3578.98,,2019-01-29 11:20:42,2019-01-29 11:20:42,0.067s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/Page_JClient/Page_JClient/select_Yes""), ""COMPLETED"", true)",Chrome 71.0.3578.98,,2019-01-29 11:20:42,2019-01-29 11:20:42,0.150s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:20:42,2019-01-29 11:20:44,2.002s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/Page_JClient/div_Save""))",Chrome 71.0.3578.98,,2019-01-29 11:20:44,2019-01-29 11:20:44,0.088s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-29 11:20:44,2019-01-29 11:20:54,10.001s,PASSED
+"click(findTestObject(""FSM1/Complete Egg Inspection/CompletionAttributes/Page_JClient/CompletedOK""))",Chrome 71.0.3578.98,,2019-01-29 11:20:54,2019-01-29 11:20:54,0.085s,PASSED
+delay(30),Chrome 71.0.3578.98,,2019-01-29 11:20:54,2019-01-29 11:21:24,30.002s,PASSED
+,,,,,,
+Test Cases/Generic/Launch Job Manager Control Centre - Check Result,Chrome 71.0.3578.98,,2019-01-29 11:21:24,2019-01-29 11:21:51,26.588s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-29 11:21:25,2019-01-29 11:21:27,2.858s,PASSED
+navigateToUrl(CCURL),Chrome 71.0.3578.98,,2019-01-29 11:21:27,2019-01-29 11:21:28,0.967s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-3""), Username)",Chrome 71.0.3578.98,,2019-01-29 11:21:28,2019-01-29 11:21:29,0.355s,PASSED
+"setText(findTestObject(""FSM1/Control Centre/Page_Job Manager Login/input_gwt-uid-5""), Password)",Chrome 71.0.3578.98,,2019-01-29 11:21:29,2019-01-29 11:21:29,0.150s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:21:29,2019-01-29 11:21:31,2.001s,PASSED
+"click(findTestObject(""FSM1/PreProd/Page_Job Manager Login/div_Login""))",Chrome 71.0.3578.98,,2019-01-29 11:21:31,2019-01-29 11:21:31,0.075s,PASSED
+delay(20),Chrome 71.0.3578.98,,2019-01-29 11:21:31,2019-01-29 11:21:51,20.001s,PASSED
+,,,,,,
+Test Cases/EMI/Control Centre - Check Results - EMI,Chrome 71.0.3578.98,,2019-01-29 11:21:51,2019-01-29 11:21:54,3.230s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 71.0.3578.98,,2019-01-29 11:21:51,2019-01-29 11:21:51,0.001s,PASSED
+"setText(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/input_Recents_v-textfield v-wi""), temp)",Chrome 71.0.3578.98,,2019-01-29 11:21:51,2019-01-29 11:21:51,0.149s,PASSED
+"click(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/span_""))",Chrome 71.0.3578.98,,2019-01-29 11:21:51,2019-01-29 11:21:52,0.604s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FSM1/EMI Check Results/Page_JM Control Centre/div_CLOSED""), 60)",Chrome 71.0.3578.98,,2019-01-29 11:21:52,2019-01-29 11:21:54,1.876s,PASSED
+"verifyElementPresent(findTestObject(""FSM1/EMI Check Results/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/Page_JM Control Centre/div_Attachments_EMI Technical""), 5)",Chrome 71.0.3578.98,,2019-01-29 11:21:54,2019-01-29 11:21:54,0.421s,PASSED
+,,,,,,
+Test Cases/Generic/Check Subsequent Inspection Exist,Chrome 71.0.3578.98,,2019-01-29 11:21:54,2019-01-29 11:22:13,18.466s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:21:54,2019-01-29 11:21:56,2.001s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_""))",Chrome 71.0.3578.98,,2019-01-29 11:21:56,2019-01-29 11:21:57,0.210s,PASSED
+"click(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/span_List All Subordinate Jobs""))",Chrome 71.0.3578.98,,2019-01-29 11:21:57,2019-01-29 11:21:57,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-29 11:21:57,2019-01-29 11:21:59,2.002s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/FSM1/Complete ABP Inspection/Check Subsequent Inspections/New/Page_JM Control Centre/div_2 found.""))",Chrome 71.0.3578.98,,2019-01-29 11:21:59,2019-01-29 11:22:12,13.133s,PASSED
+"verifyElementNotPresent(findTestObject(""JM_8918/New/Page_JM Control Centre/td_INVALID""), 2)",Chrome 71.0.3578.98,,2019-01-29 11:22:12,2019-01-29 11:22:12,0.064s,PASSED
+"verifyElementNotPresent(findTestObject(""JM_8918/New/Page_JM Control Centre/td_CREATING""), 2)",Chrome 71.0.3578.98,,2019-01-29 11:22:12,2019-01-29 11:22:12,0.025s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-29 11:22:12,2019-01-29 11:22:13,0.701s,PASSED
