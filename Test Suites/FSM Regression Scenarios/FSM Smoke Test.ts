@@ -68,5 +68,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/NCP/NCP Regression - Breeding Chickens</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>Pre Production</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/ABP/ABP Regression - 02a - Reject - Create Replacement Inspection 1</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

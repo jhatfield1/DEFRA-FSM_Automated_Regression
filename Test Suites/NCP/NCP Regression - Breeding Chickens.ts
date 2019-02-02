@@ -4,7 +4,7 @@
    <name>NCP Regression - Breeding Chickens</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-29T11:29:48</lastRun>
+   <lastRun>2019-02-01T11:05:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>33e3c6ca-9b98-47dc-b0ba-75413002d556</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Email/Verify Email</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -242,7 +242,7 @@
    <testCaseLink>
       <guid>4c6a8540-9000-48b1-b6c1-31a67e66af97</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Email/Check Email</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>d68c03e0-bfa6-4c69-a9fa-c122406a43b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Email/FetchEmail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -287,7 +287,7 @@
    <testCaseLink>
       <guid>d5d39945-a188-4c51-8ec4-b0e3150e9491</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Email/DeleteEmail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

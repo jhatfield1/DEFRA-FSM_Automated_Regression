@@ -4,7 +4,7 @@
    <name>ABP Regression - 02a - Reject - No Replacement Inspection</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-26T09:24:09</lastRun>
+   <lastRun>2019-02-01T11:04:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
